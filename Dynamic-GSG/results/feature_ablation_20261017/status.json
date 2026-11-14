@@ -1,0 +1,53 @@
+{
+  "finished": true,
+  "completed": [
+    {
+      "run": "room0_feature_on",
+      "scene": "room0",
+      "feature_weight": 0.5,
+      "returncode": 0,
+      "end_to_end_seconds": 426.82209725100074,
+      "peak_rss_bytes_sampled": 3918143488
+    },
+    {
+      "run": "room0_feature_off",
+      "scene": "room0",
+      "feature_weight": 0.0,
+      "returncode": 0,
+      "end_to_end_seconds": 434.88228455199896,
+      "peak_rss_bytes_sampled": 3905736704
+    },
+    {
+      "run": "room1_feature_on",
+      "scene": "room1",
+      "feature_weight": 0.5,
+      "returncode": 0,
+      "end_to_end_seconds": 414.74531159400067,
+      "peak_rss_bytes_sampled": 3832303616
+    },
+    {
+      "run": "room1_feature_off",
+      "scene": "room1",
+      "feature_weight": 0.0,
+      "returncode": 0,
+      "end_to_end_seconds": 418.7759652980003,
+      "peak_rss_bytes_sampled": 4070268928
+    },
+    {
+      "run": "office0_feature_on",
+      "scene": "office0",
+      "feature_weight": 0.5,
+      "returncode": 0,
+      "end_to_end_seconds": 394.6822177620015,
+      "peak_rss_bytes_sampled": 3550064640
+    },
+    {
+      "run": "office0_feature_off",
+      "scene": "office0",
+      "feature_weight": 0.0,
+      "returncode": 0,
+      "end_to_end_seconds": 396.72990032800226,
+      "peak_rss_bytes_sampled": 3985575936
+    }
+  ]
+}

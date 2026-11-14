@@ -1,0 +1,12 @@
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.20266620181703257,
+  "Acc@0.25": 0.2676056338028169,
+  "Acc@0.5": 0.19718309859154928,
+  "method": "langsplat",
+  "protocol": "table1_3d_classification_v1",
+  "checkpoint": "/media/joe/Data/gaussiangraph/outputs/langsplat_ramen_3/chkpnt30000.pth",
+  "decoded_in_3d": true
+}

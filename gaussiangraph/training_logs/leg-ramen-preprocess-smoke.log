@@ -1,0 +1,969 @@
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/clip/dense_extractor/dense_extractor.py:535: SyntaxWarning: "is" with a literal. Did you mean "=="?
+  if self.extract_type is "prob_random":
+  0%|          | 0/131 [00:00<?, ?it/s] 10%|▉         | 13/131 [00:00<00:00, 120.62it/s] 21%|██▏       | 28/131 [00:00<00:00, 137.24it/s] 32%|███▏      | 42/131 [00:00<00:00, 133.29it/s] 43%|████▎     | 56/131 [00:00<00:00, 127.89it/s] 53%|█████▎    | 69/131 [00:00<00:00, 123.94it/s] 63%|██████▎   | 82/131 [00:00<00:00, 118.90it/s] 72%|███████▏  | 94/131 [00:00<00:00, 116.42it/s] 81%|████████  | 106/131 [00:00<00:00, 116.17it/s] 90%|█████████ | 118/131 [00:00<00:00, 113.32it/s] 99%|█████████▉| 130/131 [00:01<00:00, 112.20it/s]100%|██████████| 131/131 [00:01<00:00, 118.57it/s]
+Scales:   0%|          | 0/7 [00:00<?, ?it/s]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:04<10:39,  4.92s/it][A
+Embedding images:   2%|▏         | 2/131 [00:09<10:19,  4.80s/it][A
+Embedding images:   2%|▏         | 3/131 [00:14<10:16,  4.82s/it][A
+Embedding images:   3%|▎         | 4/131 [00:19<10:12,  4.82s/it][A
+Embedding images:   4%|▍         | 5/131 [00:24<10:05,  4.80s/it][A
+Embedding images:   5%|▍         | 6/131 [00:28<10:02,  4.82s/it][A
+Embedding images:   5%|▌         | 7/131 [00:33<09:57,  4.82s/it][A
+Embedding images:   6%|▌         | 8/131 [00:38<09:54,  4.83s/it][A
+Embedding images:   7%|▋         | 9/131 [00:43<09:51,  4.85s/it][A
+Embedding images:   8%|▊         | 10/131 [00:48<09:47,  4.86s/it][A
+Embedding images:   8%|▊         | 11/131 [00:53<09:43,  4.87s/it][A
+Embedding images:   9%|▉         | 12/131 [00:58<09:41,  4.89s/it][A
+Embedding images:  10%|▉         | 13/131 [01:03<09:36,  4.88s/it][A
+Embedding images:  11%|█         | 14/131 [01:07<09:31,  4.88s/it][A
+Embedding images:  11%|█▏        | 15/131 [01:12<09:27,  4.90s/it][A
+Embedding images:  12%|█▏        | 16/131 [01:17<09:22,  4.89s/it][A
+Embedding images:  13%|█▎        | 17/131 [01:22<09:18,  4.90s/it][A
+Embedding images:  14%|█▎        | 18/131 [01:27<09:15,  4.91s/it][A
+Embedding images:  15%|█▍        | 19/131 [01:32<09:09,  4.91s/it][A
+Embedding images:  15%|█▌        | 20/131 [01:37<09:05,  4.92s/it][A
+Embedding images:  16%|█▌        | 21/131 [01:42<09:02,  4.93s/it][A
+Embedding images:  17%|█▋        | 22/131 [01:47<08:59,  4.95s/it][A
+Embedding images:  18%|█▊        | 23/131 [01:53<09:27,  5.26s/it][A
+Embedding images:  18%|█▊        | 24/131 [01:59<09:42,  5.44s/it][A
+Embedding images:  19%|█▉        | 25/131 [02:04<09:21,  5.30s/it][A
+Embedding images:  20%|█▉        | 26/131 [02:09<09:07,  5.22s/it][A
+Embedding images:  21%|██        | 27/131 [02:14<08:55,  5.15s/it][A
+Embedding images:  21%|██▏       | 28/131 [02:19<08:44,  5.10s/it][A
+Embedding images:  22%|██▏       | 29/131 [02:24<08:37,  5.07s/it][A
+Embedding images:  23%|██▎       | 30/131 [02:29<08:28,  5.04s/it][A
+Embedding images:  24%|██▎       | 31/131 [02:34<08:22,  5.03s/it][A
+Embedding images:  24%|██▍       | 32/131 [02:39<08:17,  5.03s/it][A
+Embedding images:  25%|██▌       | 33/131 [02:44<08:10,  5.01s/it][A
+Embedding images:  26%|██▌       | 34/131 [02:49<08:04,  5.00s/it][A
+Embedding images:  27%|██▋       | 35/131 [02:54<08:01,  5.01s/it][A
+Embedding images:  27%|██▋       | 36/131 [02:59<07:54,  5.00s/it][A
+Embedding images:  28%|██▊       | 37/131 [03:04<07:49,  5.00s/it][A
+Embedding images:  29%|██▉       | 38/131 [03:09<07:46,  5.01s/it][A
+Embedding images:  30%|██▉       | 39/131 [03:14<07:41,  5.01s/it][A
+Embedding images:  31%|███       | 40/131 [03:19<07:35,  5.00s/it][A
+Embedding images:  31%|███▏      | 41/131 [03:24<07:31,  5.01s/it][A
+Embedding images:  32%|███▏      | 42/131 [03:29<07:26,  5.01s/it][A
+Embedding images:  33%|███▎      | 43/131 [03:34<07:21,  5.01s/it][A
+Embedding images:  34%|███▎      | 44/131 [03:39<07:16,  5.02s/it][A
+Embedding images:  34%|███▍      | 45/131 [03:44<07:11,  5.02s/it][A
+Embedding images:  35%|███▌      | 46/131 [03:49<07:06,  5.02s/it][A
+Embedding images:  36%|███▌      | 47/131 [03:54<07:02,  5.03s/it][A
+Embedding images:  37%|███▋      | 48/131 [03:59<06:57,  5.03s/it][A
+Embedding images:  37%|███▋      | 49/131 [04:04<06:51,  5.02s/it][A
+Embedding images:  38%|███▊      | 50/131 [04:09<06:47,  5.04s/it][A
+Embedding images:  39%|███▉      | 51/131 [04:14<06:43,  5.04s/it][A
+Embedding images:  40%|███▉      | 52/131 [04:19<06:38,  5.05s/it][A
+Embedding images:  40%|████      | 53/131 [04:24<06:35,  5.06s/it][A
+Embedding images:  41%|████      | 54/131 [04:29<06:30,  5.07s/it][A
+Embedding images:  42%|████▏     | 55/131 [04:34<06:24,  5.06s/it][A
+Embedding images:  43%|████▎     | 56/131 [04:39<06:20,  5.07s/it][A
+Embedding images:  44%|████▎     | 57/131 [04:45<06:16,  5.08s/it][A
+Embedding images:  44%|████▍     | 58/131 [04:50<06:11,  5.09s/it][A
+Embedding images:  45%|████▌     | 59/131 [04:57<06:59,  5.83s/it][A
+Embedding images:  46%|████▌     | 60/131 [05:06<08:06,  6.86s/it][A
+Embedding images:  47%|████▋     | 61/131 [05:16<08:52,  7.61s/it][A
+Embedding images:  47%|████▋     | 62/131 [05:25<09:17,  8.09s/it][A
+Embedding images:  48%|████▊     | 63/131 [05:34<09:29,  8.37s/it][A
+Embedding images:  49%|████▉     | 64/131 [05:43<09:33,  8.56s/it][A
+Embedding images:  50%|████▉     | 65/131 [05:52<09:34,  8.70s/it][A
+Embedding images:  50%|█████     | 66/131 [06:01<09:32,  8.81s/it][A
+Embedding images:  51%|█████     | 67/131 [06:10<09:27,  8.87s/it][A
+Embedding images:  52%|█████▏    | 68/131 [06:19<09:21,  8.91s/it][A
+Embedding images:  53%|█████▎    | 69/131 [06:28<09:15,  8.96s/it][A
+Embedding images:  53%|█████▎    | 70/131 [06:37<09:08,  9.00s/it][A
+Embedding images:  54%|█████▍    | 71/131 [06:46<09:01,  9.02s/it][A
+Embedding images:  55%|█████▍    | 72/131 [06:55<08:52,  9.03s/it][A
+Embedding images:  56%|█████▌    | 73/131 [07:05<08:44,  9.05s/it][A
+Embedding images:  56%|█████▋    | 74/131 [07:14<08:36,  9.07s/it][A
+Embedding images:  57%|█████▋    | 75/131 [07:23<08:28,  9.07s/it][A
+Embedding images:  58%|█████▊    | 76/131 [07:32<08:19,  9.08s/it][A
+Embedding images:  59%|█████▉    | 77/131 [07:41<08:11,  9.09s/it][A
+Embedding images:  60%|█████▉    | 78/131 [07:50<08:02,  9.10s/it][A
+Embedding images:  60%|██████    | 79/131 [07:59<07:53,  9.11s/it][A
+Embedding images:  61%|██████    | 80/131 [08:08<07:44,  9.12s/it][A
+Embedding images:  62%|██████▏   | 81/131 [08:17<07:36,  9.12s/it][A
+Embedding images:  63%|██████▎   | 82/131 [08:27<07:27,  9.13s/it][A
+Embedding images:  63%|██████▎   | 83/131 [08:36<07:18,  9.14s/it][A
+Embedding images:  64%|██████▍   | 84/131 [08:45<07:09,  9.14s/it][A
+Embedding images:  65%|██████▍   | 85/131 [08:54<07:00,  9.14s/it][A
+Embedding images:  66%|██████▌   | 86/131 [09:03<06:51,  9.13s/it][A
+Embedding images:  66%|██████▋   | 87/131 [09:12<06:41,  9.12s/it][A
+Embedding images:  67%|██████▋   | 88/131 [09:21<06:32,  9.12s/it][A
+Embedding images:  68%|██████▊   | 89/131 [09:30<06:22,  9.12s/it][A
+Embedding images:  69%|██████▊   | 90/131 [09:40<06:14,  9.13s/it][A
+Embedding images:  69%|██████▉   | 91/131 [09:49<06:04,  9.12s/it][A
+Embedding images:  70%|███████   | 92/131 [09:58<05:54,  9.10s/it][A
+Embedding images:  71%|███████   | 93/131 [10:07<05:46,  9.12s/it][A
+Embedding images:  72%|███████▏  | 94/131 [10:16<05:37,  9.12s/it][A
+Embedding images:  73%|███████▎  | 95/131 [10:25<05:28,  9.12s/it][A
+Embedding images:  73%|███████▎  | 96/131 [10:34<05:18,  9.11s/it][A
+Embedding images:  74%|███████▍  | 97/131 [10:43<05:09,  9.11s/it][A
+Embedding images:  75%|███████▍  | 98/131 [10:52<05:00,  9.10s/it][A
+Embedding images:  76%|███████▌  | 99/131 [11:02<04:51,  9.11s/it][A
+Embedding images:  76%|███████▋  | 100/131 [11:11<04:42,  9.12s/it][A
+Embedding images:  77%|███████▋  | 101/131 [11:20<04:33,  9.11s/it][A
+Embedding images:  78%|███████▊  | 102/131 [11:29<04:24,  9.11s/it][A
+Embedding images:  79%|███████▊  | 103/131 [11:38<04:14,  9.10s/it][A
+Embedding images:  79%|███████▉  | 104/131 [11:47<04:05,  9.11s/it][A
+Embedding images:  80%|████████  | 105/131 [11:56<03:56,  9.11s/it][A
+Embedding images:  81%|████████  | 106/131 [12:05<03:48,  9.13s/it][A
+Embedding images:  82%|████████▏ | 107/131 [12:15<03:39,  9.14s/it][A
+Embedding images:  82%|████████▏ | 108/131 [12:24<03:30,  9.14s/it][A
+Embedding images:  83%|████████▎ | 109/131 [12:33<03:20,  9.13s/it][A
+Embedding images:  84%|████████▍ | 110/131 [12:42<03:11,  9.13s/it][A
+Embedding images:  85%|████████▍ | 111/131 [12:51<03:02,  9.13s/it][A
+Embedding images:  85%|████████▌ | 112/131 [13:00<02:53,  9.12s/it][A
+Embedding images:  86%|████████▋ | 113/131 [13:09<02:44,  9.13s/it][A
+Embedding images:  87%|████████▋ | 114/131 [13:18<02:35,  9.14s/it][A
+Embedding images:  88%|████████▊ | 115/131 [13:28<02:26,  9.13s/it][A
+Embedding images:  89%|████████▊ | 116/131 [13:37<02:17,  9.13s/it][A
+Embedding images:  89%|████████▉ | 117/131 [13:46<02:07,  9.13s/it][A
+Embedding images:  90%|█████████ | 118/131 [13:55<01:58,  9.14s/it][A
+Embedding images:  91%|█████████ | 119/131 [14:04<01:49,  9.13s/it][A
+Embedding images:  92%|█████████▏| 120/131 [14:13<01:40,  9.13s/it][A
+Embedding images:  92%|█████████▏| 121/131 [14:22<01:31,  9.13s/it][A
+Embedding images:  93%|█████████▎| 122/131 [14:32<01:22,  9.13s/it][A
+Embedding images:  94%|█████████▍| 123/131 [14:41<01:13,  9.13s/it][A
+Embedding images:  95%|█████████▍| 124/131 [14:50<01:03,  9.13s/it][A
+Embedding images:  95%|█████████▌| 125/131 [14:59<00:54,  9.12s/it][A
+Embedding images:  96%|█████████▌| 126/131 [15:08<00:45,  9.12s/it][A
+Embedding images:  97%|█████████▋| 127/131 [15:17<00:36,  9.13s/it][A
+Embedding images:  98%|█████████▊| 128/131 [15:26<00:27,  9.13s/it][A
+Embedding images:  98%|█████████▊| 129/131 [15:35<00:18,  9.12s/it][A
+Embedding images:  99%|█████████▉| 130/131 [15:44<00:09,  9.12s/it][A
+Embedding images: 100%|██████████| 131/131 [15:54<00:00,  9.11s/it][A
+                                                                   [AScales:  14%|█▍        | 1/7 [15:54<1:35:26, 954.40s/it]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:03<08:13,  3.80s/it][A
+Embedding images:   2%|▏         | 2/131 [00:07<08:09,  3.80s/it][A
+Embedding images:   2%|▏         | 3/131 [00:11<08:05,  3.79s/it][A
+Embedding images:   3%|▎         | 4/131 [00:15<08:01,  3.79s/it][A
+Embedding images:   4%|▍         | 5/131 [00:18<07:57,  3.79s/it][A
+Embedding images:   5%|▍         | 6/131 [00:22<07:53,  3.79s/it][A
+Embedding images:   5%|▌         | 7/131 [00:26<07:50,  3.79s/it][A
+Embedding images:   6%|▌         | 8/131 [00:30<07:46,  3.80s/it][A
+Embedding images:   7%|▋         | 9/131 [00:34<07:43,  3.80s/it][A
+Embedding images:   8%|▊         | 10/131 [00:37<07:38,  3.79s/it][A
+Embedding images:   8%|▊         | 11/131 [00:41<07:36,  3.80s/it][A
+Embedding images:   9%|▉         | 12/131 [00:45<07:34,  3.82s/it][A
+Embedding images:  10%|▉         | 13/131 [00:49<07:29,  3.81s/it][A
+Embedding images:  11%|█         | 14/131 [00:53<07:25,  3.81s/it][A
+Embedding images:  11%|█▏        | 15/131 [00:56<07:21,  3.80s/it][A
+Embedding images:  12%|█▏        | 16/131 [01:00<07:16,  3.79s/it][A
+Embedding images:  13%|█▎        | 17/131 [01:04<07:11,  3.79s/it][A
+Embedding images:  14%|█▎        | 18/131 [01:08<07:09,  3.80s/it][A
+Embedding images:  15%|█▍        | 19/131 [01:12<07:05,  3.80s/it][A
+Embedding images:  15%|█▌        | 20/131 [01:15<07:01,  3.80s/it][A
+Embedding images:  16%|█▌        | 21/131 [01:19<06:57,  3.80s/it][A
+Embedding images:  17%|█▋        | 22/131 [01:23<06:54,  3.81s/it][A
+Embedding images:  18%|█▊        | 23/131 [01:27<06:50,  3.80s/it][A
+Embedding images:  18%|█▊        | 24/131 [01:31<06:47,  3.81s/it][A
+Embedding images:  19%|█▉        | 25/131 [01:35<06:43,  3.81s/it][A
+Embedding images:  20%|█▉        | 26/131 [01:38<06:39,  3.81s/it][A
+Embedding images:  21%|██        | 27/131 [01:42<06:32,  3.78s/it][A
+Embedding images:  21%|██▏       | 28/131 [01:46<06:27,  3.76s/it][A
+Embedding images:  22%|██▏       | 29/131 [01:50<06:25,  3.78s/it][A
+Embedding images:  23%|██▎       | 30/131 [01:53<06:21,  3.77s/it][A
+Embedding images:  24%|██▎       | 31/131 [01:57<06:17,  3.77s/it][A
+Embedding images:  24%|██▍       | 32/131 [02:01<06:15,  3.80s/it][A
+Embedding images:  25%|██▌       | 33/131 [02:05<06:11,  3.79s/it][A
+Embedding images:  26%|██▌       | 34/131 [02:08<06:07,  3.79s/it][A
+Embedding images:  27%|██▋       | 35/131 [02:12<06:04,  3.80s/it][A
+Embedding images:  27%|██▋       | 36/131 [02:16<06:01,  3.81s/it][A
+Embedding images:  28%|██▊       | 37/131 [02:20<05:56,  3.79s/it][A
+Embedding images:  29%|██▉       | 38/131 [02:24<05:52,  3.79s/it][A
+Embedding images:  30%|██▉       | 39/131 [02:27<05:48,  3.79s/it][A
+Embedding images:  31%|███       | 40/131 [02:31<05:47,  3.82s/it][A
+Embedding images:  31%|███▏      | 41/131 [02:35<05:43,  3.81s/it][A
+Embedding images:  32%|███▏      | 42/131 [02:39<05:38,  3.81s/it][A
+Embedding images:  33%|███▎      | 43/131 [02:43<05:36,  3.83s/it][A
+Embedding images:  34%|███▎      | 44/131 [02:47<05:36,  3.87s/it][A
+Embedding images:  34%|███▍      | 45/131 [02:51<05:36,  3.91s/it][A
+Embedding images:  35%|███▌      | 46/131 [02:55<05:31,  3.89s/it][A
+Embedding images:  36%|███▌      | 47/131 [02:58<05:24,  3.87s/it][A
+Embedding images:  37%|███▋      | 48/131 [03:02<05:19,  3.85s/it][A
+Embedding images:  37%|███▋      | 49/131 [03:06<05:15,  3.85s/it][A
+Embedding images:  38%|███▊      | 50/131 [03:10<05:12,  3.86s/it][A
+Embedding images:  39%|███▉      | 51/131 [03:14<05:07,  3.85s/it][A
+Embedding images:  40%|███▉      | 52/131 [03:18<05:04,  3.86s/it][A
+Embedding images:  40%|████      | 53/131 [03:22<05:00,  3.85s/it][A
+Embedding images:  41%|████      | 54/131 [03:25<04:55,  3.84s/it][A
+Embedding images:  42%|████▏     | 55/131 [03:29<04:51,  3.83s/it][A
+Embedding images:  43%|████▎     | 56/131 [03:33<04:46,  3.83s/it][A
+Embedding images:  44%|████▎     | 57/131 [03:37<04:43,  3.83s/it][A
+Embedding images:  44%|████▍     | 58/131 [03:41<04:39,  3.83s/it][A
+Embedding images:  45%|████▌     | 59/131 [03:45<04:35,  3.83s/it][A
+Embedding images:  46%|████▌     | 60/131 [03:48<04:31,  3.82s/it][A
+Embedding images:  47%|████▋     | 61/131 [03:52<04:27,  3.81s/it][A
+Embedding images:  47%|████▋     | 62/131 [03:56<04:23,  3.81s/it][A
+Embedding images:  48%|████▊     | 63/131 [04:00<04:19,  3.82s/it][A
+Embedding images:  49%|████▉     | 64/131 [04:04<04:15,  3.81s/it][A
+Embedding images:  50%|████▉     | 65/131 [04:07<04:11,  3.81s/it][A
+Embedding images:  50%|█████     | 66/131 [04:11<04:07,  3.81s/it][A
+Embedding images:  51%|█████     | 67/131 [04:15<04:04,  3.82s/it][A
+Embedding images:  52%|█████▏    | 68/131 [04:19<04:00,  3.82s/it][A
+Embedding images:  53%|█████▎    | 69/131 [04:23<03:57,  3.82s/it][A
+Embedding images:  53%|█████▎    | 70/131 [04:26<03:53,  3.82s/it][A
+Embedding images:  54%|█████▍    | 71/131 [04:30<03:49,  3.82s/it][A
+Embedding images:  55%|█████▍    | 72/131 [04:34<03:45,  3.82s/it][A
+Embedding images:  56%|█████▌    | 73/131 [04:38<03:41,  3.82s/it][A
+Embedding images:  56%|█████▋    | 74/131 [04:42<03:37,  3.82s/it][A
+Embedding images:  57%|█████▋    | 75/131 [04:46<03:34,  3.82s/it][A
+Embedding images:  58%|█████▊    | 76/131 [04:49<03:30,  3.82s/it][A
+Embedding images:  59%|█████▉    | 77/131 [04:53<03:26,  3.82s/it][A
+Embedding images:  60%|█████▉    | 78/131 [04:57<03:22,  3.83s/it][A
+Embedding images:  60%|██████    | 79/131 [05:01<03:19,  3.83s/it][A
+Embedding images:  61%|██████    | 80/131 [05:05<03:15,  3.83s/it][A
+Embedding images:  62%|██████▏   | 81/131 [05:09<03:11,  3.83s/it][A
+Embedding images:  63%|██████▎   | 82/131 [05:12<03:07,  3.82s/it][A
+Embedding images:  63%|██████▎   | 83/131 [05:16<03:03,  3.83s/it][A
+Embedding images:  64%|██████▍   | 84/131 [05:20<02:59,  3.82s/it][A
+Embedding images:  65%|██████▍   | 85/131 [05:24<02:55,  3.82s/it][A
+Embedding images:  66%|██████▌   | 86/131 [05:28<02:52,  3.83s/it][A
+Embedding images:  66%|██████▋   | 87/131 [05:31<02:48,  3.83s/it][A
+Embedding images:  67%|██████▋   | 88/131 [05:35<02:44,  3.83s/it][A
+Embedding images:  68%|██████▊   | 89/131 [05:39<02:40,  3.83s/it][A
+Embedding images:  69%|██████▊   | 90/131 [05:43<02:36,  3.82s/it][A
+Embedding images:  69%|██████▉   | 91/131 [05:47<02:32,  3.82s/it][A
+Embedding images:  70%|███████   | 92/131 [05:51<02:29,  3.82s/it][A
+Embedding images:  71%|███████   | 93/131 [05:54<02:25,  3.83s/it][A
+Embedding images:  72%|███████▏  | 94/131 [05:58<02:21,  3.81s/it][A
+Embedding images:  73%|███████▎  | 95/131 [06:02<02:17,  3.81s/it][A
+Embedding images:  73%|███████▎  | 96/131 [06:06<02:13,  3.82s/it][A
+Embedding images:  74%|███████▍  | 97/131 [06:10<02:09,  3.82s/it][A
+Embedding images:  75%|███████▍  | 98/131 [06:13<02:06,  3.82s/it][A
+Embedding images:  76%|███████▌  | 99/131 [06:17<02:02,  3.82s/it][A
+Embedding images:  76%|███████▋  | 100/131 [06:21<01:58,  3.83s/it][A
+Embedding images:  77%|███████▋  | 101/131 [06:25<01:54,  3.82s/it][A
+Embedding images:  78%|███████▊  | 102/131 [06:29<01:51,  3.83s/it][A
+Embedding images:  79%|███████▊  | 103/131 [06:33<01:47,  3.83s/it][A
+Embedding images:  79%|███████▉  | 104/131 [06:36<01:43,  3.82s/it][A
+Embedding images:  80%|████████  | 105/131 [06:40<01:39,  3.82s/it][A
+Embedding images:  81%|████████  | 106/131 [06:44<01:35,  3.82s/it][A
+Embedding images:  82%|████████▏ | 107/131 [06:48<01:31,  3.82s/it][A
+Embedding images:  82%|████████▏ | 108/131 [06:52<01:27,  3.82s/it][A
+Embedding images:  83%|████████▎ | 109/131 [06:56<01:24,  3.83s/it][A
+Embedding images:  84%|████████▍ | 110/131 [06:59<01:20,  3.83s/it][A
+Embedding images:  85%|████████▍ | 111/131 [07:03<01:16,  3.83s/it][A
+Embedding images:  85%|████████▌ | 112/131 [07:07<01:12,  3.83s/it][A
+Embedding images:  86%|████████▋ | 113/131 [07:11<01:08,  3.83s/it][A
+Embedding images:  87%|████████▋ | 114/131 [07:15<01:05,  3.83s/it][A
+Embedding images:  88%|████████▊ | 115/131 [07:19<01:01,  3.82s/it][A
+Embedding images:  89%|████████▊ | 116/131 [07:22<00:57,  3.82s/it][A
+Embedding images:  89%|████████▉ | 117/131 [07:26<00:53,  3.82s/it][A
+Embedding images:  90%|█████████ | 118/131 [07:30<00:49,  3.83s/it][A
+Embedding images:  91%|█████████ | 119/131 [07:34<00:45,  3.83s/it][A
+Embedding images:  92%|█████████▏| 120/131 [07:38<00:42,  3.83s/it][A
+Embedding images:  92%|█████████▏| 121/131 [07:41<00:38,  3.83s/it][A
+Embedding images:  93%|█████████▎| 122/131 [07:45<00:34,  3.83s/it][A
+Embedding images:  94%|█████████▍| 123/131 [07:49<00:30,  3.83s/it][A
+Embedding images:  95%|█████████▍| 124/131 [07:53<00:26,  3.83s/it][A
+Embedding images:  95%|█████████▌| 125/131 [07:57<00:22,  3.82s/it][A
+Embedding images:  96%|█████████▌| 126/131 [08:01<00:19,  3.83s/it][A
+Embedding images:  97%|█████████▋| 127/131 [08:04<00:15,  3.83s/it][A
+Embedding images:  98%|█████████▊| 128/131 [08:08<00:11,  3.82s/it][A
+Embedding images:  98%|█████████▊| 129/131 [08:12<00:07,  3.83s/it][A
+Embedding images:  99%|█████████▉| 130/131 [08:16<00:03,  3.83s/it][A
+Embedding images: 100%|██████████| 131/131 [08:20<00:00,  3.83s/it][A
+                                                                   [AScales:  29%|██▊       | 2/7 [24:14<57:16, 687.34s/it]  
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:02<05:05,  2.35s/it][A
+Embedding images:   2%|▏         | 2/131 [00:04<05:02,  2.35s/it][A
+Embedding images:   2%|▏         | 3/131 [00:07<04:58,  2.34s/it][A
+Embedding images:   3%|▎         | 4/131 [00:09<04:58,  2.35s/it][A
+Embedding images:   4%|▍         | 5/131 [00:11<04:55,  2.35s/it][A
+Embedding images:   5%|▍         | 6/131 [00:14<04:54,  2.35s/it][A
+Embedding images:   5%|▌         | 7/131 [00:16<04:51,  2.35s/it][A
+Embedding images:   6%|▌         | 8/131 [00:18<04:49,  2.36s/it][A
+Embedding images:   7%|▋         | 9/131 [00:21<04:46,  2.35s/it][A
+Embedding images:   8%|▊         | 10/131 [00:23<04:44,  2.35s/it][A
+Embedding images:   8%|▊         | 11/131 [00:25<04:42,  2.35s/it][A
+Embedding images:   9%|▉         | 12/131 [00:28<04:39,  2.35s/it][A
+Embedding images:  10%|▉         | 13/131 [00:30<04:37,  2.35s/it][A
+Embedding images:  11%|█         | 14/131 [00:32<04:35,  2.35s/it][A
+Embedding images:  11%|█▏        | 15/131 [00:35<04:32,  2.35s/it][A
+Embedding images:  12%|█▏        | 16/131 [00:37<04:29,  2.34s/it][A
+Embedding images:  13%|█▎        | 17/131 [00:39<04:25,  2.33s/it][A
+Embedding images:  14%|█▎        | 18/131 [00:42<04:24,  2.34s/it][A
+Embedding images:  15%|█▍        | 19/131 [00:44<04:22,  2.34s/it][A
+Embedding images:  15%|█▌        | 20/131 [00:46<04:20,  2.35s/it][A
+Embedding images:  16%|█▌        | 21/131 [00:49<04:18,  2.35s/it][A
+Embedding images:  17%|█▋        | 22/131 [00:51<04:15,  2.35s/it][A
+Embedding images:  18%|█▊        | 23/131 [00:53<04:13,  2.35s/it][A
+Embedding images:  18%|█▊        | 24/131 [00:56<04:11,  2.35s/it][A
+Embedding images:  19%|█▉        | 25/131 [00:58<04:09,  2.35s/it][A
+Embedding images:  20%|█▉        | 26/131 [01:01<04:06,  2.35s/it][A
+Embedding images:  21%|██        | 27/131 [01:03<04:04,  2.35s/it][A
+Embedding images:  21%|██▏       | 28/131 [01:05<04:02,  2.35s/it][A
+Embedding images:  22%|██▏       | 29/131 [01:08<04:00,  2.35s/it][A
+Embedding images:  23%|██▎       | 30/131 [01:10<03:57,  2.36s/it][A
+Embedding images:  24%|██▎       | 31/131 [01:12<03:55,  2.35s/it][A
+Embedding images:  24%|██▍       | 32/131 [01:15<03:52,  2.35s/it][A
+Embedding images:  25%|██▌       | 33/131 [01:17<03:50,  2.35s/it][A
+Embedding images:  26%|██▌       | 34/131 [01:19<03:47,  2.35s/it][A
+Embedding images:  27%|██▋       | 35/131 [01:22<03:45,  2.35s/it][A
+Embedding images:  27%|██▋       | 36/131 [01:24<03:42,  2.35s/it][A
+Embedding images:  28%|██▊       | 37/131 [01:26<03:40,  2.35s/it][A
+Embedding images:  29%|██▉       | 38/131 [01:29<03:38,  2.35s/it][A
+Embedding images:  30%|██▉       | 39/131 [01:31<03:36,  2.35s/it][A
+Embedding images:  31%|███       | 40/131 [01:33<03:33,  2.35s/it][A
+Embedding images:  31%|███▏      | 41/131 [01:36<03:31,  2.35s/it][A
+Embedding images:  32%|███▏      | 42/131 [01:38<03:29,  2.35s/it][A
+Embedding images:  33%|███▎      | 43/131 [01:41<03:27,  2.35s/it][A
+Embedding images:  34%|███▎      | 44/131 [01:43<03:25,  2.36s/it][A
+Embedding images:  34%|███▍      | 45/131 [01:45<03:22,  2.36s/it][A
+Embedding images:  35%|███▌      | 46/131 [01:48<03:20,  2.36s/it][A
+Embedding images:  36%|███▌      | 47/131 [01:50<03:17,  2.36s/it][A
+Embedding images:  37%|███▋      | 48/131 [01:52<03:15,  2.35s/it][A
+Embedding images:  37%|███▋      | 49/131 [01:55<03:13,  2.35s/it][A
+Embedding images:  38%|███▊      | 50/131 [01:57<03:10,  2.36s/it][A
+Embedding images:  39%|███▉      | 51/131 [01:59<03:08,  2.35s/it][A
+Embedding images:  40%|███▉      | 52/131 [02:02<03:05,  2.35s/it][A
+Embedding images:  40%|████      | 53/131 [02:04<03:02,  2.35s/it][A
+Embedding images:  41%|████      | 54/131 [02:06<03:00,  2.34s/it][A
+Embedding images:  42%|████▏     | 55/131 [02:09<02:58,  2.35s/it][A
+Embedding images:  43%|████▎     | 56/131 [02:11<02:56,  2.36s/it][A
+Embedding images:  44%|████▎     | 57/131 [02:13<02:53,  2.35s/it][A
+Embedding images:  44%|████▍     | 58/131 [02:16<02:49,  2.32s/it][A
+Embedding images:  45%|████▌     | 59/131 [02:18<02:45,  2.29s/it][A
+Embedding images:  46%|████▌     | 60/131 [02:20<02:44,  2.31s/it][A
+Embedding images:  47%|████▋     | 61/131 [02:23<02:42,  2.32s/it][A
+Embedding images:  47%|████▋     | 62/131 [02:25<02:40,  2.33s/it][A
+Embedding images:  48%|████▊     | 63/131 [02:27<02:39,  2.34s/it][A
+Embedding images:  49%|████▉     | 64/131 [02:30<02:37,  2.34s/it][A
+Embedding images:  50%|████▉     | 65/131 [02:32<02:34,  2.34s/it][A
+Embedding images:  50%|█████     | 66/131 [02:34<02:32,  2.35s/it][A
+Embedding images:  51%|█████     | 67/131 [02:37<02:30,  2.35s/it][A
+Embedding images:  52%|█████▏    | 68/131 [02:39<02:28,  2.36s/it][A
+Embedding images:  53%|█████▎    | 69/131 [02:41<02:25,  2.35s/it][A
+Embedding images:  53%|█████▎    | 70/131 [02:44<02:23,  2.35s/it][A
+Embedding images:  54%|█████▍    | 71/131 [02:46<02:21,  2.35s/it][A
+Embedding images:  55%|█████▍    | 72/131 [02:49<02:18,  2.35s/it][A
+Embedding images:  56%|█████▌    | 73/131 [02:51<02:16,  2.35s/it][A
+Embedding images:  56%|█████▋    | 74/131 [02:53<02:13,  2.35s/it][A
+Embedding images:  57%|█████▋    | 75/131 [02:56<02:11,  2.35s/it][A
+Embedding images:  58%|█████▊    | 76/131 [02:58<02:09,  2.35s/it][A
+Embedding images:  59%|█████▉    | 77/131 [03:00<02:06,  2.35s/it][A
+Embedding images:  60%|█████▉    | 78/131 [03:03<02:04,  2.35s/it][A
+Embedding images:  60%|██████    | 79/131 [03:05<02:02,  2.35s/it][A
+Embedding images:  61%|██████    | 80/131 [03:07<01:59,  2.34s/it][A
+Embedding images:  62%|██████▏   | 81/131 [03:10<01:57,  2.34s/it][A
+Embedding images:  63%|██████▎   | 82/131 [03:12<01:54,  2.34s/it][A
+Embedding images:  63%|██████▎   | 83/131 [03:14<01:52,  2.34s/it][A
+Embedding images:  64%|██████▍   | 84/131 [03:17<01:49,  2.34s/it][A
+Embedding images:  65%|██████▍   | 85/131 [03:19<01:47,  2.34s/it][A
+Embedding images:  66%|██████▌   | 86/131 [03:21<01:44,  2.33s/it][A
+Embedding images:  66%|██████▋   | 87/131 [03:24<01:43,  2.34s/it][A
+Embedding images:  67%|██████▋   | 88/131 [03:26<01:40,  2.34s/it][A
+Embedding images:  68%|██████▊   | 89/131 [03:28<01:38,  2.34s/it][A
+Embedding images:  69%|██████▊   | 90/131 [03:31<01:36,  2.34s/it][A
+Embedding images:  69%|██████▉   | 91/131 [03:33<01:34,  2.35s/it][A
+Embedding images:  70%|███████   | 92/131 [03:35<01:31,  2.35s/it][A
+Embedding images:  71%|███████   | 93/131 [03:38<01:29,  2.35s/it][A
+Embedding images:  72%|███████▏  | 94/131 [03:40<01:27,  2.36s/it][A
+Embedding images:  73%|███████▎  | 95/131 [03:42<01:24,  2.35s/it][A
+Embedding images:  73%|███████▎  | 96/131 [03:45<01:22,  2.35s/it][A
+Embedding images:  74%|███████▍  | 97/131 [03:47<01:20,  2.35s/it][A
+Embedding images:  75%|███████▍  | 98/131 [03:50<01:17,  2.35s/it][A
+Embedding images:  76%|███████▌  | 99/131 [03:52<01:15,  2.36s/it][A
+Embedding images:  76%|███████▋  | 100/131 [03:54<01:12,  2.35s/it][A
+Embedding images:  77%|███████▋  | 101/131 [03:57<01:10,  2.35s/it][A
+Embedding images:  78%|███████▊  | 102/131 [03:59<01:08,  2.35s/it][A
+Embedding images:  79%|███████▊  | 103/131 [04:01<01:05,  2.35s/it][A
+Embedding images:  79%|███████▉  | 104/131 [04:04<01:03,  2.35s/it][A
+Embedding images:  80%|████████  | 105/131 [04:06<01:01,  2.35s/it][A
+Embedding images:  81%|████████  | 106/131 [04:08<00:58,  2.35s/it][A
+Embedding images:  82%|████████▏ | 107/131 [04:11<00:56,  2.35s/it][A
+Embedding images:  82%|████████▏ | 108/131 [04:13<00:54,  2.35s/it][A
+Embedding images:  83%|████████▎ | 109/131 [04:15<00:51,  2.35s/it][A
+Embedding images:  84%|████████▍ | 110/131 [04:18<00:49,  2.35s/it][A
+Embedding images:  85%|████████▍ | 111/131 [04:20<00:47,  2.35s/it][A
+Embedding images:  85%|████████▌ | 112/131 [04:22<00:44,  2.36s/it][A
+Embedding images:  86%|████████▋ | 113/131 [04:25<00:42,  2.35s/it][A
+Embedding images:  87%|████████▋ | 114/131 [04:27<00:39,  2.35s/it][A
+Embedding images:  88%|████████▊ | 115/131 [04:30<00:37,  2.35s/it][A
+Embedding images:  89%|████████▊ | 116/131 [04:32<00:35,  2.34s/it][A
+Embedding images:  89%|████████▉ | 117/131 [04:34<00:32,  2.34s/it][A
+Embedding images:  90%|█████████ | 118/131 [04:37<00:30,  2.34s/it][A
+Embedding images:  91%|█████████ | 119/131 [04:39<00:28,  2.34s/it][A
+Embedding images:  92%|█████████▏| 120/131 [04:41<00:25,  2.35s/it][A
+Embedding images:  92%|█████████▏| 121/131 [04:44<00:23,  2.35s/it][A
+Embedding images:  93%|█████████▎| 122/131 [04:46<00:21,  2.35s/it][A
+Embedding images:  94%|█████████▍| 123/131 [04:48<00:18,  2.35s/it][A
+Embedding images:  95%|█████████▍| 124/131 [04:51<00:16,  2.35s/it][A
+Embedding images:  95%|█████████▌| 125/131 [04:53<00:14,  2.35s/it][A
+Embedding images:  96%|█████████▌| 126/131 [04:55<00:11,  2.35s/it][A
+Embedding images:  97%|█████████▋| 127/131 [04:58<00:09,  2.35s/it][A
+Embedding images:  98%|█████████▊| 128/131 [05:00<00:07,  2.35s/it][A
+Embedding images:  98%|█████████▊| 129/131 [05:02<00:04,  2.35s/it][A
+Embedding images:  99%|█████████▉| 130/131 [05:05<00:02,  2.35s/it][A
+Embedding images: 100%|██████████| 131/131 [05:07<00:00,  2.35s/it][A
+                                                                   [AScales:  43%|████▎     | 3/7 [29:22<34:15, 513.98s/it]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:01<02:38,  1.22s/it][A
+Embedding images:   2%|▏         | 2/131 [00:02<02:37,  1.22s/it][A
+Embedding images:   2%|▏         | 3/131 [00:03<02:36,  1.23s/it][A
+Embedding images:   3%|▎         | 4/131 [00:04<02:36,  1.23s/it][A
+Embedding images:   4%|▍         | 5/131 [00:06<02:34,  1.23s/it][A
+Embedding images:   5%|▍         | 6/131 [00:07<02:34,  1.24s/it][A
+Embedding images:   5%|▌         | 7/131 [00:08<02:34,  1.25s/it][A
+Embedding images:   6%|▌         | 8/131 [00:09<02:31,  1.23s/it][A
+Embedding images:   7%|▋         | 9/131 [00:11<02:31,  1.24s/it][A
+Embedding images:   8%|▊         | 10/131 [00:12<02:30,  1.24s/it][A
+Embedding images:   8%|▊         | 11/131 [00:13<02:29,  1.24s/it][A
+Embedding images:   9%|▉         | 12/131 [00:14<02:26,  1.23s/it][A
+Embedding images:  10%|▉         | 13/131 [00:16<02:25,  1.23s/it][A
+Embedding images:  11%|█         | 14/131 [00:17<02:23,  1.23s/it][A
+Embedding images:  11%|█▏        | 15/131 [00:18<02:21,  1.22s/it][A
+Embedding images:  12%|█▏        | 16/131 [00:19<02:20,  1.22s/it][A
+Embedding images:  13%|█▎        | 17/131 [00:20<02:19,  1.23s/it][A
+Embedding images:  14%|█▎        | 18/131 [00:22<02:18,  1.23s/it][A
+Embedding images:  15%|█▍        | 19/131 [00:23<02:17,  1.23s/it][A
+Embedding images:  15%|█▌        | 20/131 [00:24<02:16,  1.23s/it][A
+Embedding images:  16%|█▌        | 21/131 [00:25<02:14,  1.23s/it][A
+Embedding images:  17%|█▋        | 22/131 [00:27<02:13,  1.23s/it][A
+Embedding images:  18%|█▊        | 23/131 [00:28<02:12,  1.23s/it][A
+Embedding images:  18%|█▊        | 24/131 [00:29<02:11,  1.23s/it][A
+Embedding images:  19%|█▉        | 25/131 [00:30<02:10,  1.23s/it][A
+Embedding images:  20%|█▉        | 26/131 [00:32<02:09,  1.23s/it][A
+Embedding images:  21%|██        | 27/131 [00:33<02:07,  1.23s/it][A
+Embedding images:  21%|██▏       | 28/131 [00:34<02:06,  1.23s/it][A
+Embedding images:  22%|██▏       | 29/131 [00:35<02:06,  1.24s/it][A
+Embedding images:  23%|██▎       | 30/131 [00:36<02:04,  1.23s/it][A
+Embedding images:  24%|██▎       | 31/131 [00:38<02:03,  1.23s/it][A
+Embedding images:  24%|██▍       | 32/131 [00:39<02:01,  1.23s/it][A
+Embedding images:  25%|██▌       | 33/131 [00:40<02:00,  1.23s/it][A
+Embedding images:  26%|██▌       | 34/131 [00:41<01:59,  1.23s/it][A
+Embedding images:  27%|██▋       | 35/131 [00:43<01:58,  1.24s/it][A
+Embedding images:  27%|██▋       | 36/131 [00:44<01:57,  1.24s/it][A
+Embedding images:  28%|██▊       | 37/131 [00:45<01:56,  1.24s/it][A
+Embedding images:  29%|██▉       | 38/131 [00:46<01:54,  1.23s/it][A
+Embedding images:  30%|██▉       | 39/131 [00:48<01:53,  1.23s/it][A
+Embedding images:  31%|███       | 40/131 [00:49<01:51,  1.23s/it][A
+Embedding images:  31%|███▏      | 41/131 [00:50<01:50,  1.23s/it][A
+Embedding images:  32%|███▏      | 42/131 [00:51<01:49,  1.23s/it][A
+Embedding images:  33%|███▎      | 43/131 [00:52<01:48,  1.23s/it][A
+Embedding images:  34%|███▎      | 44/131 [00:54<01:47,  1.24s/it][A
+Embedding images:  34%|███▍      | 45/131 [00:55<01:45,  1.23s/it][A
+Embedding images:  35%|███▌      | 46/131 [00:56<01:44,  1.22s/it][A
+Embedding images:  36%|███▌      | 47/131 [00:57<01:42,  1.22s/it][A
+Embedding images:  37%|███▋      | 48/131 [00:59<01:41,  1.22s/it][A
+Embedding images:  37%|███▋      | 49/131 [01:00<01:40,  1.23s/it][A
+Embedding images:  38%|███▊      | 50/131 [01:01<01:39,  1.23s/it][A
+Embedding images:  39%|███▉      | 51/131 [01:02<01:38,  1.23s/it][A
+Embedding images:  40%|███▉      | 52/131 [01:04<01:37,  1.23s/it][A
+Embedding images:  40%|████      | 53/131 [01:05<01:36,  1.24s/it][A
+Embedding images:  41%|████      | 54/131 [01:06<01:35,  1.24s/it][A
+Embedding images:  42%|████▏     | 55/131 [01:07<01:34,  1.24s/it][A
+Embedding images:  43%|████▎     | 56/131 [01:08<01:32,  1.24s/it][A
+Embedding images:  44%|████▎     | 57/131 [01:10<01:31,  1.23s/it][A
+Embedding images:  44%|████▍     | 58/131 [01:11<01:29,  1.22s/it][A
+Embedding images:  45%|████▌     | 59/131 [01:12<01:28,  1.23s/it][A
+Embedding images:  46%|████▌     | 60/131 [01:13<01:27,  1.23s/it][A
+Embedding images:  47%|████▋     | 61/131 [01:15<01:25,  1.23s/it][A
+Embedding images:  47%|████▋     | 62/131 [01:16<01:25,  1.24s/it][A
+Embedding images:  48%|████▊     | 63/131 [01:17<01:24,  1.24s/it][A
+Embedding images:  49%|████▉     | 64/131 [01:18<01:23,  1.24s/it][A
+Embedding images:  50%|████▉     | 65/131 [01:20<01:22,  1.25s/it][A
+Embedding images:  50%|█████     | 66/131 [01:21<01:20,  1.24s/it][A
+Embedding images:  51%|█████     | 67/131 [01:22<01:18,  1.23s/it][A
+Embedding images:  52%|█████▏    | 68/131 [01:23<01:17,  1.23s/it][A
+Embedding images:  53%|█████▎    | 69/131 [01:25<01:16,  1.23s/it][A
+Embedding images:  53%|█████▎    | 70/131 [01:26<01:15,  1.23s/it][A
+Embedding images:  54%|█████▍    | 71/131 [01:27<01:13,  1.23s/it][A
+Embedding images:  55%|█████▍    | 72/131 [01:28<01:12,  1.23s/it][A
+Embedding images:  56%|█████▌    | 73/131 [01:29<01:11,  1.23s/it][A
+Embedding images:  56%|█████▋    | 74/131 [01:31<01:10,  1.23s/it][A
+Embedding images:  57%|█████▋    | 75/131 [01:32<01:08,  1.23s/it][A
+Embedding images:  58%|█████▊    | 76/131 [01:33<01:07,  1.23s/it][A
+Embedding images:  59%|█████▉    | 77/131 [01:34<01:06,  1.23s/it][A
+Embedding images:  60%|█████▉    | 78/131 [01:36<01:05,  1.23s/it][A
+Embedding images:  60%|██████    | 79/131 [01:37<01:03,  1.22s/it][A
+Embedding images:  61%|██████    | 80/131 [01:38<01:02,  1.23s/it][A
+Embedding images:  62%|██████▏   | 81/131 [01:39<01:01,  1.23s/it][A
+Embedding images:  63%|██████▎   | 82/131 [01:40<01:00,  1.23s/it][A
+Embedding images:  63%|██████▎   | 83/131 [01:42<00:58,  1.23s/it][A
+Embedding images:  64%|██████▍   | 84/131 [01:43<00:57,  1.23s/it][A
+Embedding images:  65%|██████▍   | 85/131 [01:44<00:56,  1.23s/it][A
+Embedding images:  66%|██████▌   | 86/131 [01:45<00:55,  1.23s/it][A
+Embedding images:  66%|██████▋   | 87/131 [01:47<00:54,  1.23s/it][A
+Embedding images:  67%|██████▋   | 88/131 [01:48<00:52,  1.23s/it][A
+Embedding images:  68%|██████▊   | 89/131 [01:49<00:51,  1.22s/it][A
+Embedding images:  69%|██████▊   | 90/131 [01:50<00:50,  1.22s/it][A
+Embedding images:  69%|██████▉   | 91/131 [01:52<00:49,  1.23s/it][A
+Embedding images:  70%|███████   | 92/131 [01:53<00:47,  1.22s/it][A
+Embedding images:  71%|███████   | 93/131 [01:54<00:46,  1.23s/it][A
+Embedding images:  72%|███████▏  | 94/131 [01:55<00:45,  1.23s/it][A
+Embedding images:  73%|███████▎  | 95/131 [01:56<00:43,  1.22s/it][A
+Embedding images:  73%|███████▎  | 96/131 [01:58<00:42,  1.22s/it][A
+Embedding images:  74%|███████▍  | 97/131 [01:59<00:41,  1.23s/it][A
+Embedding images:  75%|███████▍  | 98/131 [02:00<00:40,  1.23s/it][A
+Embedding images:  76%|███████▌  | 99/131 [02:01<00:39,  1.23s/it][A
+Embedding images:  76%|███████▋  | 100/131 [02:03<00:38,  1.23s/it][A
+Embedding images:  77%|███████▋  | 101/131 [02:04<00:36,  1.23s/it][A
+Embedding images:  78%|███████▊  | 102/131 [02:05<00:35,  1.23s/it][A
+Embedding images:  79%|███████▊  | 103/131 [02:06<00:34,  1.23s/it][A
+Embedding images:  79%|███████▉  | 104/131 [02:07<00:33,  1.23s/it][A
+Embedding images:  80%|████████  | 105/131 [02:09<00:32,  1.23s/it][A
+Embedding images:  81%|████████  | 106/131 [02:10<00:30,  1.22s/it][A
+Embedding images:  82%|████████▏ | 107/131 [02:11<00:29,  1.23s/it][A
+Embedding images:  82%|████████▏ | 108/131 [02:12<00:28,  1.23s/it][A
+Embedding images:  83%|████████▎ | 109/131 [02:14<00:27,  1.23s/it][A
+Embedding images:  84%|████████▍ | 110/131 [02:15<00:25,  1.23s/it][A
+Embedding images:  85%|████████▍ | 111/131 [02:16<00:24,  1.23s/it][A
+Embedding images:  85%|████████▌ | 112/131 [02:17<00:23,  1.23s/it][A
+Embedding images:  86%|████████▋ | 113/131 [02:19<00:22,  1.23s/it][A
+Embedding images:  87%|████████▋ | 114/131 [02:20<00:20,  1.23s/it][A
+Embedding images:  88%|████████▊ | 115/131 [02:21<00:19,  1.22s/it][A
+Embedding images:  89%|████████▊ | 116/131 [02:22<00:18,  1.23s/it][A
+Embedding images:  89%|████████▉ | 117/131 [02:23<00:17,  1.23s/it][A
+Embedding images:  90%|█████████ | 118/131 [02:25<00:15,  1.23s/it][A
+Embedding images:  91%|█████████ | 119/131 [02:26<00:14,  1.23s/it][A
+Embedding images:  92%|█████████▏| 120/131 [02:27<00:13,  1.22s/it][A
+Embedding images:  92%|█████████▏| 121/131 [02:28<00:12,  1.22s/it][A
+Embedding images:  93%|█████████▎| 122/131 [02:30<00:10,  1.22s/it][A
+Embedding images:  94%|█████████▍| 123/131 [02:31<00:09,  1.21s/it][A
+Embedding images:  95%|█████████▍| 124/131 [02:32<00:08,  1.22s/it][A
+Embedding images:  95%|█████████▌| 125/131 [02:33<00:07,  1.22s/it][A
+Embedding images:  96%|█████████▌| 126/131 [02:34<00:06,  1.23s/it][A
+Embedding images:  97%|█████████▋| 127/131 [02:36<00:04,  1.23s/it][A
+Embedding images:  98%|█████████▊| 128/131 [02:37<00:03,  1.23s/it][A
+Embedding images:  98%|█████████▊| 129/131 [02:38<00:02,  1.23s/it][A
+Embedding images:  99%|█████████▉| 130/131 [02:39<00:01,  1.22s/it][A
+Embedding images: 100%|██████████| 131/131 [02:41<00:00,  1.22s/it][A
+                                                                   [AScales:  57%|█████▋    | 4/7 [32:03<18:44, 374.68s/it]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:00<01:37,  1.33it/s][A
+Embedding images:   2%|▏         | 2/131 [00:01<01:36,  1.34it/s][A
+Embedding images:   2%|▏         | 3/131 [00:02<01:35,  1.35it/s][A
+Embedding images:   3%|▎         | 4/131 [00:02<01:34,  1.34it/s][A
+Embedding images:   4%|▍         | 5/131 [00:03<01:33,  1.35it/s][A
+Embedding images:   5%|▍         | 6/131 [00:04<01:32,  1.35it/s][A
+Embedding images:   5%|▌         | 7/131 [00:05<01:31,  1.35it/s][A
+Embedding images:   6%|▌         | 8/131 [00:05<01:31,  1.35it/s][A
+Embedding images:   7%|▋         | 9/131 [00:06<01:30,  1.35it/s][A
+Embedding images:   8%|▊         | 10/131 [00:07<01:29,  1.35it/s][A
+Embedding images:   8%|▊         | 11/131 [00:08<01:28,  1.35it/s][A
+Embedding images:   9%|▉         | 12/131 [00:08<01:28,  1.35it/s][A
+Embedding images:  10%|▉         | 13/131 [00:09<01:27,  1.35it/s][A
+Embedding images:  11%|█         | 14/131 [00:10<01:26,  1.35it/s][A
+Embedding images:  11%|█▏        | 15/131 [00:11<01:25,  1.35it/s][A
+Embedding images:  12%|█▏        | 16/131 [00:11<01:25,  1.35it/s][A
+Embedding images:  13%|█▎        | 17/131 [00:12<01:24,  1.35it/s][A
+Embedding images:  14%|█▎        | 18/131 [00:13<01:23,  1.35it/s][A
+Embedding images:  15%|█▍        | 19/131 [00:14<01:23,  1.35it/s][A
+Embedding images:  15%|█▌        | 20/131 [00:14<01:22,  1.34it/s][A
+Embedding images:  16%|█▌        | 21/131 [00:15<01:22,  1.33it/s][A
+Embedding images:  17%|█▋        | 22/131 [00:16<01:21,  1.33it/s][A
+Embedding images:  18%|█▊        | 23/131 [00:17<01:21,  1.33it/s][A
+Embedding images:  18%|█▊        | 24/131 [00:17<01:19,  1.35it/s][A
+Embedding images:  19%|█▉        | 25/131 [00:18<01:18,  1.34it/s][A
+Embedding images:  20%|█▉        | 26/131 [00:19<01:17,  1.35it/s][A
+Embedding images:  21%|██        | 27/131 [00:20<01:16,  1.35it/s][A
+Embedding images:  21%|██▏       | 28/131 [00:20<01:15,  1.36it/s][A
+Embedding images:  22%|██▏       | 29/131 [00:21<01:15,  1.36it/s][A
+Embedding images:  23%|██▎       | 30/131 [00:22<01:14,  1.35it/s][A
+Embedding images:  24%|██▎       | 31/131 [00:23<01:14,  1.35it/s][A
+Embedding images:  24%|██▍       | 32/131 [00:23<01:12,  1.37it/s][A
+Embedding images:  25%|██▌       | 33/131 [00:24<01:12,  1.36it/s][A
+Embedding images:  26%|██▌       | 34/131 [00:25<01:11,  1.35it/s][A
+Embedding images:  27%|██▋       | 35/131 [00:25<01:11,  1.35it/s][A
+Embedding images:  27%|██▋       | 36/131 [00:26<01:10,  1.35it/s][A
+Embedding images:  28%|██▊       | 37/131 [00:27<01:10,  1.34it/s][A
+Embedding images:  29%|██▉       | 38/131 [00:28<01:09,  1.34it/s][A
+Embedding images:  30%|██▉       | 39/131 [00:28<01:08,  1.35it/s][A
+Embedding images:  31%|███       | 40/131 [00:29<01:07,  1.34it/s][A
+Embedding images:  31%|███▏      | 41/131 [00:30<01:06,  1.34it/s][A
+Embedding images:  32%|███▏      | 42/131 [00:31<01:06,  1.34it/s][A
+Embedding images:  33%|███▎      | 43/131 [00:31<01:05,  1.35it/s][A
+Embedding images:  34%|███▎      | 44/131 [00:32<01:04,  1.35it/s][A
+Embedding images:  34%|███▍      | 45/131 [00:33<01:03,  1.35it/s][A
+Embedding images:  35%|███▌      | 46/131 [00:34<01:03,  1.35it/s][A
+Embedding images:  36%|███▌      | 47/131 [00:34<01:02,  1.35it/s][A
+Embedding images:  37%|███▋      | 48/131 [00:35<01:01,  1.34it/s][A
+Embedding images:  37%|███▋      | 49/131 [00:36<01:00,  1.35it/s][A
+Embedding images:  38%|███▊      | 50/131 [00:37<01:00,  1.34it/s][A
+Embedding images:  39%|███▉      | 51/131 [00:37<00:59,  1.34it/s][A
+Embedding images:  40%|███▉      | 52/131 [00:38<00:58,  1.34it/s][A
+Embedding images:  40%|████      | 53/131 [00:39<00:58,  1.34it/s][A
+Embedding images:  41%|████      | 54/131 [00:40<00:57,  1.34it/s][A
+Embedding images:  42%|████▏     | 55/131 [00:40<00:56,  1.34it/s][A
+Embedding images:  43%|████▎     | 56/131 [00:41<00:55,  1.34it/s][A
+Embedding images:  44%|████▎     | 57/131 [00:42<00:55,  1.34it/s][A
+Embedding images:  44%|████▍     | 58/131 [00:43<00:53,  1.36it/s][A
+Embedding images:  45%|████▌     | 59/131 [00:43<00:53,  1.36it/s][A
+Embedding images:  46%|████▌     | 60/131 [00:44<00:52,  1.35it/s][A
+Embedding images:  47%|████▋     | 61/131 [00:45<00:51,  1.35it/s][A
+Embedding images:  47%|████▋     | 62/131 [00:45<00:50,  1.36it/s][A
+Embedding images:  48%|████▊     | 63/131 [00:46<00:50,  1.35it/s][A
+Embedding images:  49%|████▉     | 64/131 [00:47<00:50,  1.34it/s][A
+Embedding images:  50%|████▉     | 65/131 [00:48<00:49,  1.34it/s][A
+Embedding images:  50%|█████     | 66/131 [00:49<00:48,  1.34it/s][A
+Embedding images:  51%|█████     | 67/131 [00:49<00:47,  1.35it/s][A
+Embedding images:  52%|█████▏    | 68/131 [00:50<00:46,  1.35it/s][A
+Embedding images:  53%|█████▎    | 69/131 [00:51<00:46,  1.34it/s][A
+Embedding images:  53%|█████▎    | 70/131 [00:51<00:45,  1.34it/s][A
+Embedding images:  54%|█████▍    | 71/131 [00:52<00:44,  1.34it/s][A
+Embedding images:  55%|█████▍    | 72/131 [00:53<00:44,  1.34it/s][A
+Embedding images:  56%|█████▌    | 73/131 [00:54<00:43,  1.34it/s][A
+Embedding images:  56%|█████▋    | 74/131 [00:54<00:42,  1.34it/s][A
+Embedding images:  57%|█████▋    | 75/131 [00:55<00:41,  1.34it/s][A
+Embedding images:  58%|█████▊    | 76/131 [00:56<00:40,  1.35it/s][A
+Embedding images:  59%|█████▉    | 77/131 [00:57<00:40,  1.35it/s][A
+Embedding images:  60%|█████▉    | 78/131 [00:57<00:39,  1.35it/s][A
+Embedding images:  60%|██████    | 79/131 [00:58<00:38,  1.35it/s][A
+Embedding images:  61%|██████    | 80/131 [00:59<00:37,  1.34it/s][A
+Embedding images:  62%|██████▏   | 81/131 [01:00<00:37,  1.34it/s][A
+Embedding images:  63%|██████▎   | 82/131 [01:00<00:36,  1.34it/s][A
+Embedding images:  63%|██████▎   | 83/131 [01:01<00:35,  1.35it/s][A
+Embedding images:  64%|██████▍   | 84/131 [01:02<00:34,  1.34it/s][A
+Embedding images:  65%|██████▍   | 85/131 [01:03<00:34,  1.35it/s][A
+Embedding images:  66%|██████▌   | 86/131 [01:03<00:33,  1.34it/s][A
+Embedding images:  66%|██████▋   | 87/131 [01:04<00:32,  1.34it/s][A
+Embedding images:  67%|██████▋   | 88/131 [01:05<00:32,  1.34it/s][A
+Embedding images:  68%|██████▊   | 89/131 [01:06<00:31,  1.34it/s][A
+Embedding images:  69%|██████▊   | 90/131 [01:06<00:30,  1.34it/s][A
+Embedding images:  69%|██████▉   | 91/131 [01:07<00:29,  1.34it/s][A
+Embedding images:  70%|███████   | 92/131 [01:08<00:29,  1.34it/s][A
+Embedding images:  71%|███████   | 93/131 [01:09<00:28,  1.35it/s][A
+Embedding images:  72%|███████▏  | 94/131 [01:09<00:27,  1.35it/s][A
+Embedding images:  73%|███████▎  | 95/131 [01:10<00:26,  1.35it/s][A
+Embedding images:  73%|███████▎  | 96/131 [01:11<00:25,  1.35it/s][A
+Embedding images:  74%|███████▍  | 97/131 [01:12<00:25,  1.35it/s][A
+Embedding images:  75%|███████▍  | 98/131 [01:12<00:24,  1.35it/s][A
+Embedding images:  76%|███████▌  | 99/131 [01:13<00:23,  1.35it/s][A
+Embedding images:  76%|███████▋  | 100/131 [01:14<00:23,  1.35it/s][A
+Embedding images:  77%|███████▋  | 101/131 [01:15<00:22,  1.35it/s][A
+Embedding images:  78%|███████▊  | 102/131 [01:15<00:21,  1.34it/s][A
+Embedding images:  79%|███████▊  | 103/131 [01:16<00:20,  1.35it/s][A
+Embedding images:  79%|███████▉  | 104/131 [01:17<00:20,  1.35it/s][A
+Embedding images:  80%|████████  | 105/131 [01:18<00:19,  1.34it/s][A
+Embedding images:  81%|████████  | 106/131 [01:18<00:18,  1.35it/s][A
+Embedding images:  82%|████████▏ | 107/131 [01:19<00:17,  1.35it/s][A
+Embedding images:  82%|████████▏ | 108/131 [01:20<00:17,  1.35it/s][A
+Embedding images:  83%|████████▎ | 109/131 [01:20<00:16,  1.35it/s][A
+Embedding images:  84%|████████▍ | 110/131 [01:21<00:15,  1.35it/s][A
+Embedding images:  85%|████████▍ | 111/131 [01:22<00:14,  1.34it/s][A
+Embedding images:  85%|████████▌ | 112/131 [01:23<00:14,  1.34it/s][A
+Embedding images:  86%|████████▋ | 113/131 [01:23<00:13,  1.34it/s][A
+Embedding images:  87%|████████▋ | 114/131 [01:24<00:12,  1.34it/s][A
+Embedding images:  88%|████████▊ | 115/131 [01:25<00:11,  1.35it/s][A
+Embedding images:  89%|████████▊ | 116/131 [01:26<00:11,  1.35it/s][A
+Embedding images:  89%|████████▉ | 117/131 [01:26<00:10,  1.36it/s][A
+Embedding images:  90%|█████████ | 118/131 [01:27<00:09,  1.35it/s][A
+Embedding images:  91%|█████████ | 119/131 [01:28<00:08,  1.35it/s][A
+Embedding images:  92%|█████████▏| 120/131 [01:29<00:08,  1.34it/s][A
+Embedding images:  92%|█████████▏| 121/131 [01:29<00:07,  1.35it/s][A
+Embedding images:  93%|█████████▎| 122/131 [01:30<00:06,  1.34it/s][A
+Embedding images:  94%|█████████▍| 123/131 [01:31<00:05,  1.35it/s][A
+Embedding images:  95%|█████████▍| 124/131 [01:32<00:05,  1.35it/s][A
+Embedding images:  95%|█████████▌| 125/131 [01:32<00:04,  1.35it/s][A
+Embedding images:  96%|█████████▌| 126/131 [01:33<00:03,  1.35it/s][A
+Embedding images:  97%|█████████▋| 127/131 [01:34<00:02,  1.34it/s][A
+Embedding images:  98%|█████████▊| 128/131 [01:35<00:02,  1.34it/s][A
+Embedding images:  98%|█████████▊| 129/131 [01:35<00:01,  1.34it/s][A
+Embedding images:  99%|█████████▉| 130/131 [01:36<00:00,  1.34it/s][A
+Embedding images: 100%|██████████| 131/131 [01:37<00:00,  1.34it/s][A
+                                                                   [AScales:  71%|███████▏  | 5/7 [33:40<09:09, 274.68s/it]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:00<01:11,  1.81it/s][A
+Embedding images:   2%|▏         | 2/131 [00:01<01:11,  1.81it/s][A
+Embedding images:   2%|▏         | 3/131 [00:01<01:11,  1.79it/s][A
+Embedding images:   3%|▎         | 4/131 [00:02<01:10,  1.79it/s][A
+Embedding images:   4%|▍         | 5/131 [00:02<01:10,  1.78it/s][A
+Embedding images:   5%|▍         | 6/131 [00:03<01:09,  1.79it/s][A
+Embedding images:   5%|▌         | 7/131 [00:03<01:09,  1.77it/s][A
+Embedding images:   6%|▌         | 8/131 [00:04<01:08,  1.78it/s][A
+Embedding images:   7%|▋         | 9/131 [00:05<01:08,  1.79it/s][A
+Embedding images:   8%|▊         | 10/131 [00:05<01:07,  1.79it/s][A
+Embedding images:   8%|▊         | 11/131 [00:06<01:06,  1.79it/s][A
+Embedding images:   9%|▉         | 12/131 [00:06<01:06,  1.78it/s][A
+Embedding images:  10%|▉         | 13/131 [00:07<01:05,  1.79it/s][A
+Embedding images:  11%|█         | 14/131 [00:07<01:05,  1.79it/s][A
+Embedding images:  11%|█▏        | 15/131 [00:08<01:04,  1.79it/s][A
+Embedding images:  12%|█▏        | 16/131 [00:08<01:04,  1.79it/s][A
+Embedding images:  13%|█▎        | 17/131 [00:09<01:03,  1.79it/s][A
+Embedding images:  14%|█▎        | 18/131 [00:10<01:03,  1.79it/s][A
+Embedding images:  15%|█▍        | 19/131 [00:10<01:02,  1.81it/s][A
+Embedding images:  15%|█▌        | 20/131 [00:11<01:01,  1.79it/s][A
+Embedding images:  16%|█▌        | 21/131 [00:11<01:01,  1.80it/s][A
+Embedding images:  17%|█▋        | 22/131 [00:12<01:00,  1.80it/s][A
+Embedding images:  18%|█▊        | 23/131 [00:12<01:00,  1.78it/s][A
+Embedding images:  18%|█▊        | 24/131 [00:13<00:59,  1.79it/s][A
+Embedding images:  19%|█▉        | 25/131 [00:13<00:59,  1.78it/s][A
+Embedding images:  20%|█▉        | 26/131 [00:14<00:58,  1.79it/s][A
+Embedding images:  21%|██        | 27/131 [00:15<00:57,  1.80it/s][A
+Embedding images:  21%|██▏       | 28/131 [00:15<00:57,  1.80it/s][A
+Embedding images:  22%|██▏       | 29/131 [00:16<00:56,  1.80it/s][A
+Embedding images:  23%|██▎       | 30/131 [00:16<00:55,  1.82it/s][A
+Embedding images:  24%|██▎       | 31/131 [00:17<00:55,  1.81it/s][A
+Embedding images:  24%|██▍       | 32/131 [00:17<00:54,  1.82it/s][A
+Embedding images:  25%|██▌       | 33/131 [00:18<00:54,  1.80it/s][A
+Embedding images:  26%|██▌       | 34/131 [00:18<00:53,  1.80it/s][A
+Embedding images:  27%|██▋       | 35/131 [00:19<00:53,  1.81it/s][A
+Embedding images:  27%|██▋       | 36/131 [00:20<00:51,  1.84it/s][A
+Embedding images:  28%|██▊       | 37/131 [00:20<00:51,  1.82it/s][A
+Embedding images:  29%|██▉       | 38/131 [00:21<00:50,  1.84it/s][A
+Embedding images:  30%|██▉       | 39/131 [00:21<00:49,  1.85it/s][A
+Embedding images:  31%|███       | 40/131 [00:22<00:50,  1.82it/s][A
+Embedding images:  31%|███▏      | 41/131 [00:22<00:49,  1.81it/s][A
+Embedding images:  32%|███▏      | 42/131 [00:23<00:49,  1.81it/s][A
+Embedding images:  33%|███▎      | 43/131 [00:23<00:49,  1.78it/s][A
+Embedding images:  34%|███▎      | 44/131 [00:24<00:48,  1.79it/s][A
+Embedding images:  34%|███▍      | 45/131 [00:25<00:48,  1.78it/s][A
+Embedding images:  35%|███▌      | 46/131 [00:25<00:47,  1.79it/s][A
+Embedding images:  36%|███▌      | 47/131 [00:26<00:46,  1.80it/s][A
+Embedding images:  37%|███▋      | 48/131 [00:26<00:46,  1.79it/s][A
+Embedding images:  37%|███▋      | 49/131 [00:27<00:45,  1.79it/s][A
+Embedding images:  38%|███▊      | 50/131 [00:27<00:44,  1.81it/s][A
+Embedding images:  39%|███▉      | 51/131 [00:28<00:44,  1.79it/s][A
+Embedding images:  40%|███▉      | 52/131 [00:28<00:44,  1.79it/s][A
+Embedding images:  40%|████      | 53/131 [00:29<00:43,  1.79it/s][A
+Embedding images:  41%|████      | 54/131 [00:30<00:42,  1.80it/s][A
+Embedding images:  42%|████▏     | 55/131 [00:30<00:42,  1.80it/s][A
+Embedding images:  43%|████▎     | 56/131 [00:31<00:41,  1.80it/s][A
+Embedding images:  44%|████▎     | 57/131 [00:31<00:41,  1.80it/s][A
+Embedding images:  44%|████▍     | 58/131 [00:32<00:40,  1.80it/s][A
+Embedding images:  45%|████▌     | 59/131 [00:32<00:39,  1.81it/s][A
+Embedding images:  46%|████▌     | 60/131 [00:33<00:39,  1.80it/s][A
+Embedding images:  47%|████▋     | 61/131 [00:33<00:38,  1.80it/s][A
+Embedding images:  47%|████▋     | 62/131 [00:34<00:38,  1.80it/s][A
+Embedding images:  48%|████▊     | 63/131 [00:35<00:37,  1.79it/s][A
+Embedding images:  49%|████▉     | 64/131 [00:35<00:37,  1.79it/s][A
+Embedding images:  50%|████▉     | 65/131 [00:36<00:36,  1.80it/s][A
+Embedding images:  50%|█████     | 66/131 [00:36<00:36,  1.80it/s][A
+Embedding images:  51%|█████     | 67/131 [00:37<00:35,  1.80it/s][A
+Embedding images:  52%|█████▏    | 68/131 [00:37<00:34,  1.81it/s][A
+Embedding images:  53%|█████▎    | 69/131 [00:38<00:34,  1.80it/s][A
+Embedding images:  53%|█████▎    | 70/131 [00:38<00:33,  1.80it/s][A
+Embedding images:  54%|█████▍    | 71/131 [00:39<00:33,  1.82it/s][A
+Embedding images:  55%|█████▍    | 72/131 [00:40<00:32,  1.81it/s][A
+Embedding images:  56%|█████▌    | 73/131 [00:40<00:32,  1.80it/s][A
+Embedding images:  56%|█████▋    | 74/131 [00:41<00:31,  1.82it/s][A
+Embedding images:  57%|█████▋    | 75/131 [00:41<00:30,  1.81it/s][A
+Embedding images:  58%|█████▊    | 76/131 [00:42<00:30,  1.79it/s][A
+Embedding images:  59%|█████▉    | 77/131 [00:42<00:30,  1.78it/s][A
+Embedding images:  60%|█████▉    | 78/131 [00:43<00:29,  1.79it/s][A
+Embedding images:  60%|██████    | 79/131 [00:43<00:29,  1.79it/s][A
+Embedding images:  61%|██████    | 80/131 [00:44<00:28,  1.79it/s][A
+Embedding images:  62%|██████▏   | 81/131 [00:45<00:28,  1.77it/s][A
+Embedding images:  63%|██████▎   | 82/131 [00:45<00:27,  1.78it/s][A
+Embedding images:  63%|██████▎   | 83/131 [00:46<00:26,  1.78it/s][A
+Embedding images:  64%|██████▍   | 84/131 [00:46<00:26,  1.79it/s][A
+Embedding images:  65%|██████▍   | 85/131 [00:47<00:25,  1.77it/s][A
+Embedding images:  66%|██████▌   | 86/131 [00:47<00:25,  1.78it/s][A
+Embedding images:  66%|██████▋   | 87/131 [00:48<00:24,  1.79it/s][A
+Embedding images:  67%|██████▋   | 88/131 [00:48<00:23,  1.80it/s][A
+Embedding images:  68%|██████▊   | 89/131 [00:49<00:23,  1.81it/s][A
+Embedding images:  69%|██████▊   | 90/131 [00:50<00:22,  1.80it/s][A
+Embedding images:  69%|██████▉   | 91/131 [00:50<00:22,  1.80it/s][A
+Embedding images:  70%|███████   | 92/131 [00:51<00:21,  1.80it/s][A
+Embedding images:  71%|███████   | 93/131 [00:51<00:20,  1.81it/s][A
+Embedding images:  72%|███████▏  | 94/131 [00:52<00:20,  1.80it/s][A
+Embedding images:  73%|███████▎  | 95/131 [00:52<00:19,  1.81it/s][A
+Embedding images:  73%|███████▎  | 96/131 [00:53<00:19,  1.80it/s][A
+Embedding images:  74%|███████▍  | 97/131 [00:53<00:18,  1.80it/s][A
+Embedding images:  75%|███████▍  | 98/131 [00:54<00:18,  1.80it/s][A
+Embedding images:  76%|███████▌  | 99/131 [00:55<00:17,  1.81it/s][A
+Embedding images:  76%|███████▋  | 100/131 [00:55<00:17,  1.81it/s][A
+Embedding images:  77%|███████▋  | 101/131 [00:56<00:16,  1.81it/s][A
+Embedding images:  78%|███████▊  | 102/131 [00:56<00:16,  1.81it/s][A
+Embedding images:  79%|███████▊  | 103/131 [00:57<00:15,  1.80it/s][A
+Embedding images:  79%|███████▉  | 104/131 [00:57<00:14,  1.80it/s][A
+Embedding images:  80%|████████  | 105/131 [00:58<00:14,  1.82it/s][A
+Embedding images:  81%|████████  | 106/131 [00:58<00:13,  1.82it/s][A
+Embedding images:  82%|████████▏ | 107/131 [00:59<00:13,  1.81it/s][A
+Embedding images:  82%|████████▏ | 108/131 [01:00<00:12,  1.81it/s][A
+Embedding images:  83%|████████▎ | 109/131 [01:00<00:12,  1.79it/s][A
+Embedding images:  84%|████████▍ | 110/131 [01:01<00:11,  1.81it/s][A
+Embedding images:  85%|████████▍ | 111/131 [01:01<00:11,  1.81it/s][A
+Embedding images:  85%|████████▌ | 112/131 [01:02<00:10,  1.81it/s][A
+Embedding images:  86%|████████▋ | 113/131 [01:02<00:09,  1.80it/s][A
+Embedding images:  87%|████████▋ | 114/131 [01:03<00:09,  1.80it/s][A
+Embedding images:  88%|████████▊ | 115/131 [01:03<00:08,  1.81it/s][A
+Embedding images:  89%|████████▊ | 116/131 [01:04<00:08,  1.79it/s][A
+Embedding images:  89%|████████▉ | 117/131 [01:05<00:07,  1.78it/s][A
+Embedding images:  90%|█████████ | 118/131 [01:05<00:07,  1.78it/s][A
+Embedding images:  91%|█████████ | 119/131 [01:06<00:06,  1.79it/s][A
+Embedding images:  92%|█████████▏| 120/131 [01:06<00:06,  1.80it/s][A
+Embedding images:  92%|█████████▏| 121/131 [01:07<00:05,  1.79it/s][A
+Embedding images:  93%|█████████▎| 122/131 [01:07<00:05,  1.79it/s][A
+Embedding images:  94%|█████████▍| 123/131 [01:08<00:04,  1.79it/s][A
+Embedding images:  95%|█████████▍| 124/131 [01:08<00:03,  1.79it/s][A
+Embedding images:  95%|█████████▌| 125/131 [01:09<00:03,  1.79it/s][A
+Embedding images:  96%|█████████▌| 126/131 [01:10<00:02,  1.79it/s][A
+Embedding images:  97%|█████████▋| 127/131 [01:10<00:02,  1.80it/s][A
+Embedding images:  98%|█████████▊| 128/131 [01:11<00:01,  1.79it/s][A
+Embedding images:  98%|█████████▊| 129/131 [01:11<00:01,  1.79it/s][A
+Embedding images:  99%|█████████▉| 130/131 [01:12<00:00,  1.80it/s][A
+Embedding images: 100%|██████████| 131/131 [01:12<00:00,  1.80it/s][A
+                                                                   [AScales:  86%|████████▌ | 6/7 [34:53<03:26, 206.06s/it]
+Embedding images:   0%|          | 0/131 [00:00<?, ?it/s][A
+Embedding images:   1%|          | 1/131 [00:00<01:01,  2.12it/s][A
+Embedding images:   2%|▏         | 2/131 [00:00<01:01,  2.11it/s][A
+Embedding images:   2%|▏         | 3/131 [00:01<01:01,  2.09it/s][A
+Embedding images:   3%|▎         | 4/131 [00:01<01:00,  2.09it/s][A
+Embedding images:   4%|▍         | 5/131 [00:02<01:00,  2.09it/s][A
+Embedding images:   5%|▍         | 6/131 [00:02<00:59,  2.09it/s][A
+Embedding images:   5%|▌         | 7/131 [00:03<00:59,  2.08it/s][A
+Embedding images:   6%|▌         | 8/131 [00:03<00:58,  2.09it/s][A
+Embedding images:   7%|▋         | 9/131 [00:04<00:57,  2.12it/s][A
+Embedding images:   8%|▊         | 10/131 [00:04<00:57,  2.11it/s][A
+Embedding images:   8%|▊         | 11/131 [00:05<00:56,  2.12it/s][A
+Embedding images:   9%|▉         | 12/131 [00:05<00:56,  2.11it/s][A
+Embedding images:  10%|▉         | 13/131 [00:06<00:56,  2.09it/s][A
+Embedding images:  11%|█         | 14/131 [00:06<00:55,  2.09it/s][A
+Embedding images:  11%|█▏        | 15/131 [00:07<00:55,  2.08it/s][A
+Embedding images:  12%|█▏        | 16/131 [00:07<00:56,  2.05it/s][A
+Embedding images:  13%|█▎        | 17/131 [00:08<00:55,  2.05it/s][A
+Embedding images:  14%|█▎        | 18/131 [00:08<00:54,  2.09it/s][A
+Embedding images:  15%|█▍        | 19/131 [00:09<00:54,  2.07it/s][A
+Embedding images:  15%|█▌        | 20/131 [00:09<00:53,  2.08it/s][A
+Embedding images:  16%|█▌        | 21/131 [00:10<00:52,  2.09it/s][A
+Embedding images:  17%|█▋        | 22/131 [00:10<00:52,  2.08it/s][A
+Embedding images:  18%|█▊        | 23/131 [00:11<00:51,  2.10it/s][A
+Embedding images:  18%|█▊        | 24/131 [00:11<00:51,  2.09it/s][A
+Embedding images:  19%|█▉        | 25/131 [00:11<00:50,  2.10it/s][A
+Embedding images:  20%|█▉        | 26/131 [00:12<00:50,  2.10it/s][A
+Embedding images:  21%|██        | 27/131 [00:12<00:49,  2.12it/s][A
+Embedding images:  21%|██▏       | 28/131 [00:13<00:48,  2.11it/s][A
+Embedding images:  22%|██▏       | 29/131 [00:13<00:48,  2.11it/s][A
+Embedding images:  23%|██▎       | 30/131 [00:14<00:47,  2.14it/s][A
+Embedding images:  24%|██▎       | 31/131 [00:14<00:46,  2.14it/s][A
+Embedding images:  24%|██▍       | 32/131 [00:15<00:46,  2.11it/s][A
+Embedding images:  25%|██▌       | 33/131 [00:15<00:46,  2.11it/s][A
+Embedding images:  26%|██▌       | 34/131 [00:16<00:46,  2.11it/s][A
+Embedding images:  27%|██▋       | 35/131 [00:16<00:45,  2.09it/s][A
+Embedding images:  27%|██▋       | 36/131 [00:17<00:45,  2.09it/s][A
+Embedding images:  28%|██▊       | 37/131 [00:17<00:44,  2.10it/s][A
+Embedding images:  29%|██▉       | 38/131 [00:18<00:44,  2.10it/s][A
+Embedding images:  30%|██▉       | 39/131 [00:18<00:43,  2.09it/s][A
+Embedding images:  31%|███       | 40/131 [00:19<00:43,  2.08it/s][A
+Embedding images:  31%|███▏      | 41/131 [00:19<00:43,  2.07it/s][A
+Embedding images:  32%|███▏      | 42/131 [00:20<00:43,  2.07it/s][A
+Embedding images:  33%|███▎      | 43/131 [00:20<00:41,  2.10it/s][A
+Embedding images:  34%|███▎      | 44/131 [00:21<00:41,  2.09it/s][A
+Embedding images:  34%|███▍      | 45/131 [00:21<00:41,  2.09it/s][A
+Embedding images:  35%|███▌      | 46/131 [00:21<00:40,  2.09it/s][A
+Embedding images:  36%|███▌      | 47/131 [00:22<00:40,  2.09it/s][A
+Embedding images:  37%|███▋      | 48/131 [00:22<00:39,  2.09it/s][A
+Embedding images:  37%|███▋      | 49/131 [00:23<00:39,  2.10it/s][A
+Embedding images:  38%|███▊      | 50/131 [00:23<00:38,  2.10it/s][A
+Embedding images:  39%|███▉      | 51/131 [00:24<00:38,  2.10it/s][A
+Embedding images:  40%|███▉      | 52/131 [00:24<00:37,  2.09it/s][A
+Embedding images:  40%|████      | 53/131 [00:25<00:37,  2.11it/s][A
+Embedding images:  41%|████      | 54/131 [00:25<00:36,  2.10it/s][A
+Embedding images:  42%|████▏     | 55/131 [00:26<00:36,  2.10it/s][A
+Embedding images:  43%|████▎     | 56/131 [00:26<00:35,  2.10it/s][A
+Embedding images:  44%|████▎     | 57/131 [00:27<00:35,  2.11it/s][A
+Embedding images:  44%|████▍     | 58/131 [00:27<00:34,  2.10it/s][A
+Embedding images:  45%|████▌     | 59/131 [00:28<00:34,  2.10it/s][A
+Embedding images:  46%|████▌     | 60/131 [00:28<00:33,  2.10it/s][A
+Embedding images:  47%|████▋     | 61/131 [00:29<00:33,  2.09it/s][A
+Embedding images:  47%|████▋     | 62/131 [00:29<00:32,  2.10it/s][A
+Embedding images:  48%|████▊     | 63/131 [00:30<00:32,  2.09it/s][A
+Embedding images:  49%|████▉     | 64/131 [00:30<00:32,  2.08it/s][A
+Embedding images:  50%|████▉     | 65/131 [00:31<00:31,  2.09it/s][A
+Embedding images:  50%|█████     | 66/131 [00:31<00:31,  2.09it/s][A
+Embedding images:  51%|█████     | 67/131 [00:31<00:30,  2.08it/s][A
+Embedding images:  52%|█████▏    | 68/131 [00:32<00:29,  2.11it/s][A
+Embedding images:  53%|█████▎    | 69/131 [00:32<00:29,  2.10it/s][A
+Embedding images:  53%|█████▎    | 70/131 [00:33<00:28,  2.11it/s][A
+Embedding images:  54%|█████▍    | 71/131 [00:33<00:28,  2.10it/s][A
+Embedding images:  55%|█████▍    | 72/131 [00:34<00:28,  2.10it/s][A
+Embedding images:  56%|█████▌    | 73/131 [00:34<00:27,  2.10it/s][A
+Embedding images:  56%|█████▋    | 74/131 [00:35<00:26,  2.12it/s][A
+Embedding images:  57%|█████▋    | 75/131 [00:35<00:26,  2.10it/s][A
+Embedding images:  58%|█████▊    | 76/131 [00:36<00:25,  2.13it/s][A
+Embedding images:  59%|█████▉    | 77/131 [00:36<00:25,  2.08it/s][A
+Embedding images:  60%|█████▉    | 78/131 [00:37<00:25,  2.06it/s][A
+Embedding images:  60%|██████    | 79/131 [00:37<00:24,  2.08it/s][A
+Embedding images:  61%|██████    | 80/131 [00:38<00:24,  2.08it/s][A
+Embedding images:  62%|██████▏   | 81/131 [00:38<00:23,  2.09it/s][A
+Embedding images:  63%|██████▎   | 82/131 [00:39<00:23,  2.11it/s][A
+Embedding images:  63%|██████▎   | 83/131 [00:39<00:22,  2.11it/s][A
+Embedding images:  64%|██████▍   | 84/131 [00:40<00:22,  2.11it/s][A
+Embedding images:  65%|██████▍   | 85/131 [00:40<00:21,  2.09it/s][A
+Embedding images:  66%|██████▌   | 86/131 [00:41<00:21,  2.11it/s][A
+Embedding images:  66%|██████▋   | 87/131 [00:41<00:20,  2.10it/s][A
+Embedding images:  67%|██████▋   | 88/131 [00:41<00:20,  2.09it/s][A
+Embedding images:  68%|██████▊   | 89/131 [00:42<00:20,  2.09it/s][A
+Embedding images:  69%|██████▊   | 90/131 [00:42<00:19,  2.11it/s][A
+Embedding images:  69%|██████▉   | 91/131 [00:43<00:19,  2.10it/s][A
+Embedding images:  70%|███████   | 92/131 [00:43<00:18,  2.12it/s][A
+Embedding images:  71%|███████   | 93/131 [00:44<00:18,  2.11it/s][A
+Embedding images:  72%|███████▏  | 94/131 [00:44<00:17,  2.11it/s][A
+Embedding images:  73%|███████▎  | 95/131 [00:45<00:17,  2.11it/s][A
+Embedding images:  73%|███████▎  | 96/131 [00:45<00:16,  2.09it/s][A
+Embedding images:  74%|███████▍  | 97/131 [00:46<00:16,  2.11it/s][A
+Embedding images:  75%|███████▍  | 98/131 [00:46<00:15,  2.10it/s][A
+Embedding images:  76%|███████▌  | 99/131 [00:47<00:15,  2.11it/s][A
+Embedding images:  76%|███████▋  | 100/131 [00:47<00:14,  2.08it/s][A
+Embedding images:  77%|███████▋  | 101/131 [00:48<00:14,  2.07it/s][A
+Embedding images:  78%|███████▊  | 102/131 [00:48<00:13,  2.09it/s][A
+Embedding images:  79%|███████▊  | 103/131 [00:49<00:13,  2.09it/s][A
+Embedding images:  79%|███████▉  | 104/131 [00:49<00:12,  2.08it/s][A
+Embedding images:  80%|████████  | 105/131 [00:50<00:12,  2.09it/s][A
+Embedding images:  81%|████████  | 106/131 [00:50<00:11,  2.09it/s][A
+Embedding images:  82%|████████▏ | 107/131 [00:51<00:11,  2.10it/s][A
+Embedding images:  82%|████████▏ | 108/131 [00:51<00:10,  2.10it/s][A
+Embedding images:  83%|████████▎ | 109/131 [00:51<00:10,  2.10it/s][A
+Embedding images:  84%|████████▍ | 110/131 [00:52<00:10,  2.10it/s][A
+Embedding images:  85%|████████▍ | 111/131 [00:52<00:09,  2.10it/s][A
+Embedding images:  85%|████████▌ | 112/131 [00:53<00:09,  2.10it/s][A
+Embedding images:  86%|████████▋ | 113/131 [00:53<00:08,  2.08it/s][A
+Embedding images:  87%|████████▋ | 114/131 [00:54<00:08,  2.10it/s][A
+Embedding images:  88%|████████▊ | 115/131 [00:54<00:07,  2.10it/s][A
+Embedding images:  89%|████████▊ | 116/131 [00:55<00:07,  2.10it/s][A
+Embedding images:  89%|████████▉ | 117/131 [00:55<00:06,  2.10it/s][A
+Embedding images:  90%|█████████ | 118/131 [00:56<00:06,  2.09it/s][A
+Embedding images:  91%|█████████ | 119/131 [00:56<00:05,  2.10it/s][A
+Embedding images:  92%|█████████▏| 120/131 [00:57<00:05,  2.10it/s][A
+Embedding images:  92%|█████████▏| 121/131 [00:57<00:04,  2.10it/s][A
+Embedding images:  93%|█████████▎| 122/131 [00:58<00:04,  2.11it/s][A
+Embedding images:  94%|█████████▍| 123/131 [00:58<00:03,  2.12it/s][A
+Embedding images:  95%|█████████▍| 124/131 [00:59<00:03,  2.11it/s][A
+Embedding images:  95%|█████████▌| 125/131 [00:59<00:02,  2.09it/s][A
+Embedding images:  96%|█████████▌| 126/131 [01:00<00:02,  2.10it/s][A
+Embedding images:  97%|█████████▋| 127/131 [01:00<00:01,  2.09it/s][A
+Embedding images:  98%|█████████▊| 128/131 [01:01<00:01,  2.08it/s][A
+Embedding images:  98%|█████████▊| 129/131 [01:01<00:00,  2.10it/s][A
+Embedding images:  99%|█████████▉| 130/131 [01:02<00:00,  2.10it/s][A
+Embedding images: 100%|██████████| 131/131 [01:02<00:00,  2.08it/s][A
+                                                                   [AScales: 100%|██████████| 7/7 [35:56<00:00, 159.13s/it]Scales: 100%|██████████| 7/7 [35:56<00:00, 308.05s/it]
+[DinoExtractor] Loading failed. Extracting ...
+Downloading: "https://github.com/facebookresearch/dino/zipball/main" to /media/joe/Data/gaussiangraph/checkpoints/torch/hub/main.zip
+Traceback (most recent call last):
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/quantize_features.py", line 154, in <module>
+    trainer.train()
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/quantize_features.py", line 63, in train
+    data_loader = DataLoader(self.select_dataset(), batch_size=self.args.batch_size, shuffle=self.args.shuffle)
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/quantize_features.py", line 60, in select_dataset
+    return dataset_cls(self.args.image_dir)
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/semantic_feature_dataloader.py", line 108, in __init__
+    self._concat_features()
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/semantic_feature_dataloader.py", line 143, in _concat_features
+    dinos = get_dinos(self.path, self.dino_params, half=True).cpu().permute(0, 3, 1, 2)
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/dino/dino_dataloader.py", line 56, in get_dinos
+    extractor = ViTExtractor(args.model_type, args.stride, device=args.device)
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/dino/extractor.py", line 43, in __init__
+    self.model = ViTExtractor.create_model(model_type)
+  File "/media/joe/Data/gaussiangraph/build/LEGaussians/preprocess/dino/extractor.py", line 82, in create_model
+    model = torch.hub.load("facebookresearch/dino:main", model_type)
+  File "/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/hub.py", line 568, in load
+    model = _load_local(repo_or_dir, model, *args, **kwargs)
+  File "/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/hub.py", line 594, in _load_local
+    hub_module = _import_module(MODULE_HUBCONF, hubconf_path)
+  File "/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/hub.py", line 106, in _import_module
+    spec.loader.exec_module(module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/media/joe/Data/gaussiangraph/checkpoints/torch/hub/facebookresearch_dino_main/hubconf.py", line 17, in <module>
+    import vision_transformer as vits
+  File "/media/joe/Data/gaussiangraph/checkpoints/torch/hub/facebookresearch_dino_main/vision_transformer.py", line 24, in <module>
+    from utils import trunc_normal_
+ImportError: cannot import name 'trunc_normal_' from 'utils' (unknown location)

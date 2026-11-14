@@ -20,11 +20,11 @@ Three project snapshots, local experiment reports, metrics and visualization gal
 
 ![Ramen reconstruction](gaussiangraph/results/experiments/gs_gallery/ramen_3dgs.png)
 
-[Experiment briefing](gaussiangraph/SENIOR_BRIEFING.md) · [Segmentation preview](gaussiangraph/results/experiments/segmentation_gallery/preview.png) · [All 71 queries (PDF)](gaussiangraph/results/experiments/segmentation_gallery/all_queries.pdf) · [Comparison metrics](gaussiangraph/results/experiments/TABLE1_RAMEN_COMMON.json)
+[Experiment briefing](gaussiangraph/SENIOR_BRIEFING.md) · [Segmentation preview](gaussiangraph/results/experiments/segmentation_gallery/preview.png) · [All 71 queries (PDF)](gaussiangraph/results/experiments/segmentation_gallery/all_queries/README.md) · [Comparison metrics](gaussiangraph/results/experiments/TABLE1_RAMEN_COMMON.json)
 
 ## What is and is not archived
 
-Included: source snapshots, local patches, dependency versions, configurations, logs, metrics, graph JSON/SVG files, summary images and complete query comparison PDF. Per-frame repetitive masks/renders, intermediate arrays, checkpoints, PLY maps, downloaded models/datasets, environments and build caches remain local.
+Included: source snapshots, local patches, dependency versions, configurations, logs, metrics, graph JSON/SVG files, summary images and complete query comparison PDF (split into pages). Per-frame repetitive masks/renders, intermediate arrays, checkpoints, PLY maps, downloaded models/datasets, environments and build caches remain local.
 
 [ARTIFACT_INVENTORY.csv](ARTIFACT_INVENTORY.csv) records every inspected experiment/output file, its byte size, original location and inclusion decision. [ARCHIVE_SUMMARY.json](ARCHIVE_SUMMARY.json) gives totals. This is an index, not an off-machine backup of excluded weights. Source locations refer to the original workstation; original files were not moved or deleted.
 

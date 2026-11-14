@@ -1,0 +1,32 @@
+{
+  "ramen_baseline": {
+    "gaussians": 714346,
+    "occupied_clusters": 198,
+    "cluster_size_median": 2521.0,
+    "point_fraction_feature_nonzero": 0.7317742382542913,
+    "point_fraction_occ_ge5": 0.5599695385709446,
+    "point_fraction_occ_ge1": 0.7317742382542913,
+    "occ_median": 2.0,
+    "largest_cluster_points": 22007
+  },
+  "ramen_control_follow_v2": {
+    "gaussians": 714346,
+    "occupied_clusters": 4837,
+    "cluster_size_median": 87.0,
+    "point_fraction_feature_nonzero": 0.08436947921595417,
+    "point_fraction_occ_ge5": 0.007583159981297579,
+    "point_fraction_occ_ge1": 0.08436947921595417,
+    "occ_median": 0.0,
+    "largest_cluster_points": 4415
+  },
+  "ramen_sam2_confidence_v1": {
+    "gaussians": 714346,
+    "occupied_clusters": 5263,
+    "cluster_size_median": 76.0,
+    "point_fraction_feature_nonzero": 0.2986227962359977,
+    "point_fraction_occ_ge5": 0.1229950192203778,
+    "point_fraction_occ_ge1": 0.2986227962359977,
+    "occ_median": 0.0,
+    "largest_cluster_points": 7206
+  }
+}

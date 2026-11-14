@@ -1,0 +1,108 @@
+Loading trained model at iteration 30000
+Reading camera 1/131Reading camera 2/131Reading camera 3/131Reading camera 4/131Reading camera 5/131Reading camera 6/131Reading camera 7/131Reading camera 8/131Reading camera 9/131Reading camera 10/131Reading camera 11/131Reading camera 12/131Reading camera 13/131Reading camera 14/131Reading camera 15/131Reading camera 16/131Reading camera 17/131Reading camera 18/131Reading camera 19/131Reading camera 20/131Reading camera 21/131Reading camera 22/131Reading camera 23/131Reading camera 24/131Reading camera 25/131Reading camera 26/131Reading camera 27/131Reading camera 28/131Reading camera 29/131Reading camera 30/131Reading camera 31/131Reading camera 32/131Reading camera 33/131Reading camera 34/131Reading camera 35/131Reading camera 36/131Reading camera 37/131Reading camera 38/131Reading camera 39/131Reading camera 40/131Reading camera 41/131Reading camera 42/131Reading camera 43/131Reading camera 44/131Reading camera 45/131Reading camera 46/131Reading camera 47/131Reading camera 48/131Reading camera 49/131Reading camera 50/131Reading camera 51/131Reading camera 52/131Reading camera 53/131Reading camera 54/131Reading camera 55/131Reading camera 56/131Reading camera 57/131Reading camera 58/131Reading camera 59/131Reading camera 60/131Reading camera 61/131Reading camera 62/131Reading camera 63/131Reading camera 64/131Reading camera 65/131Reading camera 66/131Reading camera 67/131Reading camera 68/131Reading camera 69/131Reading camera 70/131Reading camera 71/131Reading camera 72/131Reading camera 73/131Reading camera 74/131Reading camera 75/131Reading camera 76/131Reading camera 77/131Reading camera 78/131Reading camera 79/131Reading camera 80/131Reading camera 81/131Reading camera 82/131Reading camera 83/131Reading camera 84/131Reading camera 85/131Reading camera 86/131Reading camera 87/131Reading camera 88/131Reading camera 89/131Reading camera 90/131Reading camera 91/131Reading camera 92/131Reading camera 93/131Reading camera 94/131Reading camera 95/131Reading camera 96/131Reading camera 97/131Reading camera 98/131Reading camera 99/131Reading camera 100/131Reading camera 101/131Reading camera 102/131Reading camera 103/131Reading camera 104/131Reading camera 105/131Reading camera 106/131Reading camera 107/131Reading camera 108/131Reading camera 109/131Reading camera 110/131Reading camera 111/131Reading camera 112/131Reading camera 113/131Reading camera 114/131Reading camera 115/131Reading camera 116/131Reading camera 117/131Reading camera 118/131Reading camera 119/131Reading camera 120/131Reading camera 121/131Reading camera 122/131Reading camera 123/131Reading camera 124/131Reading camera 125/131Reading camera 126/131Reading camera 127/131Reading camera 128/131Reading camera 129/131Reading camera 130/131Reading camera 131/131
+Resolution:  1.0
+Loading Training Cameras
+Loading Test Cameras
+Decoded/classified 714346 Gaussians before rendering
+Rendered frame_00006
+Rendered frame_00024
+Rendered frame_00060
+Rendered frame_00119
+Rendered frame_00128
+Rendered frame_00065
+Rendered frame_00081
+frame: frame_00006
+IoU for bowl.jpg and bowl.png: 0.1737
+IoU for chopsticks.jpg and chopsticks.png: 0.2486
+IoU for egg.jpg and egg.png: 0.0259
+IoU for kamaboko.jpg and kamaboko.png: 0.2084
+IoU for napkin.jpg and napkin.png: 0.0000
+IoU for nori.jpg and nori.png: 0.2353
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.2092
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1805
+frame: frame_00024
+IoU for bowl.jpg and bowl.png: 0.3761
+IoU for chopsticks.jpg and chopsticks.png: 0.2337
+IoU for corn.jpg and corn.png: 0.0129
+IoU for egg.jpg and egg.png: 0.0660
+IoU for kamaboko.jpg and kamaboko.png: 0.3457
+IoU for nori.jpg and nori.png: 0.3041
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0744
+frame: frame_00060
+IoU for chopsticks.jpg and chopsticks.png: 0.3644
+IoU for corn.jpg and corn.png: 0.0148
+IoU for egg.jpg and egg.png: 0.0924
+IoU for kamaboko.jpg and kamaboko.png: 0.3479
+IoU for napkin.jpg and napkin.png: 0.7912
+IoU for onion segments.jpg and onion segments.png: 0.0012
+IoU for sake cup.jpg and sake cup.png: 0.0005
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0515
+frame: frame_00065
+IoU for bowl.jpg and bowl.png: 0.2432
+IoU for chopsticks.jpg and chopsticks.png: 0.1649
+IoU for corn.jpg and corn.png: 0.0153
+IoU for egg.jpg and egg.png: 0.0466
+IoU for kamaboko.jpg and kamaboko.png: 0.2646
+IoU for napkin.jpg and napkin.png: 0.0000
+IoU for nori.jpg and nori.png: 0.3580
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0413
+IoU for wavy noodles.jpg and wavy noodles.png: 0.3544
+frame: frame_00081
+IoU for bowl.jpg and bowl.png: 0.2399
+IoU for chopsticks.jpg and chopsticks.png: 0.2173
+IoU for egg.jpg and egg.png: 0.0288
+IoU for glass of water.jpg and glass of water.png: 0.4390
+IoU for kamaboko.jpg and kamaboko.png: 0.2353
+IoU for napkin.jpg and napkin.png: 0.0000
+IoU for nori.jpg and nori.png: 0.2309
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0017
+IoU for spoon.jpg and spoon.png: 0.0399
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0479
+frame: frame_00119
+IoU for chopsticks.jpg and chopsticks.png: 0.1253
+IoU for corn.jpg and corn.png: 0.0076
+IoU for egg.jpg and egg.png: 0.1019
+IoU for kamaboko.jpg and kamaboko.png: 0.3792
+IoU for nori.jpg and nori.png: 0.6037
+IoU for onion segments.jpg and onion segments.png: 0.0194
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0930
+frame: frame_00128
+IoU for bowl.jpg and bowl.png: 0.2849
+IoU for chopsticks.jpg and chopsticks.png: 0.3464
+IoU for corn.jpg and corn.png: 0.0154
+IoU for egg.jpg and egg.png: 0.0736
+IoU for glass of water.jpg and glass of water.png: 0.5016
+IoU for hand.jpg and hand.png: 0.0230
+IoU for kamaboko.jpg and kamaboko.png: 0.3095
+IoU for napkin.jpg and napkin.png: 0.0000
+IoU for nori.jpg and nori.png: 0.5121
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for spoon.jpg and spoon.png: 0.0871
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1578
+Average IoU: 0.1545
+Acc@0.25: 0.2394
+Acc@0.5: 0.0563
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.1544900173266794,
+  "Acc@0.25": 0.23943661971830985,
+  "Acc@0.5": 0.056338028169014086,
+  "method": "cluster",
+  "protocol": "table1_3d_classification_v1",
+  "checkpoint": "/media/joe/Data/gaussiangraph/outputs/common/ramen_3dgs30000.pth",
+  "decoded_in_3d": true,
+  "min_association_views": 1,
+  "le_decoding": null
+}

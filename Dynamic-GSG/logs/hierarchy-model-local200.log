@@ -1,0 +1,129 @@
+Sliding Window Attention is enabled but not implemented for `sdpa`; unexpected results may be encountered.
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:631: UserWarning: `do_sample` is set to `False`. However, `temperature` is set to `0.7` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `temperature`.
+  warnings.warn(
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:636: UserWarning: `do_sample` is set to `False`. However, `top_p` is set to `0.8` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_p`.
+  warnings.warn(
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/transformers/generation/configuration_utils.py:653: UserWarning: `do_sample` is set to `False`. However, `top_k` is set to `20` -- this flag is only used in sample-based generation modes. You should set `do_sample=True` or unset `top_k`.
+  warnings.warn(
+bag -> Ordinary
+book -> Ordinary
+closet door -> Standalone
+coffee kettle -> Ordinary
+coffee table -> Asset
+couch -> Asset
+cup -> Ordinary
+lamp -> Ordinary
+picture -> Ordinary
+pillow -> Ordinary
+potted plant -> Ordinary
+shelf -> Asset
+sofa chair -> Asset
+stool -> Standalone
+tissue box -> Ordinary
+window -> Standalone
+Saved model_classifications.json
+{
+  "objects": 34,
+  "types": {
+    "Asset": 8,
+    "Ordinary": 19,
+    "Standalone": 7
+  },
+  "attached": 16,
+  "unresolved": 3
+}
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/scene_graph_hierarchy_model.png
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/scene_graph_hierarchy_model.svg
+{
+  "query": {
+    "category": "pillow",
+    "parent": "couch",
+    "parent_id": null,
+    "id": null
+  },
+  "relation_notice": "Geometric attachment candidates, not verified on/inside relations",
+  "results": [
+    {
+      "id": 5,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 14,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 17,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 19,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 20,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 21,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 31,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    }
+  ]
+}
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/query_pillows_on_couch_model_preview.png
+{
+  "model": {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "dam_used": false,
+  "instance_count": 34,
+  "type_counts": {
+    "Asset": 8,
+    "Ordinary": 19,
+    "Standalone": 7
+  },
+  "attachment_candidates": 16,
+  "unresolved": 3,
+  "changed_types": [
+    {
+      "id": 18,
+      "category": "picture",
+      "rule": "Standalone",
+      "model": "Ordinary"
+    }
+  ],
+  "changed_parents": [],
+  "notice": "Differences only; no ground-truth relation accuracy evaluation."
+}

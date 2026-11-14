@@ -1,0 +1,35 @@
+{
+  "baseline": {
+    "scene": "ramen",
+    "count": 71,
+    "missing_predictions": 0,
+    "mIoU": 0.20134301822487669,
+    "Acc@0.25": 0.39436619718309857,
+    "Acc@0.5": 0.15492957746478872,
+    "protocol": "top1_fixed_v1",
+    "model_path": "/media/joe/Data/gaussiangraph/outputs/ramen_baseline",
+    "empty_gt_predictions": 14
+  },
+  "cf_v2": {
+    "scene": "ramen",
+    "count": 71,
+    "missing_predictions": 0,
+    "mIoU": 0.05488808350469035,
+    "Acc@0.25": 0.11267605633802817,
+    "Acc@0.5": 0.014084507042253521,
+    "protocol": "top1_fixed_v1",
+    "model_path": "/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v2",
+    "empty_gt_predictions": 5
+  },
+  "sam2_confidence": {
+    "scene": "ramen",
+    "count": 71,
+    "missing_predictions": 0,
+    "mIoU": 0.059033674279992926,
+    "Acc@0.25": 0.028169014084507043,
+    "Acc@0.5": 0.0,
+    "protocol": "top1_fixed_v1",
+    "model_path": "/media/joe/Data/gaussiangraph/outputs/ramen_sam2_confidence_v1",
+    "empty_gt_predictions": 13
+  }
+}

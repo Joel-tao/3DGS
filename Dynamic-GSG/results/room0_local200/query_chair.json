@@ -1,0 +1,30 @@
+{
+  "query": "a chair",
+  "results": [
+    {
+      "idx": 26,
+      "category": "pillow",
+      "score": 0.27042871713638306
+    },
+    {
+      "idx": 25,
+      "category": "sofa chair",
+      "score": 0.26485612988471985
+    },
+    {
+      "idx": 28,
+      "category": "sofa chair",
+      "score": 0.26221850514411926
+    },
+    {
+      "idx": 35,
+      "category": "pillow",
+      "score": 0.25930267572402954
+    },
+    {
+      "idx": 4,
+      "category": "stool",
+      "score": 0.24337926506996155
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+Collecting tensorboard
+  Downloading tensorboard-2.21.0-py3-none-any.whl (5.5 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.5/5.5 MB 4.7 MB/s eta 0:00:00
+Collecting ninja
+  Downloading ninja-1.13.2-py3-none-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (183 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 183.4/183.4 kB 39.4 MB/s eta 0:00:00
+Requirement already satisfied: configargparse in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (1.8.0)
+Collecting tensorboard-data-server<0.8.0,>=0.7.0
+  Downloading tensorboard_data_server-0.7.2-py3-none-manylinux_2_31_x86_64.whl (6.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 6.6/6.6 MB 14.5 MB/s eta 0:00:00
+Requirement already satisfied: packaging in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from tensorboard) (26.3)
+Requirement already satisfied: setuptools>=41.0.0 in /media/joe/Data/gaussiangraph/envs/legaussian/lib/python3.10/site-packages (from tensorboard) (79.0.1)
+Requirement already satisfied: werkzeug>=1.0.1 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from tensorboard) (3.1.9)
+Collecting grpcio<2.0,>=1.74.0
+  Downloading grpcio-1.85.0-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (7.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.4/7.4 MB 19.7 MB/s eta 0:00:00
+Requirement already satisfied: numpy>=1.12.0 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from tensorboard) (1.26.4)
+Requirement already satisfied: protobuf<8.0.0,>=6.31.1 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from tensorboard) (7.36.2)
+Collecting absl-py>=0.4
+  Downloading absl_py-2.5.1-py3-none-any.whl (137 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.7/137.7 kB 33.9 MB/s eta 0:00:00
+Requirement already satisfied: pillow in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from tensorboard) (12.3.0)
+Collecting markdown>=2.6.8
+  Downloading markdown-3.10.3-py3-none-any.whl (110 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 110.8/110.8 kB 617.7 MB/s eta 0:00:00
+Requirement already satisfied: typing-extensions~=4.12 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from grpcio<2.0,>=1.74.0->tensorboard) (4.16.0)
+Requirement already satisfied: markupsafe>=2.1.1 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from werkzeug>=1.0.1->tensorboard) (3.0.3)
+Installing collected packages: tensorboard-data-server, ninja, markdown, grpcio, absl-py, tensorboard
+Successfully installed absl-py-2.5.1 grpcio-1.85.0 markdown-3.10.3 ninja-1.13.2 tensorboard-2.21.0 tensorboard-data-server-0.7.2
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.2
+[notice] To update, run: /media/joe/Data/gaussiangraph/envs/legaussian/bin/python -m pip install --upgrade pip

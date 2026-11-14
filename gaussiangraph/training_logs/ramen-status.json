@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "time_unix": 1793251358.5701888,
+  "metrics": {
+    "scene": "ramen",
+    "count": 71,
+    "missing_predictions": 14,
+    "mIoU": 0.17595975756192966,
+    "Acc@0.25": 0.323943661971831,
+    "Acc@0.5": 0.09859154929577464
+  }
+}

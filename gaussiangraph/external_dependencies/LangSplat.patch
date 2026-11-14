@@ -1,0 +1,118 @@
+diff --git a/autoencoder/test.py b/autoencoder/test.py
+index 33ffcea..fc099d6 100644
+--- a/autoencoder/test.py
++++ b/autoencoder/test.py
+@@ -22,13 +22,15 @@ if __name__ == '__main__':
+                     type=int,
+                     default=[16, 32, 64, 128, 256, 256, 512],
+                     )
++    parser.add_argument('--checkpoint-dir', type=str)
++    parser.add_argument('--workers', type=int, default=2)
+     args = parser.parse_args()
+     
+     dataset_name = args.dataset_name
+     encoder_hidden_dims = args.encoder_dims
+     decoder_hidden_dims = args.decoder_dims
+     dataset_path = args.dataset_path
+-    ckpt_path = f"ckpt/{dataset_name}/best_ckpt.pth"
++    ckpt_path = os.path.join(args.checkpoint_dir or f"ckpt/{dataset_name}", "best_ckpt.pth")
+ 
+     data_dir = f"{dataset_path}/language_features"
+     output_dir = f"{dataset_path}/language_features_dim3"
+@@ -49,7 +51,7 @@ if __name__ == '__main__':
+         dataset=train_dataset, 
+         batch_size=256,
+         shuffle=False, 
+-        num_workers=16, 
++        num_workers=args.workers, 
+         drop_last=False   
+     )
+ 
+diff --git a/autoencoder/train.py b/autoencoder/train.py
+index 7a9d70b..46d0d03 100644
+--- a/autoencoder/train.py
++++ b/autoencoder/train.py
+@@ -33,17 +33,21 @@ if __name__ == '__main__':
+                     default=[16, 32, 64, 128, 256, 256, 512],
+                     )
+     parser.add_argument('--dataset_name', type=str, required=True)
++    parser.add_argument('--checkpoint-dir', type=str)
++    parser.add_argument('--workers', type=int, default=2)
+     args = parser.parse_args()
++    torch.manual_seed(0)
++    ckpt_dir = args.checkpoint_dir or f'ckpt/{args.dataset_name}'
+     dataset_path = args.dataset_path
+     num_epochs = args.num_epochs
+     data_dir = f"{dataset_path}/language_features"
+-    os.makedirs(f'ckpt/{args.dataset_name}', exist_ok=True)
++    os.makedirs(ckpt_dir, exist_ok=True)
+     train_dataset = Autoencoder_dataset(data_dir)
+     train_loader = DataLoader(
+         dataset=train_dataset,
+         batch_size=64,
+         shuffle=True,
+-        num_workers=16,
++        num_workers=args.workers,
+         drop_last=False
+     )
+ 
+@@ -51,7 +55,7 @@ if __name__ == '__main__':
+         dataset=train_dataset,
+         batch_size=256,
+         shuffle=False,
+-        num_workers=16,
++        num_workers=args.workers,
+         drop_last=False  
+     )
+     
+@@ -61,7 +65,7 @@ if __name__ == '__main__':
+     model = Autoencoder(encoder_hidden_dims, decoder_hidden_dims).to("cuda:0")
+ 
+     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
+-    logdir = f'ckpt/{args.dataset_name}'
++    logdir = ckpt_dir
+     tb_writer = SummaryWriter(logdir)
+ 
+     best_eval_loss = 100.0
+@@ -85,7 +89,7 @@ if __name__ == '__main__':
+             tb_writer.add_scalar('train_loss/l2_loss', l2loss.item(), global_iter)
+             tb_writer.add_scalar('train_loss/cos_loss', cosloss.item(), global_iter)
+             tb_writer.add_scalar('train_loss/total_loss', loss.item(), global_iter)
+-            tb_writer.add_histogram("feat", outputs, global_iter)
++            # Skip large diagnostic histograms; training unchanged.
+ 
+         if epoch > 95:
+             eval_loss = 0.0
+@@ -101,10 +105,10 @@ if __name__ == '__main__':
+             if eval_loss < best_eval_loss:
+                 best_eval_loss = eval_loss
+                 best_epoch = epoch
+-                torch.save(model.state_dict(), f'ckpt/{args.dataset_name}/best_ckpt.pth')
++                torch.save(model.state_dict(), os.path.join(ckpt_dir,'best_ckpt.pth'))
+                 
+             if epoch % 10 == 0:
+-                torch.save(model.state_dict(), f'ckpt/{args.dataset_name}/{epoch}_ckpt.pth')
++                torch.save(model.state_dict(), os.path.join(ckpt_dir,f'{epoch}_ckpt.pth'))
+             
+     print(f"best_epoch: {best_epoch}")
+     print("best_loss: {:.8f}".format(best_eval_loss))
+\ No newline at end of file
+diff --git a/submodules/simple-knn b/submodules/simple-knn
+--- a/submodules/simple-knn
++++ b/submodules/simple-knn
+@@ -1 +1 @@
+-Subproject commit 44f764299fa305faf6ec5ebd99939e0508331503
++Subproject commit 44f764299fa305faf6ec5ebd99939e0508331503-dirty
+diff --git a/train.py b/train.py
+index b6f6a4e..13c9a4c 100644
+--- a/train.py
++++ b/train.py
+@@ -42,7 +42,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
+         if not checkpoint:
+             raise ValueError("checkpoint missing!!!!!")
+     if checkpoint:
+-        (model_params, first_iter) = torch.load(checkpoint)
++        (model_params, first_iter) = torch.load(checkpoint, map_location="cuda")
+         if len(model_params) == 12 and opt.include_feature:
+             first_iter = 0
+         gaussians.restore(model_params, opt)

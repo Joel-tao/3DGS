@@ -1,0 +1,41 @@
+{
+  "categories": {
+    "trash bin": 1,
+    "sofa chair": 3,
+    "storage bin": 1,
+    "picture": 2,
+    "chair": 2,
+    "stuffed animal": 1,
+    "potted plant": 1,
+    "closet wall": 1,
+    "refrigerator": 1,
+    "pillow": 2,
+    "bathtub": 1,
+    "coffee table": 1,
+    "tissue box": 2,
+    "plate": 1
+  },
+  "counts_by_id": {
+    "1": 1492,
+    "3": 26721,
+    "4": 1173,
+    "7": 33946,
+    "9": 5961,
+    "10": 6069,
+    "11": 16385,
+    "12": 10848,
+    "13": 45788,
+    "14": 6670,
+    "15": 47321,
+    "16": 12652,
+    "17": 17369,
+    "18": 2075,
+    "19": 453,
+    "20": 833,
+    "21": 9893,
+    "22": 414,
+    "23": 713,
+    "24": 336
+  },
+  "note": "Predicted instance statistics only; not accuracy."
+}

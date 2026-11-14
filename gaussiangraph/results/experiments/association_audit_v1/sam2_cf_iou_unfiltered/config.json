@@ -1,0 +1,9 @@
+{
+  "source_model": "ramen_sam2_confidence_v1",
+  "mask_source": "/media/joe/Data/gaussiangraph/data/lerf_ovs_sam2/ramen",
+  "association_score": "iou",
+  "pseudo_filter": false,
+  "alpha_threshold": 0.8,
+  "match_threshold": 0.2,
+  "geometry_and_labels_frozen": true
+}

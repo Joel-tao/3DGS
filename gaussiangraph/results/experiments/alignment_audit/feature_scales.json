@@ -1,0 +1,43 @@
+{
+  "initial_30000": {
+    "mean": 0.5106499791145325,
+    "std": 0.2866600751876831,
+    "norm_median": 1.4323381185531616
+  },
+  "ramen_control_follow_v2": {
+    "feature_norm_median": 2.6921424865722656,
+    "config": {
+      "control_points": 5000,
+      "voxel_size": 0.02,
+      "radius": 0.1,
+      "max_nn": 50,
+      "feature_scale": 1.0,
+      "position_scale": 0.5,
+      "branching_factor": 100,
+      "control_threshold": 0,
+      "follow_threshold": 0,
+      "refine_space": "unit",
+      "refine_min_points": 32,
+      "refine_threshold": 0.2
+    },
+    "threshold": 1.0188087224960327
+  },
+  "ramen_sam2_confidence_v1": {
+    "feature_norm_median": 2.573866128921509,
+    "config": {
+      "control_points": 5000,
+      "voxel_size": 0.02,
+      "radius": 0.1,
+      "max_nn": 50,
+      "feature_scale": 1.0,
+      "position_scale": 0.5,
+      "branching_factor": 100,
+      "control_threshold": 0,
+      "follow_threshold": 0,
+      "refine_space": "unit",
+      "refine_min_points": 32,
+      "refine_threshold": 0.2
+    },
+    "threshold": 1.0018457174301147
+  }
+}

@@ -1,0 +1,17 @@
+[
+  {
+    "path": "submodules/GroundingDINO",
+    "remote": "https://github.com/IDEA-Research/GroundingDINO.git",
+    "commit": "856dde20aee659246248e20734ef9ba5214f5e44"
+  },
+  {
+    "path": "submodules/diff-gaussian-rasterization-w-depth",
+    "remote": "https://github.com/JonathonLuiten/diff-gaussian-rasterization-w-depth.git",
+    "commit": "cb65e4b86bc3bd8ed42174b72a62e8d3a3a71110"
+  },
+  {
+    "path": "third_party/describe-anything",
+    "remote": "https://github.com/NVlabs/describe-anything.git",
+    "commit": "153ad3d33c29324e9197f565547c6bc8500da02d"
+  }
+]

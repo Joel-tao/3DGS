@@ -1,0 +1,6 @@
+{"phase": "training", "time_unix": 1793244973.0579233, "train_pid": 11728}
+{"phase": "failed", "time_unix": 1793250597.9173553, "error": "Training exited before success; inspect ramen-baseline-train.log"}
+Traceback (most recent call last):
+  File "/home/joe/gaussiangraph/baselines/OpenGaussian/scripts/finish_ramen.py", line 40, in <module>
+    raise RuntimeError('Training exited before success; inspect ramen-baseline-train.log')
+RuntimeError: Training exited before success; inspect ramen-baseline-train.log

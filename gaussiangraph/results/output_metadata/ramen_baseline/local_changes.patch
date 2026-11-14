@@ -1,0 +1,103 @@
+diff --git a/gaussian_renderer/__init__.py b/gaussian_renderer/__init__.py
+index 897c858..02fc1c9 100644
+--- a/gaussian_renderer/__init__.py
++++ b/gaussian_renderer/__init__.py
+@@ -17,7 +17,6 @@ from scene.gaussian_model import GaussianModel
+ from utils.sh_utils import eval_sh
+ from utils.opengs_utlis import *
+ # from sklearn.neighbors import NearestNeighbors
+-import pytorch3d.ops
+ 
+ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, iteration,
+             scaling_modifier = 1.0, override_color = None, visible_mask = None, mask_num=0,
+@@ -291,6 +290,7 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor,
+             # pre_count = filter_idx.sum()
+             max_time = 5
+             if post_process and max_time > 0:
++                import pytorch3d.ops
+                 nearest_k_distance = pytorch3d.ops.knn_points(
+                     means3D[filter_idx].unsqueeze(0),
+                     means3D[filter_idx].unsqueeze(0),
+@@ -370,4 +370,4 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor,
+             "cluster_occur": cluster_occur,         # coarse cluster
+             "viewspace_points": screenspace_points,
+             "visibility_filter" : radii > 0,
+-            "radii": radii}
+\ No newline at end of file
++            "radii": radii}
+diff --git a/scene/cameras.py b/scene/cameras.py
+index 31e832c..f324c70 100644
+--- a/scene/cameras.py
++++ b/scene/cameras.py
+@@ -41,7 +41,7 @@ class Camera(nn.Module):
+             print(f"[Warning] Custom device {data_device} failed, fallback to default cuda device" )
+             self.data_device = torch.device("cuda")
+ 
+-        self.data_on_gpu = True     # note
++        self.data_on_gpu = self.data_device.type == "cuda"
+         self.original_image = image.clamp(0.0, 1.0).to(self.data_device)
+         # modify -----
+         self.original_mask = gt_alpha_mask.to(self.data_device) if gt_alpha_mask is not None else None
+diff --git a/scripts/compute_lerf_iou.py b/scripts/compute_lerf_iou.py
+index 44da7c8..79fe7e1 100644
+--- a/scripts/compute_lerf_iou.py
++++ b/scripts/compute_lerf_iou.py
+@@ -1,4 +1,5 @@
+ import os
++import json
+ import numpy as np
+ from PIL import Image
+ from argparse import ArgumentParser
+@@ -49,6 +50,8 @@ def evalute(gt_base, pred_base, scene_name):
+     
+     # Acc.
+     total_count = len(ious)
++    if total_count == 0:
++        raise ValueError("No ground-truth masks found")
+     count_iou_025 = (np.array(ious) > 0.25).sum()
+     count_iou_05 = (np.array(ious) > 0.5).sum()
+ 
+@@ -57,9 +60,15 @@ def evalute(gt_base, pred_base, scene_name):
+     print(f"Average IoU: {average_iou:.4f}")
+     print(f"Acc@0.25: {count_iou_025/total_count:.4f}")
+     print(f"Acc@0.5: {count_iou_05/total_count:.4f}")
++    return {"scene": scene_name, "count": total_count, "mIoU": float(average_iou),
++            "Acc@0.25": float(count_iou_025/total_count),
++            "Acc@0.5": float(count_iou_05/total_count)}
+ 
+ if __name__ == "__main__":
+     parser = ArgumentParser("Compute LeRF IoU")
++    parser.add_argument("--gt", required=True, help="Scene GT directory containing frame folders")
++    parser.add_argument("--pred", required=True, help="renders_cluster_silhouette directory")
++    parser.add_argument("--output", help="Optional metrics JSON file")
+     parser.add_argument("--scene_name", type=str, choices=["waldo_kitchen", "ramen", "figurines", "teatime"],
+                         help="Specify the scene_name from: figurines, teatime, ramen, waldo_kitchen")
+     args = parser.parse_args()
+@@ -67,7 +76,10 @@ if __name__ == "__main__":
+         parser.error("The --scene_name argument is required and must be one of: waldo_kitchen, ramen, figurines, teatime")
+ 
+     # TODO: change
+-    path_gt = "/gdata/cold1/wuyanmin/OpenGaussian/data/lerf_ovs/label/waldo_kitchen/gt"
++    path_gt = args.gt
+     # renders_cluster_silhouette is the predicted mask
+-    path_pred = "output/xxxxxxxx-x/text2obj/ours_70000/renders_cluster_silhouette"
+-    evalute(path_gt, path_pred, args.scene_name)
+\ No newline at end of file
++    path_pred = args.pred
++    result = evalute(path_gt, path_pred, args.scene_name)
++    if args.output:
++        with open(args.output, "w") as f:
++            json.dump(result, f, indent=2)
+diff --git a/train.py b/train.py
+index 18ee49c..9bbb4f8 100644
+--- a/train.py
++++ b/train.py
+@@ -590,7 +590,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
+                                           save_memory=opt.save_memory)
+         
+         # note: save memory (only stage 2, 3)
+-        if viewpoint_cam.data_on_gpu and opt.save_memory and cb_mode is not None:
++        if viewpoint_cam.data_on_gpu and opt.save_memory:
+             viewpoint_cam.to_cpu()
+ 
+ def prepare_output_and_logger(args):    

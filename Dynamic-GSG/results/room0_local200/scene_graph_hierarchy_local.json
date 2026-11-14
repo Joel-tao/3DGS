@@ -1,0 +1,1416 @@
+{
+  "schema_version": 1,
+  "directed": true,
+  "edge_direction": "child_to_parent",
+  "method": "Local category rules and geometric attachment approximation; not paper LVLM inference",
+  "nodes": [
+    {
+      "id": "room",
+      "category": "room",
+      "object_type": "Room",
+      "parent": null
+    },
+    {
+      "id": 1,
+      "category": "stool",
+      "gaussian_count": 4397,
+      "center_m": [
+        1.8979683488495542,
+        0.6683380728164077,
+        -1.0824862186722592
+      ],
+      "bounds_min_m": [
+        1.5642872301106576,
+        0.3957588047175664,
+        -1.283919093451437
+      ],
+      "bounds_max_m": [
+        2.0770200592099113,
+        0.9247750139834948,
+        -1.0447787842055802
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 2,
+      "category": "couch",
+      "gaussian_count": 31572,
+      "center_m": [
+        3.285029304835409,
+        -0.2912850430923136,
+        -0.997604621472807
+      ],
+      "bounds_min_m": [
+        2.555386790230095,
+        -0.7658640121428976,
+        -1.2780287129208001
+      ],
+      "bounds_max_m": [
+        4.542120125745485,
+        0.026681365647095147,
+        -0.6222390597163783
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 4,
+      "category": "stool",
+      "gaussian_count": 7067,
+      "center_m": [
+        1.8838779854687442,
+        1.4218963108466085,
+        -1.0892550444507358
+      ],
+      "bounds_min_m": [
+        1.562273226944261,
+        1.2241044238059842,
+        -1.2688351514277405
+      ],
+      "bounds_max_m": [
+        2.1194154469535076,
+        1.7556995479065158,
+        -1.035030148778818
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 5,
+      "category": "pillow",
+      "gaussian_count": 4607,
+      "center_m": [
+        2.8127170310064398,
+        -0.2984336103259681,
+        -0.7736239697841301
+      ],
+      "bounds_min_m": [
+        2.6368799266519356,
+        -0.48818619847862244,
+        -0.9545347758587743
+      ],
+      "bounds_max_m": [
+        2.9240950903399425,
+        -0.1793632773709717,
+        -0.6691704036751632
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 2,
+          "score": 0.5554402974647934,
+          "bottom_to_parent_top_m": -0.33229571614239606
+        }
+      ],
+      "parent": 2,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 6,
+      "category": "coffee kettle",
+      "gaussian_count": 96,
+      "center_m": [
+        -0.5728477340468805,
+        0.5173979475399711,
+        -0.789171029222768
+      ],
+      "bounds_min_m": [
+        -0.9018353105232906,
+        0.4553097794221311,
+        -0.8528489468735878
+      ],
+      "bounds_max_m": [
+        -0.5024636557799268,
+        0.5822273205405237,
+        -0.6104453140684037
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 9,
+          "score": 0.7478298850218054,
+          "bottom_to_parent_top_m": 0.013850576807097448
+        }
+      ],
+      "parent": 9,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 8,
+      "category": "lamp",
+      "gaussian_count": 4332,
+      "center_m": [
+        2.291297842673317,
+        -0.7538294638037448,
+        -0.3122436889129496
+      ],
+      "bounds_min_m": [
+        2.0014355128474053,
+        -1.1343216973354624,
+        -1.2862161619607366
+      ],
+      "bounds_max_m": [
+        2.5923884232146452,
+        -0.5817404208269303,
+        -0.1643092849711213
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 11,
+          "score": 0.2037721219200024,
+          "bottom_to_parent_top_m": -0.4481071543116908
+        }
+      ],
+      "parent": 11,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 9,
+      "category": "shelf",
+      "gaussian_count": 4493,
+      "center_m": [
+        -0.35579118811634114,
+        1.2294155351561267,
+        -1.0837993174368288
+      ],
+      "bounds_min_m": [
+        -0.6057926078912448,
+        0.2407482589880371,
+        -1.370915683542401
+      ],
+      "bounds_max_m": [
+        -0.3268897011884606,
+        2.0225879723492444,
+        -0.8666995236806853
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 10,
+      "category": "stool",
+      "gaussian_count": 1716,
+      "center_m": [
+        2.2644443071202423,
+        -0.32016874240901383,
+        -0.9209260953344207
+      ],
+      "bounds_min_m": [
+        2.0641109881723314,
+        -0.5321599651997972,
+        -0.9480361439174466
+      ],
+      "bounds_max_m": [
+        2.4200960484398504,
+        -0.1619167973200914,
+        -0.9027611254066636
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 11,
+      "category": "coffee table",
+      "gaussian_count": 2001,
+      "center_m": [
+        2.287036866543523,
+        -0.6621831312395301,
+        -0.8580190455241066
+      ],
+      "bounds_min_m": [
+        2.046568135404958,
+        -1.126940387311105,
+        -1.3695273891963622
+      ],
+      "bounds_max_m": [
+        2.441579565689784,
+        -0.4628392799342584,
+        -0.8381090076490458
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 12,
+      "category": "window",
+      "gaussian_count": 2577,
+      "center_m": [
+        -0.8423909543576609,
+        1.0832215517893733,
+        0.04324087890534145
+      ],
+      "bounds_min_m": [
+        -0.8674143836225278,
+        0.682490792295192,
+        -0.361129320387282
+      ],
+      "bounds_max_m": [
+        -0.8261056702345372,
+        1.4983918057937755,
+        0.38799192078779793
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 13,
+      "category": "stool",
+      "gaussian_count": 594,
+      "center_m": [
+        1.799757588235794,
+        2.0717265717543634,
+        -1.5027174264059073
+      ],
+      "bounds_min_m": [
+        1.7206612057452306,
+        1.8292783767638865,
+        -1.5126525911707702
+      ],
+      "bounds_max_m": [
+        1.8724591582466608,
+        2.333062758539961,
+        -1.4900298485092571
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 14,
+      "category": "pillow",
+      "gaussian_count": 7751,
+      "center_m": [
+        2.9088599639897286,
+        2.4068423886805412,
+        -0.771338237011139
+      ],
+      "bounds_min_m": [
+        2.7256544381239465,
+        2.228490324324703,
+        -0.9604037108203363
+      ],
+      "bounds_max_m": [
+        3.0604207173975517,
+        2.626776660751184,
+        -0.6667589544070631
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 30,
+          "score": 0.5919724885678384,
+          "bottom_to_parent_top_m": -0.3410987025435599
+        }
+      ],
+      "parent": 30,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 16,
+      "category": "tissue box",
+      "gaussian_count": 395,
+      "center_m": [
+        2.12263042577168,
+        -0.6047824900396039,
+        -0.762723249144619
+      ],
+      "bounds_min_m": [
+        2.0602196743740984,
+        -0.6673833843209788,
+        -0.8295667571651819
+      ],
+      "bounds_max_m": [
+        2.206285948938014,
+        -0.5688577172796396,
+        -0.690595329072304
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 11,
+          "score": 0.17627433308127463,
+          "bottom_to_parent_top_m": 0.008542250483863922
+        }
+      ],
+      "parent": 11,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 17,
+      "category": "pillow",
+      "gaussian_count": 3459,
+      "center_m": [
+        3.1039023683923808,
+        -0.3308204937424239,
+        -0.772811124291263
+      ],
+      "bounds_min_m": [
+        2.9476365321698963,
+        -0.46597866110638947,
+        -0.9549094066382439
+      ],
+      "bounds_max_m": [
+        3.2804755494325106,
+        -0.24600894318941907,
+        -0.6563545748760172
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 2,
+          "score": 0.26855911556429457,
+          "bottom_to_parent_top_m": -0.3326703469218656
+        }
+      ],
+      "parent": 2,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 18,
+      "category": "picture",
+      "gaussian_count": 27065,
+      "center_m": [
+        3.4635760809566314,
+        -1.1019788093657956,
+        0.08197124653327148
+      ],
+      "bounds_min_m": [
+        2.8115335517183047,
+        -1.123972967422538,
+        -0.4664852638781868
+      ],
+      "bounds_max_m": [
+        4.437157375348709,
+        -1.0766710951343463,
+        0.6288491321354006
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 19,
+      "category": "pillow",
+      "gaussian_count": 782,
+      "center_m": [
+        3.757326155859845,
+        -0.648821085686435,
+        -0.8059332278551881
+      ],
+      "bounds_min_m": [
+        3.692659383731381,
+        -0.7459289084548413,
+        -1.0167235724333037
+      ],
+      "bounds_max_m": [
+        3.829326445257829,
+        -0.5975451588163071,
+        -0.6349364054490135
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 2,
+          "score": 0.6909861653323905,
+          "bottom_to_parent_top_m": -0.3944845127169254
+        }
+      ],
+      "parent": 2,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 20,
+      "category": "pillow",
+      "gaussian_count": 2617,
+      "center_m": [
+        4.11089043548953,
+        -0.3647140928085945,
+        -0.8122291547496203
+      ],
+      "bounds_min_m": [
+        3.9861190303305265,
+        -0.5261982460831203,
+        -0.9678936176998991
+      ],
+      "bounds_max_m": [
+        4.281301168677425,
+        -0.24247353710743308,
+        -0.6593130495944745
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 2,
+          "score": 0.9155327096345058,
+          "bottom_to_parent_top_m": -0.34565455798352085
+        }
+      ],
+      "parent": 2,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 21,
+      "category": "pillow",
+      "gaussian_count": 1697,
+      "center_m": [
+        4.513890640514692,
+        -0.3434520274195017,
+        -0.7702695545617058
+      ],
+      "bounds_min_m": [
+        4.350449657560499,
+        -0.5376451197360467,
+        -0.9486772310296894
+      ],
+      "bounds_max_m": [
+        4.70867176089941,
+        -0.24933568564691636,
+        -0.6237209347000736
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 2,
+          "score": 1.3115776629766769,
+          "bottom_to_parent_top_m": -0.3264381713133111
+        }
+      ],
+      "parent": 2,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 22,
+      "category": "closet door",
+      "gaussian_count": 2315,
+      "center_m": [
+        0.499351639994996,
+        -1.1661676022572078,
+        -0.20481553117630635
+      ],
+      "bounds_min_m": [
+        0.2639345610671987,
+        -1.1997940290203195,
+        -1.2652595608105994
+      ],
+      "bounds_max_m": [
+        0.7975219452961956,
+        -1.1012214893868917,
+        0.6241787031077469
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 23,
+      "category": "closet door",
+      "gaussian_count": 660,
+      "center_m": [
+        0.08549591363889375,
+        -1.1223063959781137,
+        -0.6112609596841563
+      ],
+      "bounds_min_m": [
+        -0.1257387521899878,
+        -1.1426789514191054,
+        -1.409168623441698
+      ],
+      "bounds_max_m": [
+        0.20670600549371698,
+        -1.107766597105773,
+        0.4541435686748804
+      ],
+      "object_type": "Standalone",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 24,
+      "category": "coffee table",
+      "gaussian_count": 11540,
+      "center_m": [
+        3.5650953885521224,
+        1.0010368617274588,
+        -1.0428446994837632
+      ],
+      "bounds_min_m": [
+        3.0534929931534673,
+        0.6507808358657304,
+        -1.3452026104758306
+      ],
+      "bounds_max_m": [
+        4.242527897025603,
+        1.3790961079821866,
+        -1.0240170113770786
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 25,
+      "category": "sofa chair",
+      "gaussian_count": 5546,
+      "center_m": [
+        5.625261677105735,
+        0.5453534100867881,
+        -0.97967839327448
+      ],
+      "bounds_min_m": [
+        5.287403034443612,
+        0.14788137850497543,
+        -1.2315565123824428
+      ],
+      "bounds_max_m": [
+        6.0165779696708315,
+        0.8616896967860206,
+        -0.444773365492745
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 26,
+      "category": "pillow",
+      "gaussian_count": 543,
+      "center_m": [
+        5.799723439294912,
+        0.525694377801844,
+        -0.8564646177447157
+      ],
+      "bounds_min_m": [
+        5.747337329380951,
+        0.313589847148496,
+        -0.9698791566964313
+      ],
+      "bounds_max_m": [
+        5.871693832047033,
+        0.6626180364207181,
+        -0.771775330861591
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 25,
+          "score": 0.30684234430856705,
+          "bottom_to_parent_top_m": -0.5251057912036863
+        }
+      ],
+      "parent": 25,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 27,
+      "category": "potted plant",
+      "gaussian_count": 1587,
+      "center_m": [
+        3.8615082747733798,
+        0.9982111081735026,
+        -0.5789271965586091
+      ],
+      "bounds_min_m": [
+        3.7888988944826982,
+        0.9363826852153094,
+        -1.0090198694989911
+      ],
+      "bounds_max_m": [
+        3.97993767572823,
+        1.074153929619447,
+        -0.4428800377754224
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 24,
+          "score": 0.3001756405750755,
+          "bottom_to_parent_top_m": 0.014997141878087428
+        }
+      ],
+      "parent": 24,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 28,
+      "category": "sofa chair",
+      "gaussian_count": 6977,
+      "center_m": [
+        5.6142171419264875,
+        1.4896354595217873,
+        -0.9706666260003247
+      ],
+      "bounds_min_m": [
+        5.289432149828725,
+        1.117756409916787,
+        -1.2170729715102824
+      ],
+      "bounds_max_m": [
+        6.033993667556857,
+        1.8564253642420958,
+        -0.4230811716407342
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 29,
+      "category": "pillow",
+      "gaussian_count": 1504,
+      "center_m": [
+        4.68243070586396,
+        2.3856775924202767,
+        -0.7281605987737467
+      ],
+      "bounds_min_m": [
+        4.5701377471262585,
+        2.2871786037486137,
+        -0.938203346960689
+      ],
+      "bounds_max_m": [
+        4.822851979510491,
+        2.6828998230313936,
+        -0.6388391901691587
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "unresolved"
+    },
+    {
+      "id": 30,
+      "category": "couch",
+      "gaussian_count": 47006,
+      "center_m": [
+        3.3099261450657194,
+        2.7165012203439387,
+        -0.8510144156274921
+      ],
+      "bounds_min_m": [
+        2.608601137468226,
+        2.132524410322006,
+        -1.238200857645143
+      ],
+      "bounds_max_m": [
+        4.513314276148865,
+        3.0325844863369635,
+        -0.6193050082767764
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 31,
+      "category": "pillow",
+      "gaussian_count": 2044,
+      "center_m": [
+        4.33099926806131,
+        2.522642597098786,
+        -0.7534885776443482
+      ],
+      "bounds_min_m": [
+        4.225318373745457,
+        2.4034596991762265,
+        -0.9486936379325945
+      ],
+      "bounds_max_m": [
+        4.517103670117242,
+        2.6521551146589837,
+        -0.6158302058820821
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 30,
+          "score": 1.1216601460321451,
+          "bottom_to_parent_top_m": -0.32938862965581817
+        }
+      ],
+      "parent": 30,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 32,
+      "category": "lamp",
+      "gaussian_count": 2513,
+      "center_m": [
+        5.244069784044158,
+        2.8530954588551336,
+        -0.31747667397033474
+      ],
+      "bounds_min_m": [
+        5.014618423713263,
+        2.5805488192603994,
+        -1.0293041062646187
+      ],
+      "bounds_max_m": [
+        6.536379506016578,
+        3.310833460001389,
+        -0.1422303578813276
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 34,
+          "score": 0.5002391522889094,
+          "bottom_to_parent_top_m": -0.1521000849493166
+        }
+      ],
+      "parent": 34,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 33,
+      "category": "bag",
+      "gaussian_count": 2794,
+      "center_m": [
+        2.3506054457169014,
+        2.7207087186773378,
+        -1.3552901513618605
+      ],
+      "bounds_min_m": [
+        2.169478782392573,
+        2.520839521585833,
+        -1.4957359233875345
+      ],
+      "bounds_max_m": [
+        2.549329701883918,
+        3.2391441669163665,
+        -1.2389443943764407
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "unresolved"
+    },
+    {
+      "id": 34,
+      "category": "coffee table",
+      "gaussian_count": 473,
+      "center_m": [
+        5.670624954040956,
+        2.675071331578041,
+        -1.49097416961366
+      ],
+      "bounds_min_m": [
+        5.044981300771097,
+        2.270304791911821,
+        -1.522498133236001
+      ],
+      "bounds_max_m": [
+        6.084940472102904,
+        3.144217284711015,
+        -0.8772040213153021
+      ],
+      "object_type": "Asset",
+      "type_source": "category_rules",
+      "attachment_candidates": [],
+      "parent": "room",
+      "attachment_status": "room_member"
+    },
+    {
+      "id": 35,
+      "category": "pillow",
+      "gaussian_count": 383,
+      "center_m": [
+        5.823567094919813,
+        1.492316025532276,
+        -0.8522930179549111
+      ],
+      "bounds_min_m": [
+        5.778184734504927,
+        1.3021641067120104,
+        -0.9701927138461659
+      ],
+      "bounds_max_m": [
+        5.892041851728194,
+        1.6635465045176923,
+        -0.7770921449808099
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 28,
+          "score": 0.3461449991400116,
+          "bottom_to_parent_top_m": -0.5471115422054317
+        }
+      ],
+      "parent": 28,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 36,
+      "category": "cup",
+      "gaussian_count": 501,
+      "center_m": [
+        3.4618582867695706,
+        1.0644044180950318,
+        -0.7951980628455408
+      ],
+      "bounds_min_m": [
+        3.4090673533142164,
+        0.9917631037444219,
+        -0.8859649631277771
+      ],
+      "bounds_max_m": [
+        3.558351093604882,
+        1.150855335338103,
+        -0.7512706893857644
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 24,
+          "score": 0.15564660106413156,
+          "bottom_to_parent_top_m": 0.1380520482493015
+        }
+      ],
+      "parent": 24,
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 39,
+      "category": "book",
+      "gaussian_count": 186,
+      "center_m": [
+        3.4152791043177144,
+        0.924088393545919,
+        -1.0016236789755473
+      ],
+      "bounds_min_m": [
+        3.3637706264987806,
+        0.8783455167857401,
+        -1.021422429090276
+      ],
+      "bounds_max_m": [
+        3.6184184763008203,
+        1.1238817477285181,
+        -0.9852147057315195
+      ],
+      "object_type": "Ordinary",
+      "type_source": "category_rules",
+      "attachment_candidates": [
+        {
+          "parent": 24,
+          "score": 0.16907069216088785,
+          "bottom_to_parent_top_m": 0.002594582286802538
+        }
+      ],
+      "parent": 24,
+      "attachment_status": "geometric_candidate"
+    }
+  ],
+  "edges": [
+    {
+      "source": 1,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 2,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 4,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 6,
+      "target": 9,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 8,
+      "target": 11,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 9,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 10,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 11,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 12,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 13,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 14,
+      "target": 30,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 16,
+      "target": 11,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 17,
+      "target": 2,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 18,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 19,
+      "target": 2,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 20,
+      "target": 2,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 21,
+      "target": 2,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 22,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 23,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 24,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 25,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 26,
+      "target": 25,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 27,
+      "target": 24,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 28,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 29,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 30,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 31,
+      "target": 30,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 32,
+      "target": 34,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 33,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 34,
+      "target": "room",
+      "relation": "in_room",
+      "source_method": "room_membership",
+      "verified": false
+    },
+    {
+      "source": 35,
+      "target": 28,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 36,
+      "target": 24,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    },
+    {
+      "source": 39,
+      "target": 24,
+      "relation": "attached_to",
+      "source_method": "footprint_and_height_heuristic",
+      "verified": false
+    }
+  ],
+  "parameters": {
+    "xy_margin_m": 0.08,
+    "vertical_tolerance_m": 0.15
+  },
+  "coordinate_frame": "Replica world, Z-up, meters",
+  "map_to_world": [
+    [
+      -0.3205696220032457,
+      0.4480551946958013,
+      -0.8345547674986967,
+      3.4529874164067347
+    ],
+    [
+      0.9472249560947475,
+      0.15163545203918455,
+      -0.2824386167580063,
+      0.4546110134135947
+    ],
+    [
+      1.0789779324904232e-16,
+      -0.8810523436158487,
+      -0.47301878166624667,
+      0.5936285447159415
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "bounds_quantiles": [
+    0.05,
+    0.95
+  ],
+  "excluded_objects": [
+    {
+      "id": 15,
+      "reason": "no_finite_gaussians"
+    }
+  ],
+  "classification_overrides": {},
+  "source_config": {
+    "workdir": "/media/joe/Data/Dynamic-GSG/experiments",
+    "run_name": "room0_local200",
+    "seed": 0,
+    "primary_device": "cuda:0",
+    "map_every": 1,
+    "keyframe_every": 5,
+    "mapping_window_size": 24,
+    "report_global_progress_every": 500,
+    "eval_every": 10,
+    "scene_radius_depth_ratio": 3,
+    "mean_sq_dist_method": "projective",
+    "gaussian_distribution": "isotropic",
+    "report_iter_progress": false,
+    "load_checkpoint": false,
+    "checkpoint_time_idx": 0,
+    "save_checkpoints": true,
+    "checkpoint_interval": 100,
+    "use_wandb": false,
+    "whether_to_update": false,
+    "wandb": {
+      "entity": "ICR-Lab",
+      "project": "Dynamic-GSG",
+      "group": "Replica",
+      "name": "room0_0",
+      "save_qual": false,
+      "eval_save_qual": true
+    },
+    "data": {
+      "basedir": "/media/joe/Data/SplaTAM/data/Replica",
+      "gradslam_data_cfg": "./configs/data/replica.yaml",
+      "sequence": "room0",
+      "desired_image_height": 240,
+      "desired_image_width": 424,
+      "start": 0,
+      "end": -1,
+      "stride": 10,
+      "num_frames": 200,
+      "ignore_bad": false,
+      "use_train_split": true
+    },
+    "tracking": {
+      "modify_real_gt_poses": false,
+      "use_gt_poses": true,
+      "forward_prop": true,
+      "num_iters": 40,
+      "use_sil_for_loss": true,
+      "sil_thres": 0.5,
+      "use_l1": true,
+      "ignore_outlier_depth_loss": true,
+      "loss_weights": {
+        "im": 0.5,
+        "depth": 1.0
+      },
+      "lrs": {
+        "means3D": 0.0,
+        "rgb_colors": 0.0,
+        "features": 0.0,
+        "unnorm_rotations": 0.0,
+        "logit_opacities": 0.0,
+        "log_scales": 0.0,
+        "cam_unnorm_rots": 0.0004,
+        "cam_trans": 0.002
+      }
+    },
+    "mapping": {
+      "num_iters": 20,
+      "add_new_gaussians": true,
+      "sil_thres": 0.98,
+      "use_l1": true,
+      "use_sil_for_loss": false,
+      "ignore_outlier_depth_loss": false,
+      "loss_weights": {
+        "im": 0.5,
+        "depth": 1.0,
+        "features": 0.5
+      },
+      "lrs": {
+        "means3D": 0.0001,
+        "rgb_colors": 0.0025,
+        "features": 0.0025,
+        "unnorm_rotations": 0.001,
+        "logit_opacities": 0.05,
+        "log_scales": 0.001,
+        "cam_unnorm_rots": 0.0,
+        "cam_trans": 0.0
+      },
+      "prune_gaussians": true,
+      "pruning_dict": {
+        "start_after": 0,
+        "remove_big_after": 0,
+        "stop_after": 20,
+        "prune_every": 20,
+        "removal_opacity_threshold": 0.005,
+        "final_removal_opacity_threshold": 0.005,
+        "reset_opacities": false,
+        "reset_opacities_every": 500
+      },
+      "use_gaussian_splatting_densification": false,
+      "densify_dict": {
+        "start_after": 500,
+        "remove_big_after": 3000,
+        "stop_after": 5000,
+        "densify_every": 100,
+        "grad_thresh": 0.0002,
+        "num_to_split_into": 2,
+        "removal_opacity_threshold": 0.005,
+        "final_removal_opacity_threshold": 0.005,
+        "reset_opacities_every": 3000
+      }
+    },
+    "lang": {
+      "use_lang": true,
+      "detection_model": "yolo",
+      "color_book_path": "./configs/scannet200.txt",
+      "yolo_model_path": "./models/yolov8l-world.pt",
+      "grounding_dino_config_path": "./dgsg/navigation/groundingdino/config/GroundingDINO_SwinT_OGC.py",
+      "grounding_dino_checkpoint_path": "./models/groundingdino_swint_ogc.pth",
+      "ram_model_path": "./models/ram_plus_swin_large_14m.pth",
+      "sam_model_path": "./models/sam_l.pt",
+      "dam_model_path": "nvidia/DAM-3B",
+      "dam_conv_mode": "v1",
+      "dam_prompt_mode": "focal_prompt",
+      "sys_prompt_file": "./configs/prompts/parsing_query.txt",
+      "obj_prompt_file": "./configs/prompts/parsing_objects.txt",
+      "obj_caption_file": "./configs/prompts/parsing_objects_caption.txt",
+      "clip_model_path": "./models/open_clip_pytorch_model.bin",
+      "classes_file": "./configs/scannet200_classes.txt",
+      "bg_classes": [
+        "wall",
+        "floor",
+        "ceiling"
+      ],
+      "skip_bg": true,
+      "mask_area_threshold": 10,
+      "max_bbox_area_ratio": 0.6,
+      "mask_conf_threshold": 0.4,
+      "merge_overlap_thresh": 0.7,
+      "merge_visual_sim_thresh": 0.7,
+      "similarity_bias": 0.0,
+      "similarity_threshold": 0.55,
+      "update_gs_num_threshold": 500,
+      "update_gs_ratio_threshold": 0.9,
+      "enable_object_captions": false,
+      "release_yolo_clip": true,
+      "clip_model_name": "ViT-B-32",
+      "clip_pretrained": "/media/joe/Data/Dynamic-GSG/models/clip_vit_b32_laion2b.bin"
+    },
+    "viz": {
+      "render_mode": "color",
+      "offset_first_viz_cam": true,
+      "show_sil": false,
+      "show_bg": true,
+      "visualize_cams": false,
+      "viz_w": 640,
+      "viz_h": 480,
+      "viz_near": 0.01,
+      "viz_far": 100.0,
+      "view_scale": 1,
+      "viz_fps": 5,
+      "enter_interactive_post_online": true,
+      "no_clip": false,
+      "clip_model_path": "./models/open_clip_pytorch_model.bin",
+      "variables_path": "/media/joe/Data/Dynamic-GSG/experiments/room0_local200/variables.npz",
+      "keyframe_list_path": "/media/joe/Data/Dynamic-GSG/experiments/room0_local200/keyframelist.pkl.gz",
+      "clip_model_name": "ViT-B-32",
+      "clip_pretrained": "/media/joe/Data/Dynamic-GSG/models/clip_vit_b32_laion2b.bin"
+    }
+  },
+  "limitations": [
+    "Category rules replace LVLM classification.",
+    "Attached-to edges are geometric hypotheses, not verified support/on/inside relations.",
+    "Input instances may contain segmentation errors or duplicate physical objects."
+  ]
+}

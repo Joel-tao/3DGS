@@ -1,0 +1,786 @@
+[
+  {
+    "query": "nori",
+    "frame": "frame_00006",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 4768
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00024",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 9812
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00060",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 6682
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00065",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 6989
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00081",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 2280
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00119",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 6454
+  },
+  {
+    "query": "nori",
+    "frame": "frame_00128",
+    "cluster": 601,
+    "score": 0.25876128673553467,
+    "no_render": false,
+    "foreground_pixels": 4024
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00006",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00024",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00060",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00065",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00081",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": false,
+    "foreground_pixels": 7077
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00119",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": false,
+    "foreground_pixels": 61
+  },
+  {
+    "query": "sake cup",
+    "frame": "frame_00128",
+    "cluster": 13,
+    "score": 0.26194140315055847,
+    "no_render": false,
+    "foreground_pixels": 7344
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00006",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 8951
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00024",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 24445
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00060",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 18836
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00065",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 15438
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00081",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 5848
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00119",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 19931
+  },
+  {
+    "query": "kamaboko",
+    "frame": "frame_00128",
+    "cluster": 533,
+    "score": 0.2446746826171875,
+    "no_render": false,
+    "foreground_pixels": 11090
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00006",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 4973
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00024",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 14707
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00060",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 10396
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00065",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 7518
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00081",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 3141
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00119",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 10801
+  },
+  {
+    "query": "corn",
+    "frame": "frame_00128",
+    "cluster": 600,
+    "score": 0.2661798596382141,
+    "no_render": false,
+    "foreground_pixels": 5847
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00006",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00024",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00060",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00065",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00081",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": false,
+    "foreground_pixels": 12087
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00119",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": false,
+    "foreground_pixels": 337
+  },
+  {
+    "query": "spoon",
+    "frame": "frame_00128",
+    "cluster": 10,
+    "score": 0.26312991976737976,
+    "no_render": false,
+    "foreground_pixels": 12791
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00006",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 3716
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00024",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 12207
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00060",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 9779
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00065",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 6099
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00081",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 3972
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00119",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 15373
+  },
+  {
+    "query": "egg",
+    "frame": "frame_00128",
+    "cluster": 170,
+    "score": 0.3065311908721924,
+    "no_render": false,
+    "foreground_pixels": 9159
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00006",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 4973
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00024",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 14707
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00060",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 10396
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00065",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 7518
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00081",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 3141
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00119",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 10801
+  },
+  {
+    "query": "onion segments",
+    "frame": "frame_00128",
+    "cluster": 600,
+    "score": 0.23093557357788086,
+    "no_render": false,
+    "foreground_pixels": 5847
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00006",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00024",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00060",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00065",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00081",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00119",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "plate",
+    "frame": "frame_00128",
+    "cluster": 272,
+    "score": 0.270280659198761,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00006",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00024",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00060",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": false,
+    "foreground_pixels": 8239
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00065",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00081",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00119",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "napkin",
+    "frame": "frame_00128",
+    "cluster": 131,
+    "score": 0.2361232042312622,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00006",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00024",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00060",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00065",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00081",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": false,
+    "foreground_pixels": 7077
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00119",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": false,
+    "foreground_pixels": 61
+  },
+  {
+    "query": "bowl",
+    "frame": "frame_00128",
+    "cluster": 13,
+    "score": 0.32002630829811096,
+    "no_render": false,
+    "foreground_pixels": 7344
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00006",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00024",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00060",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00065",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00081",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": false,
+    "foreground_pixels": 2210
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00119",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": false,
+    "foreground_pixels": 5652
+  },
+  {
+    "query": "glass of water",
+    "frame": "frame_00128",
+    "cluster": 311,
+    "score": 0.26876237988471985,
+    "no_render": false,
+    "foreground_pixels": 4263
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00006",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00024",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00060",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00065",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00081",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": false,
+    "foreground_pixels": 456
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00119",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": true,
+    "foreground_pixels": 0
+  },
+  {
+    "query": "hand",
+    "frame": "frame_00128",
+    "cluster": 312,
+    "score": 0.25805848836898804,
+    "no_render": false,
+    "foreground_pixels": 609
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00006",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 3356
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00024",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 9855
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00060",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 7034
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00065",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 4960
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00081",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 5442
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00119",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 4927
+  },
+  {
+    "query": "chopsticks",
+    "frame": "frame_00128",
+    "cluster": 150,
+    "score": 0.2680596709251404,
+    "no_render": false,
+    "foreground_pixels": 6470
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00006",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 12710
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00024",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 45606
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00060",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 33293
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00065",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 20833
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00081",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 11779
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00119",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 59059
+  },
+  {
+    "query": "wavy noodles",
+    "frame": "frame_00128",
+    "cluster": 563,
+    "score": 0.29344987869262695,
+    "no_render": false,
+    "foreground_pixels": 27708
+  }
+]

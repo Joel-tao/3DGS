@@ -1,0 +1,356 @@
+frame,query,method,IoU,prediction
+frame_00006,bowl,LangSplat,0.10453794585421139,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_bowl.png
+frame_00006,bowl,LEGaussian,0.24920232540439907,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_bowl.png
+frame_00006,bowl,OpenGaussian,0.13955438300417633,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_bowl.png
+frame_00006,bowl,SAM2+CF (70k),0.3458416734487385,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_bowl.png
+frame_00006,bowl,No refine (67999),0.33387035930967274,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_bowl.png
+frame_00006,chopsticks,LangSplat,0.09980979076984683,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_chopsticks.png
+frame_00006,chopsticks,LEGaussian,0.08944752996199941,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_chopsticks.png
+frame_00006,chopsticks,OpenGaussian,0.6917293233082706,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_chopsticks.png
+frame_00006,chopsticks,SAM2+CF (70k),0.5743123336291038,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_chopsticks.png
+frame_00006,chopsticks,No refine (67999),0.738138394285105,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_chopsticks.png
+frame_00006,egg,LangSplat,0.054067390384886505,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_egg.png
+frame_00006,egg,LEGaussian,0.07923525674348755,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_egg.png
+frame_00006,egg,OpenGaussian,0.17065564438284286,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_egg.png
+frame_00006,egg,SAM2+CF (70k),0.019719464947258278,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_egg.png
+frame_00006,egg,No refine (67999),0.021265694619379747,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_egg.png
+frame_00006,kamaboko,LangSplat,0.25318655851680183,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_kamaboko.png
+frame_00006,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_kamaboko.png
+frame_00006,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_kamaboko.png
+frame_00006,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_kamaboko.png
+frame_00006,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_kamaboko.png
+frame_00006,napkin,LangSplat,0.1479468418694938,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_napkin.png
+frame_00006,napkin,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_napkin.png
+frame_00006,napkin,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_napkin.png
+frame_00006,napkin,SAM2+CF (70k),0.18208276489313324,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_napkin.png
+frame_00006,napkin,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_napkin.png
+frame_00006,nori,LangSplat,0.5185259685400491,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_nori.png
+frame_00006,nori,LEGaussian,0.09767172253888513,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_nori.png
+frame_00006,nori,OpenGaussian,0.745207529791031,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_nori.png
+frame_00006,nori,SAM2+CF (70k),0.5262106839740389,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_nori.png
+frame_00006,nori,No refine (67999),0.696188400404019,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_nori.png
+frame_00006,onion segments,LangSplat,0.001755001755001755,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_onion segments.png
+frame_00006,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_onion segments.png
+frame_00006,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_onion segments.png
+frame_00006,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_onion segments.png
+frame_00006,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_onion segments.png
+frame_00006,plate,LangSplat,0.00010143633855392355,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_plate.png
+frame_00006,plate,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_plate.png
+frame_00006,plate,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_plate.png
+frame_00006,plate,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_plate.png
+frame_00006,plate,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_plate.png
+frame_00006,sake cup,LangSplat,0.6814983140302009,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_sake cup.png
+frame_00006,sake cup,LEGaussian,0.21897810218978103,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_sake cup.png
+frame_00006,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_sake cup.png
+frame_00006,sake cup,SAM2+CF (70k),0.48262602579132474,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_sake cup.png
+frame_00006,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_sake cup.png
+frame_00006,wavy noodles,LangSplat,0.1261811076313606,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00006_wavy noodles.png
+frame_00006,wavy noodles,LEGaussian,0.04516957763760808,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00006_wavy noodles.png
+frame_00006,wavy noodles,OpenGaussian,0.12640486932379402,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00006_wavy noodles.png
+frame_00006,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00006_wavy noodles.png
+frame_00006,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00006_wavy noodles.png
+frame_00024,bowl,LangSplat,0.31945992029660764,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_bowl.png
+frame_00024,bowl,LEGaussian,0.34104941258443494,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_bowl.png
+frame_00024,bowl,OpenGaussian,0.3097330946076188,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_bowl.png
+frame_00024,bowl,SAM2+CF (70k),0.7118047618794486,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_bowl.png
+frame_00024,bowl,No refine (67999),0.7644451112390926,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_bowl.png
+frame_00024,chopsticks,LangSplat,0.13152395961010915,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_chopsticks.png
+frame_00024,chopsticks,LEGaussian,0.1043838447203823,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_chopsticks.png
+frame_00024,chopsticks,OpenGaussian,0.6155311275576839,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_chopsticks.png
+frame_00024,chopsticks,SAM2+CF (70k),0.5796444754269781,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_chopsticks.png
+frame_00024,chopsticks,No refine (67999),0.6312017023182888,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_chopsticks.png
+frame_00024,corn,LangSplat,0.018725368074983154,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_corn.png
+frame_00024,corn,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_corn.png
+frame_00024,corn,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_corn.png
+frame_00024,corn,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_corn.png
+frame_00024,corn,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_corn.png
+frame_00024,egg,LangSplat,0.09787004488384146,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_egg.png
+frame_00024,egg,LEGaussian,0.1303395995176817,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_egg.png
+frame_00024,egg,OpenGaussian,0.17994835319168215,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_egg.png
+frame_00024,egg,SAM2+CF (70k),0.06288420772219426,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_egg.png
+frame_00024,egg,No refine (67999),0.062281578470764216,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_egg.png
+frame_00024,kamaboko,LangSplat,0.24212248381819476,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_kamaboko.png
+frame_00024,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_kamaboko.png
+frame_00024,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_kamaboko.png
+frame_00024,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_kamaboko.png
+frame_00024,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_kamaboko.png
+frame_00024,nori,LangSplat,0.8579642464906371,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_nori.png
+frame_00024,nori,LEGaussian,0.30431460803462684,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_nori.png
+frame_00024,nori,OpenGaussian,0.9483520420348698,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_nori.png
+frame_00024,nori,SAM2+CF (70k),0.2913590062111801,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_nori.png
+frame_00024,nori,No refine (67999),0.9080680207841285,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_nori.png
+frame_00024,onion segments,LangSplat,8.595988538681948e-05,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_onion segments.png
+frame_00024,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_onion segments.png
+frame_00024,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_onion segments.png
+frame_00024,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_onion segments.png
+frame_00024,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_onion segments.png
+frame_00024,wavy noodles,LangSplat,0.223683211900425,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00024_wavy noodles.png
+frame_00024,wavy noodles,LEGaussian,0.0955525238744884,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00024_wavy noodles.png
+frame_00024,wavy noodles,OpenGaussian,0.21800462330566356,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00024_wavy noodles.png
+frame_00024,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00024_wavy noodles.png
+frame_00024,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00024_wavy noodles.png
+frame_00060,chopsticks,LangSplat,0.2023210959265426,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_chopsticks.png
+frame_00060,chopsticks,LEGaussian,0.13925319062248798,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_chopsticks.png
+frame_00060,chopsticks,OpenGaussian,0.7531141763383362,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_chopsticks.png
+frame_00060,chopsticks,SAM2+CF (70k),0.6165087414920593,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_chopsticks.png
+frame_00060,chopsticks,No refine (67999),0.8003858520900321,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_chopsticks.png
+frame_00060,corn,LangSplat,0.020452651150862346,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_corn.png
+frame_00060,corn,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_corn.png
+frame_00060,corn,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_corn.png
+frame_00060,corn,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_corn.png
+frame_00060,corn,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_corn.png
+frame_00060,egg,LangSplat,0.11301513476421028,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_egg.png
+frame_00060,egg,LEGaussian,0.140828025477707,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_egg.png
+frame_00060,egg,OpenGaussian,0.21001872077651296,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_egg.png
+frame_00060,egg,SAM2+CF (70k),0.0720870535376838,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_egg.png
+frame_00060,egg,No refine (67999),0.07486466458168482,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_egg.png
+frame_00060,kamaboko,LangSplat,0.24251441324158451,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_kamaboko.png
+frame_00060,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_kamaboko.png
+frame_00060,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_kamaboko.png
+frame_00060,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_kamaboko.png
+frame_00060,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_kamaboko.png
+frame_00060,napkin,LangSplat,0.6432100370538907,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_napkin.png
+frame_00060,napkin,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_napkin.png
+frame_00060,napkin,OpenGaussian,0.47570874014821785,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_napkin.png
+frame_00060,napkin,SAM2+CF (70k),0.5679015918958031,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_napkin.png
+frame_00060,napkin,No refine (67999),0.6074801077432738,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_napkin.png
+frame_00060,onion segments,LangSplat,4.435573297848747e-05,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_onion segments.png
+frame_00060,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_onion segments.png
+frame_00060,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_onion segments.png
+frame_00060,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_onion segments.png
+frame_00060,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_onion segments.png
+frame_00060,sake cup,LangSplat,0.5112479100167199,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_sake cup.png
+frame_00060,sake cup,LEGaussian,0.3160256809823599,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_sake cup.png
+frame_00060,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_sake cup.png
+frame_00060,sake cup,SAM2+CF (70k),0.5410188554416143,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_sake cup.png
+frame_00060,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_sake cup.png
+frame_00060,wavy noodles,LangSplat,0.23077601744369242,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00060_wavy noodles.png
+frame_00060,wavy noodles,LEGaussian,0.0948801197395889,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00060_wavy noodles.png
+frame_00060,wavy noodles,OpenGaussian,0.22291076697038995,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00060_wavy noodles.png
+frame_00060,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00060_wavy noodles.png
+frame_00060,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00060_wavy noodles.png
+frame_00065,bowl,LangSplat,0.17382488719874342,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_bowl.png
+frame_00065,bowl,LEGaussian,0.27023841071705973,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_bowl.png
+frame_00065,bowl,OpenGaussian,0.18686281041366595,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_bowl.png
+frame_00065,bowl,SAM2+CF (70k),0.456406356573346,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_bowl.png
+frame_00065,bowl,No refine (67999),0.46235014821227144,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_bowl.png
+frame_00065,chopsticks,LangSplat,0.0840485031508559,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_chopsticks.png
+frame_00065,chopsticks,LEGaussian,0.06536993864319102,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_chopsticks.png
+frame_00065,chopsticks,OpenGaussian,0.3763924444751955,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_chopsticks.png
+frame_00065,chopsticks,SAM2+CF (70k),0.21402678109047865,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_chopsticks.png
+frame_00065,chopsticks,No refine (67999),0.38374198941209253,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_chopsticks.png
+frame_00065,corn,LangSplat,0.025682403433476393,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_corn.png
+frame_00065,corn,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_corn.png
+frame_00065,corn,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_corn.png
+frame_00065,corn,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_corn.png
+frame_00065,corn,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_corn.png
+frame_00065,egg,LangSplat,0.07793820471518524,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_egg.png
+frame_00065,egg,LEGaussian,0.1051709169391547,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_egg.png
+frame_00065,egg,OpenGaussian,0.17381554964004248,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_egg.png
+frame_00065,egg,SAM2+CF (70k),0.03645006627284777,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_egg.png
+frame_00065,egg,No refine (67999),0.03675065375742094,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_egg.png
+frame_00065,kamaboko,LangSplat,0.26619273301737756,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_kamaboko.png
+frame_00065,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_kamaboko.png
+frame_00065,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_kamaboko.png
+frame_00065,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_kamaboko.png
+frame_00065,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_kamaboko.png
+frame_00065,napkin,LangSplat,0.16823124462176328,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_napkin.png
+frame_00065,napkin,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_napkin.png
+frame_00065,napkin,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_napkin.png
+frame_00065,napkin,SAM2+CF (70k),0.12167515563101301,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_napkin.png
+frame_00065,napkin,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_napkin.png
+frame_00065,nori,LangSplat,0.6295319323544066,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_nori.png
+frame_00065,nori,LEGaussian,0.13024605398854505,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_nori.png
+frame_00065,nori,OpenGaussian,0.7845214916878838,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_nori.png
+frame_00065,nori,SAM2+CF (70k),0.4854206184657462,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_nori.png
+frame_00065,nori,No refine (67999),0.7106426837783023,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_nori.png
+frame_00065,onion segments,LangSplat,0.0004146366746138696,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_onion segments.png
+frame_00065,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_onion segments.png
+frame_00065,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_onion segments.png
+frame_00065,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_onion segments.png
+frame_00065,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_onion segments.png
+frame_00065,plate,LangSplat,0.0,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_plate.png
+frame_00065,plate,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_plate.png
+frame_00065,plate,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_plate.png
+frame_00065,plate,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_plate.png
+frame_00065,plate,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_plate.png
+frame_00065,sake cup,LangSplat,0.6128542510121457,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_sake cup.png
+frame_00065,sake cup,LEGaussian,0.27884857646762407,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_sake cup.png
+frame_00065,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_sake cup.png
+frame_00065,sake cup,SAM2+CF (70k),0.5991742745827761,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_sake cup.png
+frame_00065,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_sake cup.png
+frame_00065,wavy noodles,LangSplat,0.1630380911922968,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00065_wavy noodles.png
+frame_00065,wavy noodles,LEGaussian,0.07380520738911638,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00065_wavy noodles.png
+frame_00065,wavy noodles,OpenGaussian,0.15448064196425718,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00065_wavy noodles.png
+frame_00065,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00065_wavy noodles.png
+frame_00065,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00065_wavy noodles.png
+frame_00081,bowl,LangSplat,0.10144542966983745,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_bowl.png
+frame_00081,bowl,LEGaussian,0.21011031811654118,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_bowl.png
+frame_00081,bowl,OpenGaussian,0.1631382038038447,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_bowl.png
+frame_00081,bowl,SAM2+CF (70k),0.42413691803849457,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_bowl.png
+frame_00081,bowl,No refine (67999),0.427836048364075,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_bowl.png
+frame_00081,chopsticks,LangSplat,0.08608481532147742,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_chopsticks.png
+frame_00081,chopsticks,LEGaussian,0.11446662039463433,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_chopsticks.png
+frame_00081,chopsticks,OpenGaussian,0.6869572693663486,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_chopsticks.png
+frame_00081,chopsticks,SAM2+CF (70k),0.6421262080727687,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_chopsticks.png
+frame_00081,chopsticks,No refine (67999),0.7102348249889233,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_chopsticks.png
+frame_00081,egg,LangSplat,0.05236938492778927,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_egg.png
+frame_00081,egg,LEGaussian,0.09939122423541738,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_egg.png
+frame_00081,egg,OpenGaussian,0.18917071169754562,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_egg.png
+frame_00081,egg,SAM2+CF (70k),0.025933333021090445,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_egg.png
+frame_00081,egg,No refine (67999),0.028056041144131134,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_egg.png
+frame_00081,glass of water,LangSplat,0.42895327702341496,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_glass of water.png
+frame_00081,glass of water,LEGaussian,0.11420146803571803,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_glass of water.png
+frame_00081,glass of water,OpenGaussian,0.2433947918646645,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_glass of water.png
+frame_00081,glass of water,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_glass of water.png
+frame_00081,glass of water,No refine (67999),0.2748272212191022,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_glass of water.png
+frame_00081,kamaboko,LangSplat,0.26303223239156387,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_kamaboko.png
+frame_00081,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_kamaboko.png
+frame_00081,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_kamaboko.png
+frame_00081,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_kamaboko.png
+frame_00081,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_kamaboko.png
+frame_00081,napkin,LangSplat,0.09040261476749369,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_napkin.png
+frame_00081,napkin,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_napkin.png
+frame_00081,napkin,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_napkin.png
+frame_00081,napkin,SAM2+CF (70k),0.10677698975571316,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_napkin.png
+frame_00081,napkin,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_napkin.png
+frame_00081,nori,LangSplat,0.7061549057667021,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_nori.png
+frame_00081,nori,LEGaussian,0.15654609259009314,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_nori.png
+frame_00081,nori,OpenGaussian,0.893640350877193,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_nori.png
+frame_00081,nori,SAM2+CF (70k),0.3342703648175912,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_nori.png
+frame_00081,nori,No refine (67999),0.6760326679836071,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_nori.png
+frame_00081,onion segments,LangSplat,0.0,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_onion segments.png
+frame_00081,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_onion segments.png
+frame_00081,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_onion segments.png
+frame_00081,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_onion segments.png
+frame_00081,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_onion segments.png
+frame_00081,plate,LangSplat,0.0,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_plate.png
+frame_00081,plate,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_plate.png
+frame_00081,plate,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_plate.png
+frame_00081,plate,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_plate.png
+frame_00081,plate,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_plate.png
+frame_00081,sake cup,LangSplat,0.6078118495906757,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_sake cup.png
+frame_00081,sake cup,LEGaussian,0.20244267198404786,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_sake cup.png
+frame_00081,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_sake cup.png
+frame_00081,sake cup,SAM2+CF (70k),0.307930387132782,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_sake cup.png
+frame_00081,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_sake cup.png
+frame_00081,spoon,LangSplat,0.01926103185028157,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_spoon.png
+frame_00081,spoon,LEGaussian,0.026598548432875155,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_spoon.png
+frame_00081,spoon,OpenGaussian,0.000801714557866328,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_spoon.png
+frame_00081,spoon,SAM2+CF (70k),0.055325644804066036,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_spoon.png
+frame_00081,spoon,No refine (67999),0.05111232483635089,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_spoon.png
+frame_00081,wavy noodles,LangSplat,0.11484571367452805,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00081_wavy noodles.png
+frame_00081,wavy noodles,LEGaussian,0.04538408815310803,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00081_wavy noodles.png
+frame_00081,wavy noodles,OpenGaussian,0.18348779865657683,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00081_wavy noodles.png
+frame_00081,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00081_wavy noodles.png
+frame_00081,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00081_wavy noodles.png
+frame_00119,chopsticks,LangSplat,0.06458040789033768,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_chopsticks.png
+frame_00119,chopsticks,LEGaussian,0.03553201590410065,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_chopsticks.png
+frame_00119,chopsticks,OpenGaussian,0.2625407166123778,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_chopsticks.png
+frame_00119,chopsticks,SAM2+CF (70k),0.25415131936477264,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_chopsticks.png
+frame_00119,chopsticks,No refine (67999),0.23939633063720656,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_chopsticks.png
+frame_00119,corn,LangSplat,0.007025264441557753,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_corn.png
+frame_00119,corn,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_corn.png
+frame_00119,corn,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_corn.png
+frame_00119,corn,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_corn.png
+frame_00119,corn,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_corn.png
+frame_00119,egg,LangSplat,0.11288791375709373,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_egg.png
+frame_00119,egg,LEGaussian,0.15416430543114637,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_egg.png
+frame_00119,egg,OpenGaussian,0.2502239574280328,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_egg.png
+frame_00119,egg,SAM2+CF (70k),0.09310352533938562,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_egg.png
+frame_00119,egg,No refine (67999),0.09486268010980531,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_egg.png
+frame_00119,kamaboko,LangSplat,0.2591081526018181,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_kamaboko.png
+frame_00119,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_kamaboko.png
+frame_00119,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_kamaboko.png
+frame_00119,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_kamaboko.png
+frame_00119,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_kamaboko.png
+frame_00119,nori,LangSplat,0.8046301316986646,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_nori.png
+frame_00119,nori,LEGaussian,0.281187691132695,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_nori.png
+frame_00119,nori,OpenGaussian,0.9384485753815106,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_nori.png
+frame_00119,nori,SAM2+CF (70k),0.6377377826170499,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_nori.png
+frame_00119,nori,No refine (67999),0.9016148206855558,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_nori.png
+frame_00119,onion segments,LangSplat,3.134796238244514e-05,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_onion segments.png
+frame_00119,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_onion segments.png
+frame_00119,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_onion segments.png
+frame_00119,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_onion segments.png
+frame_00119,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_onion segments.png
+frame_00119,sake cup,LangSplat,0.5937260168841136,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_sake cup.png
+frame_00119,sake cup,LEGaussian,0.0635209558480351,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_sake cup.png
+frame_00119,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_sake cup.png
+frame_00119,sake cup,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_sake cup.png
+frame_00119,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_sake cup.png
+frame_00119,wavy noodles,LangSplat,0.26799622733357675,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00119_wavy noodles.png
+frame_00119,wavy noodles,LEGaussian,0.12788753677238895,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00119_wavy noodles.png
+frame_00119,wavy noodles,OpenGaussian,0.29884887839433294,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00119_wavy noodles.png
+frame_00119,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00119_wavy noodles.png
+frame_00119,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00119_wavy noodles.png
+frame_00128,bowl,LangSplat,0.1297840162324207,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_bowl.png
+frame_00128,bowl,LEGaussian,0.19699554756077048,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_bowl.png
+frame_00128,bowl,OpenGaussian,0.18653052485474023,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_bowl.png
+frame_00128,bowl,SAM2+CF (70k),0.5074705503043266,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_bowl.png
+frame_00128,bowl,No refine (67999),0.48594305932365617,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_bowl.png
+frame_00128,chopsticks,LangSplat,0.14565050761024292,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_chopsticks.png
+frame_00128,chopsticks,LEGaussian,0.09760565223079942,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_chopsticks.png
+frame_00128,chopsticks,OpenGaussian,0.7082635602475428,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_chopsticks.png
+frame_00128,chopsticks,SAM2+CF (70k),0.6133159669016243,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_chopsticks.png
+frame_00128,chopsticks,No refine (67999),0.6916418334042855,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_chopsticks.png
+frame_00128,corn,LangSplat,0.007870282571591124,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_corn.png
+frame_00128,corn,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_corn.png
+frame_00128,corn,OpenGaussian,0.0014136447449293178,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_corn.png
+frame_00128,corn,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_corn.png
+frame_00128,corn,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_corn.png
+frame_00128,egg,LangSplat,0.08994661546252532,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_egg.png
+frame_00128,egg,LEGaussian,0.15979356298962938,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_egg.png
+frame_00128,egg,OpenGaussian,0.24623181061319047,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_egg.png
+frame_00128,egg,SAM2+CF (70k),0.05889931643357247,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_egg.png
+frame_00128,egg,No refine (67999),0.06411008346492217,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_egg.png
+frame_00128,glass of water,LangSplat,0.6285234842449616,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_glass of water.png
+frame_00128,glass of water,LEGaussian,0.3485240608824886,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_glass of water.png
+frame_00128,glass of water,OpenGaussian,0.6637162304769945,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_glass of water.png
+frame_00128,glass of water,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_glass of water.png
+frame_00128,glass of water,No refine (67999),0.29136814024390245,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_glass of water.png
+frame_00128,hand,LangSplat,0.014605824892024949,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_hand.png
+frame_00128,hand,LEGaussian,0.012585944829060336,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_hand.png
+frame_00128,hand,OpenGaussian,0.00020597708036851171,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_hand.png
+frame_00128,hand,SAM2+CF (70k),0.014751083036859557,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_hand.png
+frame_00128,hand,No refine (67999),0.014397453575889285,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_hand.png
+frame_00128,kamaboko,LangSplat,0.28060413354531,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_kamaboko.png
+frame_00128,kamaboko,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_kamaboko.png
+frame_00128,kamaboko,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_kamaboko.png
+frame_00128,kamaboko,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_kamaboko.png
+frame_00128,kamaboko,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_kamaboko.png
+frame_00128,napkin,LangSplat,0.05026075126596629,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_napkin.png
+frame_00128,napkin,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_napkin.png
+frame_00128,napkin,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_napkin.png
+frame_00128,napkin,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_napkin.png
+frame_00128,napkin,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_napkin.png
+frame_00128,nori,LangSplat,0.7383602205431897,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_nori.png
+frame_00128,nori,LEGaussian,0.18855297741010688,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_nori.png
+frame_00128,nori,OpenGaussian,0.8987254143421428,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_nori.png
+frame_00128,nori,SAM2+CF (70k),0.45515220858470284,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_nori.png
+frame_00128,nori,No refine (67999),0.716621606307371,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_nori.png
+frame_00128,onion segments,LangSplat,5.43773790103317e-05,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_onion segments.png
+frame_00128,onion segments,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_onion segments.png
+frame_00128,onion segments,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_onion segments.png
+frame_00128,onion segments,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_onion segments.png
+frame_00128,onion segments,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_onion segments.png
+frame_00128,plate,LangSplat,0.0,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_plate.png
+frame_00128,plate,LEGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_plate.png
+frame_00128,plate,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_plate.png
+frame_00128,plate,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_plate.png
+frame_00128,plate,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_plate.png
+frame_00128,sake cup,LangSplat,0.530574259593803,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_sake cup.png
+frame_00128,sake cup,LEGaussian,0.23219435462728305,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_sake cup.png
+frame_00128,sake cup,OpenGaussian,0.0,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_sake cup.png
+frame_00128,sake cup,SAM2+CF (70k),0.403824782367105,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_sake cup.png
+frame_00128,sake cup,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_sake cup.png
+frame_00128,spoon,LangSplat,0.03925324235549084,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_spoon.png
+frame_00128,spoon,LEGaussian,0.042300040373773586,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_spoon.png
+frame_00128,spoon,OpenGaussian,0.019794118481127526,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_spoon.png
+frame_00128,spoon,SAM2+CF (70k),0.11345905413500192,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_spoon.png
+frame_00128,spoon,No refine (67999),0.12051495016611295,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_spoon.png
+frame_00128,wavy noodles,LangSplat,0.20482428517445522,/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1/frame_00128_wavy noodles.png
+frame_00128,wavy noodles,LEGaussian,0.09319177013976367,/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1/frame_00128_wavy noodles.png
+frame_00128,wavy noodles,OpenGaussian,0.2205014552348402,/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1/frame_00128_wavy noodles.png
+frame_00128,wavy noodles,SAM2+CF (70k),0.0,/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/frame_00128_wavy noodles.png
+frame_00128,wavy noodles,No refine (67999),0.0,/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5/frame_00128_wavy noodles.png

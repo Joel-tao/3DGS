@@ -1,0 +1,6 @@
+{
+  "dgsg_wall_seconds": 389.0534064370004,
+  "peak_cuda_allocated_bytes": 5828577280,
+  "peak_cuda_reserved_bytes": 6415187968,
+  "timing_scope": "dgsg: dataset/model initialization, mapping, evaluation and saving; excludes Python imports"
+}

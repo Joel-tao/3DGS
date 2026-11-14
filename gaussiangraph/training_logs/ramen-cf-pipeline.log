@@ -1,0 +1,9 @@
+{'phase': 'training', 'time_unix': 1793252614.2666163, 'output': '/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1'}
+{'phase': 'training', 'time_unix': 1793252614.267701, 'output': '/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1', 'pid': 39335}
+{'phase': 'association', 'time_unix': 1793257225.8994088, 'output': '/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1'}
+{'phase': 'association', 'time_unix': 1793257225.9007087, 'output': '/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1', 'pid': 48244}
+{'phase': 'failed', 'time_unix': 1793257531.3084164, 'output': '/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1', 'error': 'association failed; inspect ramen-cf-association.log'}
+Traceback (most recent call last):
+  File "/home/joe/gaussiangraph/baselines/OpenGaussian/experiments/run_control_follow.py", line 23, in <module>
+    if child.wait()!=0:raise RuntimeError(f'{phase} failed; inspect ramen-cf-{phase}.log')
+RuntimeError: association failed; inspect ramen-cf-association.log

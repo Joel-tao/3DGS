@@ -1,0 +1,9 @@
+子模组 'submodules/langsplat-rasterization'（https://github.com/minghanqin/langsplat-rasterization）已对路径 'submodules/langsplat-rasterization' 注册
+子模组 'submodules/simple-knn'（https://gitlab.inria.fr/bkerbl/simple-knn.git）已对路径 'submodules/simple-knn' 注册
+正克隆到 '/media/joe/Data/gaussiangraph/build/LangSplat/submodules/langsplat-rasterization'...
+正克隆到 '/media/joe/Data/gaussiangraph/build/LangSplat/submodules/simple-knn'...
+子模组路径 'submodules/langsplat-rasterization'：检出 '329f8e8c64a56f3f018397faa4a4996cbf024de0'
+子模组 'third_party/glm'（https://github.com/g-truc/glm.git）已对路径 'submodules/langsplat-rasterization/third_party/glm' 注册
+正克隆到 '/media/joe/Data/gaussiangraph/build/LangSplat/submodules/langsplat-rasterization/third_party/glm'...
+子模组路径 'submodules/langsplat-rasterization/third_party/glm'：检出 'adf31f555e73e2bd6fda373bb5d8740f9c6c17c0'
+子模组路径 'submodules/simple-knn'：检出 '44f764299fa305faf6ec5ebd99939e0508331503'

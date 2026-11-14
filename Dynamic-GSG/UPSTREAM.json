@@ -1,0 +1,6 @@
+{
+  "remote": "https://github.com/GeLuzhou/Dynamic-GSG.git",
+  "commit": "73c2dba33fabcf60f91bf4d1b995cdfc55bb33e6",
+  "submodules": "856dde20aee659246248e20734ef9ba5214f5e44 submodules/GroundingDINO (v0.1.0-alpha2-62-g856dde2)\n cb65e4b86bc3bd8ed42174b72a62e8d3a3a71110 submodules/diff-gaussian-rasterization-w-depth (heads/main)",
+  "note": "Original authors retain ownership. Local training results are under results/, not upstream assets."
+}

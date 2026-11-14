@@ -1,0 +1,409 @@
+Loading trained model at iteration 30000
+Reading camera 1/131Reading camera 2/131Reading camera 3/131Reading camera 4/131Reading camera 5/131Reading camera 6/131Reading camera 7/131Reading camera 8/131Reading camera 9/131Reading camera 10/131Reading camera 11/131Reading camera 12/131Reading camera 13/131Reading camera 14/131Reading camera 15/131Reading camera 16/131Reading camera 17/131Reading camera 18/131Reading camera 19/131Reading camera 20/131Reading camera 21/131Reading camera 22/131Reading camera 23/131Reading camera 24/131Reading camera 25/131Reading camera 26/131Reading camera 27/131Reading camera 28/131Reading camera 29/131Reading camera 30/131Reading camera 31/131Reading camera 32/131Reading camera 33/131Reading camera 34/131Reading camera 35/131Reading camera 36/131Reading camera 37/131Reading camera 38/131Reading camera 39/131Reading camera 40/131Reading camera 41/131Reading camera 42/131Reading camera 43/131Reading camera 44/131Reading camera 45/131Reading camera 46/131Reading camera 47/131Reading camera 48/131Reading camera 49/131Reading camera 50/131Reading camera 51/131Reading camera 52/131Reading camera 53/131Reading camera 54/131Reading camera 55/131Reading camera 56/131Reading camera 57/131Reading camera 58/131Reading camera 59/131Reading camera 60/131Reading camera 61/131Reading camera 62/131Reading camera 63/131Reading camera 64/131Reading camera 65/131Reading camera 66/131Reading camera 67/131Reading camera 68/131Reading camera 69/131Reading camera 70/131Reading camera 71/131Reading camera 72/131Reading camera 73/131Reading camera 74/131Reading camera 75/131Reading camera 76/131Reading camera 77/131Reading camera 78/131Reading camera 79/131Reading camera 80/131Reading camera 81/131Reading camera 82/131Reading camera 83/131Reading camera 84/131Reading camera 85/131Reading camera 86/131Reading camera 87/131Reading camera 88/131Reading camera 89/131Reading camera 90/131Reading camera 91/131Reading camera 92/131Reading camera 93/131Reading camera 94/131Reading camera 95/131Reading camera 96/131Reading camera 97/131Reading camera 98/131Reading camera 99/131Reading camera 100/131Reading camera 101/131Reading camera 102/131Reading camera 103/131Reading camera 104/131Reading camera 105/131Reading camera 106/131Reading camera 107/131Reading camera 108/131Reading camera 109/131Reading camera 110/131Reading camera 111/131Reading camera 112/131Reading camera 113/131Reading camera 114/131Reading camera 115/131Reading camera 116/131Reading camera 117/131Reading camera 118/131Reading camera 119/131Reading camera 120/131Reading camera 121/131Reading camera 122/131Reading camera 123/131Reading camera 124/131Reading camera 125/131Reading camera 126/131Reading camera 127/131Reading camera 128/131Reading camera 129/131Reading camera 130/131Reading camera 131/131
+Resolution:  1.0
+Loading Training Cameras
+Loading Test Cameras
+{'iteration': 30100, 'phase': 'continuous', 'loss': 149.95516967773438, 'clusters': 0, 'seconds': 15.516395246988395}
+{'iteration': 30200, 'phase': 'continuous', 'loss': 96.33184051513672, 'clusters': 0, 'seconds': 30.56141683299211}
+{'iteration': 30300, 'phase': 'continuous', 'loss': 65.77507019042969, 'clusters': 0, 'seconds': 44.511345649996656}
+{'iteration': 30400, 'phase': 'continuous', 'loss': 67.10945892333984, 'clusters': 0, 'seconds': 58.2925483029976}
+{'iteration': 30500, 'phase': 'continuous', 'loss': 64.29825592041016, 'clusters': 0, 'seconds': 72.46557167399442}
+{'iteration': 30600, 'phase': 'continuous', 'loss': 55.58277893066406, 'clusters': 0, 'seconds': 86.30684768498759}
+{'iteration': 30700, 'phase': 'continuous', 'loss': 49.0871696472168, 'clusters': 0, 'seconds': 100.38021342999127}
+{'iteration': 30800, 'phase': 'continuous', 'loss': 37.09046936035156, 'clusters': 0, 'seconds': 114.39143061199866}
+{'iteration': 30900, 'phase': 'continuous', 'loss': 39.84513473510742, 'clusters': 0, 'seconds': 128.3719791249896}
+{'iteration': 31000, 'phase': 'continuous', 'loss': 33.24485778808594, 'clusters': 0, 'seconds': 142.43030249599542}
+{'iteration': 31100, 'phase': 'continuous', 'loss': 44.40998458862305, 'clusters': 0, 'seconds': 156.62220391198935}
+{'iteration': 31200, 'phase': 'continuous', 'loss': 28.741134643554688, 'clusters': 0, 'seconds': 170.69153976999223}
+{'iteration': 31300, 'phase': 'continuous', 'loss': 40.23169708251953, 'clusters': 0, 'seconds': 184.74938385299174}
+{'iteration': 31400, 'phase': 'continuous', 'loss': 31.376455307006836, 'clusters': 0, 'seconds': 198.789005077997}
+{'iteration': 31500, 'phase': 'continuous', 'loss': 22.64158821105957, 'clusters': 0, 'seconds': 212.99917929199}
+{'iteration': 31600, 'phase': 'continuous', 'loss': 22.9322509765625, 'clusters': 0, 'seconds': 227.01557690599293}
+{'iteration': 31700, 'phase': 'continuous', 'loss': 33.76316833496094, 'clusters': 0, 'seconds': 241.15087010798743}
+{'iteration': 31800, 'phase': 'continuous', 'loss': 22.844127655029297, 'clusters': 0, 'seconds': 255.55157954798779}
+{'iteration': 31900, 'phase': 'continuous', 'loss': 22.600629806518555, 'clusters': 0, 'seconds': 269.6877410649904}
+{'iteration': 32000, 'phase': 'continuous', 'loss': 23.23130226135254, 'clusters': 0, 'seconds': 283.91097743799037}
+{'iteration': 32100, 'phase': 'continuous', 'loss': 26.3087158203125, 'clusters': 0, 'seconds': 298.2261416629917}
+{'iteration': 32200, 'phase': 'continuous', 'loss': 21.311813354492188, 'clusters': 0, 'seconds': 312.40243063399976}
+{'iteration': 32300, 'phase': 'continuous', 'loss': 18.274555206298828, 'clusters': 0, 'seconds': 327.01659194999957}
+{'iteration': 32400, 'phase': 'continuous', 'loss': 15.180604934692383, 'clusters': 0, 'seconds': 341.37728726500063}
+{'iteration': 32500, 'phase': 'continuous', 'loss': 17.296979904174805, 'clusters': 0, 'seconds': 355.77353993999714}
+{'iteration': 32600, 'phase': 'continuous', 'loss': 15.497139930725098, 'clusters': 0, 'seconds': 370.43215231799695}
+{'iteration': 32700, 'phase': 'continuous', 'loss': 17.00026512145996, 'clusters': 0, 'seconds': 385.1692894949956}
+{'iteration': 32800, 'phase': 'continuous', 'loss': 14.024646759033203, 'clusters': 0, 'seconds': 399.9436783909914}
+{'iteration': 32900, 'phase': 'continuous', 'loss': 18.78868293762207, 'clusters': 0, 'seconds': 414.7153870789916}
+{'iteration': 33000, 'phase': 'continuous', 'loss': 12.852385520935059, 'clusters': 0, 'seconds': 429.3117355949944}
+{'iteration': 33100, 'phase': 'continuous', 'loss': 16.2143611907959, 'clusters': 0, 'seconds': 444.0774578540004}
+{'iteration': 33200, 'phase': 'continuous', 'loss': 15.39549446105957, 'clusters': 0, 'seconds': 458.42478125399793}
+{'iteration': 33300, 'phase': 'continuous', 'loss': 13.192694664001465, 'clusters': 0, 'seconds': 472.97277813799155}
+{'iteration': 33400, 'phase': 'continuous', 'loss': 11.456268310546875, 'clusters': 0, 'seconds': 487.49619236099534}
+{'iteration': 33500, 'phase': 'continuous', 'loss': 14.122761726379395, 'clusters': 0, 'seconds': 502.1174596609926}
+{'iteration': 33600, 'phase': 'continuous', 'loss': 8.954740524291992, 'clusters': 0, 'seconds': 516.6849641459994}
+{'iteration': 33700, 'phase': 'continuous', 'loss': 12.438726425170898, 'clusters': 0, 'seconds': 531.1089112359914}
+{'iteration': 33800, 'phase': 'continuous', 'loss': 10.325043678283691, 'clusters': 0, 'seconds': 545.6181459359941}
+{'iteration': 33900, 'phase': 'continuous', 'loss': 10.253026008605957, 'clusters': 0, 'seconds': 560.1413256839878}
+{'iteration': 34000, 'phase': 'continuous', 'loss': 9.594985008239746, 'clusters': 0, 'seconds': 574.6567664749891}
+{'iteration': 34100, 'phase': 'continuous', 'loss': 12.804447174072266, 'clusters': 0, 'seconds': 589.2477008379938}
+{'iteration': 34200, 'phase': 'continuous', 'loss': 14.114670753479004, 'clusters': 0, 'seconds': 603.7959226050007}
+{'iteration': 34300, 'phase': 'continuous', 'loss': 8.149164199829102, 'clusters': 0, 'seconds': 618.1603222399863}
+{'iteration': 34400, 'phase': 'continuous', 'loss': 7.915472507476807, 'clusters': 0, 'seconds': 632.6074512769992}
+{'iteration': 34500, 'phase': 'continuous', 'loss': 11.322006225585938, 'clusters': 0, 'seconds': 647.1524056159978}
+{'iteration': 34600, 'phase': 'continuous', 'loss': 7.722707748413086, 'clusters': 0, 'seconds': 661.8725345499988}
+{'iteration': 34700, 'phase': 'continuous', 'loss': 10.119186401367188, 'clusters': 0, 'seconds': 676.6345243329997}
+{'iteration': 34800, 'phase': 'continuous', 'loss': 8.568084716796875, 'clusters': 0, 'seconds': 691.2118581649993}
+{'iteration': 34900, 'phase': 'continuous', 'loss': 8.347433090209961, 'clusters': 0, 'seconds': 705.7016868840001}
+{'iteration': 35000, 'phase': 'continuous', 'loss': 7.541792392730713, 'clusters': 0, 'seconds': 720.4568247269926}
+{'iteration': 35100, 'phase': 'continuous', 'loss': 10.805129051208496, 'clusters': 0, 'seconds': 735.0135862619936}
+{'iteration': 35200, 'phase': 'continuous', 'loss': 7.616279125213623, 'clusters': 0, 'seconds': 749.4014423240005}
+{'iteration': 35300, 'phase': 'continuous', 'loss': 6.289401531219482, 'clusters': 0, 'seconds': 763.757970228995}
+{'iteration': 35400, 'phase': 'continuous', 'loss': 8.866052627563477, 'clusters': 0, 'seconds': 778.3434787639999}
+{'iteration': 35500, 'phase': 'continuous', 'loss': 7.2040510177612305, 'clusters': 0, 'seconds': 792.8160895369947}
+{'iteration': 35600, 'phase': 'continuous', 'loss': 5.462543964385986, 'clusters': 0, 'seconds': 807.3407296829973}
+{'iteration': 35700, 'phase': 'continuous', 'loss': 7.9416680335998535, 'clusters': 0, 'seconds': 821.7049315389886}
+{'iteration': 35800, 'phase': 'continuous', 'loss': 5.741599082946777, 'clusters': 0, 'seconds': 836.2622623759962}
+{'iteration': 35900, 'phase': 'continuous', 'loss': 8.154491424560547, 'clusters': 0, 'seconds': 850.6118842319993}
+{'iteration': 36000, 'phase': 'continuous', 'loss': 7.671305179595947, 'clusters': 0, 'seconds': 865.0034458739974}
+{'iteration': 36100, 'phase': 'continuous', 'loss': 6.6120500564575195, 'clusters': 0, 'seconds': 879.4745402369881}
+{'iteration': 36200, 'phase': 'continuous', 'loss': 5.637295246124268, 'clusters': 0, 'seconds': 893.9530163679883}
+{'iteration': 36300, 'phase': 'continuous', 'loss': 6.036495685577393, 'clusters': 0, 'seconds': 908.9478501539998}
+{'iteration': 36400, 'phase': 'continuous', 'loss': 6.512161731719971, 'clusters': 0, 'seconds': 924.4033169219911}
+{'iteration': 36500, 'phase': 'continuous', 'loss': 6.811622619628906, 'clusters': 0, 'seconds': 940.1826316769875}
+{'iteration': 36600, 'phase': 'continuous', 'loss': 5.684898376464844, 'clusters': 0, 'seconds': 956.3888699559902}
+{'iteration': 36700, 'phase': 'continuous', 'loss': 4.937060832977295, 'clusters': 0, 'seconds': 972.3856355979951}
+{'iteration': 36800, 'phase': 'continuous', 'loss': 6.119463920593262, 'clusters': 0, 'seconds': 987.8120710969961}
+{'iteration': 36900, 'phase': 'continuous', 'loss': 5.532223224639893, 'clusters': 0, 'seconds': 1002.1981304329965}
+{'iteration': 37000, 'phase': 'continuous', 'loss': 4.824355125427246, 'clusters': 0, 'seconds': 1016.8299391389883}
+{'iteration': 37100, 'phase': 'continuous', 'loss': 5.084078788757324, 'clusters': 0, 'seconds': 1031.6949969359994}
+{'iteration': 37200, 'phase': 'continuous', 'loss': 5.598132610321045, 'clusters': 0, 'seconds': 1046.2260865159915}
+{'iteration': 37300, 'phase': 'continuous', 'loss': 4.83024787902832, 'clusters': 0, 'seconds': 1061.1787592689943}
+{'iteration': 37400, 'phase': 'continuous', 'loss': 5.142736434936523, 'clusters': 0, 'seconds': 1075.7766137959989}
+{'iteration': 37500, 'phase': 'continuous', 'loss': 3.9977192878723145, 'clusters': 0, 'seconds': 1090.3598343079939}
+{'iteration': 37600, 'phase': 'continuous', 'loss': 3.970158100128174, 'clusters': 0, 'seconds': 1105.1575880710006}
+{'iteration': 37700, 'phase': 'continuous', 'loss': 4.7792510986328125, 'clusters': 0, 'seconds': 1120.021954479991}
+{'iteration': 37800, 'phase': 'continuous', 'loss': 4.156121730804443, 'clusters': 0, 'seconds': 1134.7486020669894}
+{'iteration': 37900, 'phase': 'continuous', 'loss': 3.6974592208862305, 'clusters': 0, 'seconds': 1149.4049645799969}
+{'iteration': 38000, 'phase': 'continuous', 'loss': 4.240298748016357, 'clusters': 0, 'seconds': 1163.9313462049904}
+{'iteration': 38100, 'phase': 'continuous', 'loss': 4.454822063446045, 'clusters': 0, 'seconds': 1179.5609328729915}
+{'iteration': 38200, 'phase': 'continuous', 'loss': 4.056516170501709, 'clusters': 0, 'seconds': 1195.6907146019948}
+{'iteration': 38300, 'phase': 'continuous', 'loss': 4.666136741638184, 'clusters': 0, 'seconds': 1211.7382863839885}
+{'iteration': 38400, 'phase': 'continuous', 'loss': 4.555734157562256, 'clusters': 0, 'seconds': 1226.2966858549917}
+{'iteration': 38500, 'phase': 'continuous', 'loss': 3.3683671951293945, 'clusters': 0, 'seconds': 1240.787435427992}
+{'iteration': 38600, 'phase': 'continuous', 'loss': 3.693070888519287, 'clusters': 0, 'seconds': 1255.4850247279974}
+{'iteration': 38700, 'phase': 'continuous', 'loss': 3.487347364425659, 'clusters': 0, 'seconds': 1270.2876427539886}
+{'iteration': 38800, 'phase': 'continuous', 'loss': 3.8133442401885986, 'clusters': 0, 'seconds': 1284.9225947759987}
+{'iteration': 38900, 'phase': 'continuous', 'loss': 3.2396633625030518, 'clusters': 0, 'seconds': 1299.4308662309923}
+{'iteration': 39000, 'phase': 'continuous', 'loss': 3.381627082824707, 'clusters': 0, 'seconds': 1314.1906230530003}
+{'iteration': 39100, 'phase': 'continuous', 'loss': 4.472836494445801, 'clusters': 0, 'seconds': 1329.6931070989958}
+{'iteration': 39200, 'phase': 'continuous', 'loss': 3.044802188873291, 'clusters': 0, 'seconds': 1345.7548330719874}
+{'iteration': 39300, 'phase': 'continuous', 'loss': 3.970712423324585, 'clusters': 0, 'seconds': 1361.0257464819879}
+{'iteration': 39400, 'phase': 'continuous', 'loss': 3.0864639282226562, 'clusters': 0, 'seconds': 1375.9507512659911}
+{'iteration': 39500, 'phase': 'continuous', 'loss': 3.162296772003174, 'clusters': 0, 'seconds': 1391.1051334219956}
+{'iteration': 39600, 'phase': 'continuous', 'loss': 3.294442653656006, 'clusters': 0, 'seconds': 1405.7260657029983}
+{'iteration': 39700, 'phase': 'continuous', 'loss': 3.171858310699463, 'clusters': 0, 'seconds': 1420.2855406649905}
+{'iteration': 39800, 'phase': 'continuous', 'loss': 3.0684475898742676, 'clusters': 0, 'seconds': 1434.7243395029946}
+{'iteration': 39900, 'phase': 'continuous', 'loss': 3.852107524871826, 'clusters': 0, 'seconds': 1449.174248986994}
+Control stage: 357051 stable, 5000 controls
+{'iteration': 40000, 'phase': 'control', 'loss': 3.594682455062866, 'clusters': 55, 'seconds': 1469.6293686459976}
+{'iteration': 40100, 'phase': 'control', 'loss': 3.0854907035827637, 'clusters': 55, 'seconds': 1482.5667677289894}
+{'iteration': 40200, 'phase': 'control', 'loss': 3.1153833866119385, 'clusters': 63, 'seconds': 1495.554334636996}
+{'iteration': 40300, 'phase': 'control', 'loss': 3.5559160709381104, 'clusters': 63, 'seconds': 1508.342945461991}
+{'iteration': 40400, 'phase': 'control', 'loss': 3.569859027862549, 'clusters': 60, 'seconds': 1520.9442726249981}
+{'iteration': 40500, 'phase': 'control', 'loss': 3.1582653522491455, 'clusters': 60, 'seconds': 1533.8631197879877}
+{'iteration': 40600, 'phase': 'control', 'loss': 2.8622100353240967, 'clusters': 58, 'seconds': 1546.5202445969917}
+{'iteration': 40700, 'phase': 'control', 'loss': 3.4759654998779297, 'clusters': 58, 'seconds': 1559.438096287995}
+{'iteration': 40800, 'phase': 'control', 'loss': 3.3855268955230713, 'clusters': 59, 'seconds': 1572.3722665690002}
+{'iteration': 40900, 'phase': 'control', 'loss': 3.068686008453369, 'clusters': 59, 'seconds': 1584.9928293839912}
+{'iteration': 41000, 'phase': 'control', 'loss': 2.7501862049102783, 'clusters': 59, 'seconds': 1598.0473379569885}
+{'iteration': 41100, 'phase': 'control', 'loss': 3.0846879482269287, 'clusters': 59, 'seconds': 1610.7388508589938}
+{'iteration': 41200, 'phase': 'control', 'loss': 3.3171284198760986, 'clusters': 58, 'seconds': 1623.609975113999}
+{'iteration': 41300, 'phase': 'control', 'loss': 4.031408786773682, 'clusters': 58, 'seconds': 1636.2116670799878}
+{'iteration': 41400, 'phase': 'control', 'loss': 3.0151052474975586, 'clusters': 60, 'seconds': 1648.8707707139984}
+{'iteration': 41500, 'phase': 'control', 'loss': 2.425694465637207, 'clusters': 60, 'seconds': 1661.1823527599918}
+{'iteration': 41600, 'phase': 'control', 'loss': 3.075725793838501, 'clusters': 64, 'seconds': 1674.4468329029914}
+{'iteration': 41700, 'phase': 'control', 'loss': 3.9770455360412598, 'clusters': 64, 'seconds': 1687.1351748699963}
+{'iteration': 41800, 'phase': 'control', 'loss': 2.7382473945617676, 'clusters': 60, 'seconds': 1700.0288486599893}
+{'iteration': 41900, 'phase': 'control', 'loss': 3.764479160308838, 'clusters': 60, 'seconds': 1712.9721792749915}
+{'iteration': 42000, 'phase': 'control', 'loss': 2.626533269882202, 'clusters': 61, 'seconds': 1726.0150358579995}
+{'iteration': 42100, 'phase': 'control', 'loss': 2.9128072261810303, 'clusters': 61, 'seconds': 1739.1892179539864}
+{'iteration': 42200, 'phase': 'control', 'loss': 3.591909408569336, 'clusters': 63, 'seconds': 1752.3331278699916}
+{'iteration': 42300, 'phase': 'control', 'loss': 2.9117255210876465, 'clusters': 63, 'seconds': 1765.3750872689998}
+{'iteration': 42400, 'phase': 'control', 'loss': 2.7988121509552, 'clusters': 60, 'seconds': 1778.2994305259926}
+{'iteration': 42500, 'phase': 'control', 'loss': 2.6227054595947266, 'clusters': 60, 'seconds': 1791.0080356599938}
+{'iteration': 42600, 'phase': 'control', 'loss': 2.6680984497070312, 'clusters': 58, 'seconds': 1804.1967386159959}
+{'iteration': 42700, 'phase': 'control', 'loss': 2.99499773979187, 'clusters': 58, 'seconds': 1817.0524609089916}
+{'iteration': 42800, 'phase': 'control', 'loss': 3.311532974243164, 'clusters': 63, 'seconds': 1830.3029628669901}
+{'iteration': 42900, 'phase': 'control', 'loss': 2.734470844268799, 'clusters': 63, 'seconds': 1842.7973173589999}
+{'iteration': 43000, 'phase': 'control', 'loss': 2.4738378524780273, 'clusters': 67, 'seconds': 1855.3563188989938}
+{'iteration': 43100, 'phase': 'control', 'loss': 2.7798595428466797, 'clusters': 67, 'seconds': 1868.384048205}
+{'iteration': 43200, 'phase': 'control', 'loss': 3.8857016563415527, 'clusters': 62, 'seconds': 1880.9388286909962}
+{'iteration': 43300, 'phase': 'control', 'loss': 2.4072535037994385, 'clusters': 62, 'seconds': 1893.392802036993}
+{'iteration': 43400, 'phase': 'control', 'loss': 2.655329942703247, 'clusters': 60, 'seconds': 1906.5768271009874}
+{'iteration': 43500, 'phase': 'control', 'loss': 2.4150826930999756, 'clusters': 60, 'seconds': 1918.9567433019984}
+{'iteration': 43600, 'phase': 'control', 'loss': 2.400688886642456, 'clusters': 63, 'seconds': 1932.1447138479998}
+{'iteration': 43700, 'phase': 'control', 'loss': 3.1693570613861084, 'clusters': 63, 'seconds': 1944.996069077999}
+{'iteration': 43800, 'phase': 'control', 'loss': 2.709066867828369, 'clusters': 66, 'seconds': 1957.632594027993}
+{'iteration': 43900, 'phase': 'control', 'loss': 2.534485101699829, 'clusters': 66, 'seconds': 1970.1838955869898}
+{'iteration': 44000, 'phase': 'control', 'loss': 2.677744150161743, 'clusters': 70, 'seconds': 1983.501867353989}
+{'iteration': 44100, 'phase': 'control', 'loss': 2.6956894397735596, 'clusters': 70, 'seconds': 1996.7704257239966}
+{'iteration': 44200, 'phase': 'control', 'loss': 2.6199769973754883, 'clusters': 66, 'seconds': 2010.4488729439909}
+{'iteration': 44300, 'phase': 'control', 'loss': 3.5034842491149902, 'clusters': 66, 'seconds': 2023.4833829589916}
+{'iteration': 44400, 'phase': 'control', 'loss': 2.481466770172119, 'clusters': 67, 'seconds': 2036.5332111539901}
+{'iteration': 44500, 'phase': 'control', 'loss': 3.0352203845977783, 'clusters': 67, 'seconds': 2049.5351794809976}
+{'iteration': 44600, 'phase': 'control', 'loss': 2.426177740097046, 'clusters': 69, 'seconds': 2062.7726006390003}
+{'iteration': 44700, 'phase': 'control', 'loss': 2.3937342166900635, 'clusters': 69, 'seconds': 2075.5742669109895}
+{'iteration': 44800, 'phase': 'control', 'loss': 2.175508975982666, 'clusters': 71, 'seconds': 2088.512235311995}
+{'iteration': 44900, 'phase': 'control', 'loss': 2.525486946105957, 'clusters': 71, 'seconds': 2101.6544935199927}
+{'iteration': 45000, 'phase': 'control', 'loss': 2.5724856853485107, 'clusters': 74, 'seconds': 2114.3201058129926}
+{'iteration': 45100, 'phase': 'control', 'loss': 2.3449411392211914, 'clusters': 74, 'seconds': 2127.5169733879884}
+{'iteration': 45200, 'phase': 'control', 'loss': 2.399688720703125, 'clusters': 69, 'seconds': 2140.6356049069873}
+{'iteration': 45300, 'phase': 'control', 'loss': 2.390385627746582, 'clusters': 69, 'seconds': 2153.7524354909983}
+{'iteration': 45400, 'phase': 'control', 'loss': 2.3258209228515625, 'clusters': 76, 'seconds': 2166.7562199609965}
+{'iteration': 45500, 'phase': 'control', 'loss': 2.523880958557129, 'clusters': 76, 'seconds': 2179.74031704299}
+{'iteration': 45600, 'phase': 'control', 'loss': 2.7020516395568848, 'clusters': 68, 'seconds': 2192.5530525879876}
+{'iteration': 45700, 'phase': 'control', 'loss': 2.632145404815674, 'clusters': 68, 'seconds': 2205.2099458609882}
+{'iteration': 45800, 'phase': 'control', 'loss': 2.3485918045043945, 'clusters': 69, 'seconds': 2218.0926410029933}
+{'iteration': 45900, 'phase': 'control', 'loss': 3.4582879543304443, 'clusters': 69, 'seconds': 2231.2303195709974}
+{'iteration': 46000, 'phase': 'control', 'loss': 2.6257944107055664, 'clusters': 70, 'seconds': 2244.4582627599884}
+{'iteration': 46100, 'phase': 'control', 'loss': 2.3510091304779053, 'clusters': 70, 'seconds': 2257.1317094330007}
+{'iteration': 46200, 'phase': 'control', 'loss': 2.5500783920288086, 'clusters': 75, 'seconds': 2269.952374905988}
+{'iteration': 46300, 'phase': 'control', 'loss': 2.3127658367156982, 'clusters': 75, 'seconds': 2282.9721347859886}
+{'iteration': 46400, 'phase': 'control', 'loss': 3.799522876739502, 'clusters': 77, 'seconds': 2295.6724842269905}
+{'iteration': 46500, 'phase': 'control', 'loss': 2.3272948265075684, 'clusters': 77, 'seconds': 2308.5088521969883}
+{'iteration': 46600, 'phase': 'control', 'loss': 2.9279556274414062, 'clusters': 78, 'seconds': 2321.416979617992}
+{'iteration': 46700, 'phase': 'control', 'loss': 2.76334285736084, 'clusters': 78, 'seconds': 2334.617531523996}
+{'iteration': 46800, 'phase': 'control', 'loss': 2.492949962615967, 'clusters': 77, 'seconds': 2347.6090260479978}
+{'iteration': 46900, 'phase': 'control', 'loss': 3.102431058883667, 'clusters': 77, 'seconds': 2359.982459747989}
+{'iteration': 47000, 'phase': 'control', 'loss': 2.3391799926757812, 'clusters': 81, 'seconds': 2372.8075401199894}
+{'iteration': 47100, 'phase': 'control', 'loss': 2.737431764602661, 'clusters': 81, 'seconds': 2385.271709012988}
+{'iteration': 47200, 'phase': 'control', 'loss': 2.3000552654266357, 'clusters': 85, 'seconds': 2398.7325104249903}
+{'iteration': 47300, 'phase': 'control', 'loss': 2.222881317138672, 'clusters': 85, 'seconds': 2411.5680220769864}
+{'iteration': 47400, 'phase': 'control', 'loss': 2.354703426361084, 'clusters': 78, 'seconds': 2423.641817828}
+{'iteration': 47500, 'phase': 'control', 'loss': 2.2964699268341064, 'clusters': 78, 'seconds': 2437.310400906994}
+{'iteration': 47600, 'phase': 'control', 'loss': 2.303999185562134, 'clusters': 84, 'seconds': 2450.3883155209915}
+{'iteration': 47700, 'phase': 'control', 'loss': 2.2426962852478027, 'clusters': 84, 'seconds': 2463.0697482789983}
+{'iteration': 47800, 'phase': 'control', 'loss': 2.4489762783050537, 'clusters': 85, 'seconds': 2476.0571711269877}
+{'iteration': 47900, 'phase': 'control', 'loss': 2.4885342121124268, 'clusters': 85, 'seconds': 2488.826882796988}
+{'iteration': 48000, 'phase': 'control', 'loss': 2.1920852661132812, 'clusters': 79, 'seconds': 2502.1295713180007}
+{'iteration': 48100, 'phase': 'control', 'loss': 2.064011573791504, 'clusters': 79, 'seconds': 2515.0307599639928}
+{'iteration': 48200, 'phase': 'control', 'loss': 2.4140074253082275, 'clusters': 78, 'seconds': 2527.833657351992}
+{'iteration': 48300, 'phase': 'control', 'loss': 2.647113561630249, 'clusters': 78, 'seconds': 2540.6037864479877}
+{'iteration': 48400, 'phase': 'control', 'loss': 3.229249954223633, 'clusters': 84, 'seconds': 2553.7647095759894}
+{'iteration': 48500, 'phase': 'control', 'loss': 2.3824706077575684, 'clusters': 84, 'seconds': 2566.8853204189945}
+{'iteration': 48600, 'phase': 'control', 'loss': 2.689025640487671, 'clusters': 74, 'seconds': 2579.6002567989926}
+{'iteration': 48700, 'phase': 'control', 'loss': 2.4447154998779297, 'clusters': 74, 'seconds': 2592.3987515339977}
+{'iteration': 48800, 'phase': 'control', 'loss': 2.6162989139556885, 'clusters': 79, 'seconds': 2604.973849682996}
+{'iteration': 48900, 'phase': 'control', 'loss': 2.2569141387939453, 'clusters': 79, 'seconds': 2617.9580304869887}
+{'iteration': 49000, 'phase': 'control', 'loss': 2.6977343559265137, 'clusters': 79, 'seconds': 2630.6876929049904}
+{'iteration': 49100, 'phase': 'control', 'loss': 2.4368107318878174, 'clusters': 79, 'seconds': 2643.1662612609944}
+{'iteration': 49200, 'phase': 'control', 'loss': 2.2548506259918213, 'clusters': 80, 'seconds': 2656.0549948929984}
+{'iteration': 49300, 'phase': 'control', 'loss': 2.481210231781006, 'clusters': 80, 'seconds': 2668.5670020339894}
+{'iteration': 49400, 'phase': 'control', 'loss': 2.4403395652770996, 'clusters': 82, 'seconds': 2681.265777080989}
+{'iteration': 49500, 'phase': 'control', 'loss': 3.3169784545898438, 'clusters': 82, 'seconds': 2693.980758616992}
+{'iteration': 49600, 'phase': 'control', 'loss': 2.4766476154327393, 'clusters': 85, 'seconds': 2706.789227217989}
+{'iteration': 49700, 'phase': 'control', 'loss': 2.49489688873291, 'clusters': 85, 'seconds': 2719.2649160539877}
+{'iteration': 49800, 'phase': 'control', 'loss': 2.4792962074279785, 'clusters': 81, 'seconds': 2731.8847193969996}
+{'iteration': 49900, 'phase': 'control', 'loss': 2.421694040298462, 'clusters': 81, 'seconds': 2744.700578005999}
+Starting exact online Follow assignment
+Follow clusters: 2173
+{'iteration': 50000, 'phase': 'follow', 'loss': 2.557276964187622, 'clusters': 2173, 'seconds': 2775.408794433999}
+{'iteration': 50100, 'phase': 'follow', 'loss': 2.4651846885681152, 'clusters': 2173, 'seconds': 2788.3358817499975}
+{'iteration': 50200, 'phase': 'follow', 'loss': 2.8842036724090576, 'clusters': 2173, 'seconds': 2800.997548415995}
+{'iteration': 50300, 'phase': 'follow', 'loss': 2.4457128047943115, 'clusters': 2173, 'seconds': 2813.614618069987}
+{'iteration': 50400, 'phase': 'follow', 'loss': 1444.9420166015625, 'clusters': 2173, 'seconds': 2826.3196660029935}
+{'iteration': 50500, 'phase': 'follow', 'loss': 2.522991895675659, 'clusters': 2173, 'seconds': 2839.21701477599}
+{'iteration': 50600, 'phase': 'follow', 'loss': 2.6465072631835938, 'clusters': 2173, 'seconds': 2851.709237775998}
+{'iteration': 50700, 'phase': 'follow', 'loss': 3.319166421890259, 'clusters': 2173, 'seconds': 2864.5325620209915}
+{'iteration': 50800, 'phase': 'follow', 'loss': 2.4564483165740967, 'clusters': 2173, 'seconds': 2877.2750517370005}
+{'iteration': 50900, 'phase': 'follow', 'loss': 2.3786752223968506, 'clusters': 2173, 'seconds': 2889.9938134900003}
+{'iteration': 51000, 'phase': 'follow', 'loss': 2.7581605911254883, 'clusters': 2173, 'seconds': 2902.9397228079906}
+{'iteration': 51100, 'phase': 'follow', 'loss': 2.7811737060546875, 'clusters': 2173, 'seconds': 2915.984255778996}
+{'iteration': 51200, 'phase': 'follow', 'loss': 15.566797256469727, 'clusters': 2173, 'seconds': 2929.38432031899}
+{'iteration': 51300, 'phase': 'follow', 'loss': 2.542280673980713, 'clusters': 2173, 'seconds': 2942.3883233649976}
+{'iteration': 51400, 'phase': 'follow', 'loss': 2.7836790084838867, 'clusters': 2173, 'seconds': 2955.1689618620003}
+{'iteration': 51500, 'phase': 'follow', 'loss': 4.782454013824463, 'clusters': 2173, 'seconds': 2967.8440953399986}
+{'iteration': 51600, 'phase': 'follow', 'loss': 5.327502727508545, 'clusters': 2173, 'seconds': 2980.7878994599887}
+{'iteration': 51700, 'phase': 'follow', 'loss': 2.739388942718506, 'clusters': 2173, 'seconds': 2993.818019950995}
+{'iteration': 51800, 'phase': 'follow', 'loss': 2.455033302307129, 'clusters': 2173, 'seconds': 3006.2242884279985}
+{'iteration': 51900, 'phase': 'follow', 'loss': 3.277700185775757, 'clusters': 2173, 'seconds': 3018.813355277991}
+{'iteration': 52000, 'phase': 'follow', 'loss': 10.805521965026855, 'clusters': 2173, 'seconds': 3031.8152284440002}
+{'iteration': 52100, 'phase': 'follow', 'loss': 3.3895792961120605, 'clusters': 2173, 'seconds': 3045.4396328879957}
+{'iteration': 52200, 'phase': 'follow', 'loss': 2.382265090942383, 'clusters': 2173, 'seconds': 3058.6450096479966}
+{'iteration': 52300, 'phase': 'follow', 'loss': 2.48618745803833, 'clusters': 2173, 'seconds': 3071.9058558789984}
+{'iteration': 52400, 'phase': 'follow', 'loss': 2.253437042236328, 'clusters': 2173, 'seconds': 3084.8806303460005}
+{'iteration': 52500, 'phase': 'follow', 'loss': 2.313117742538452, 'clusters': 2173, 'seconds': 3098.1808824639884}
+{'iteration': 52600, 'phase': 'follow', 'loss': 2.248983383178711, 'clusters': 2173, 'seconds': 3110.9342857829906}
+{'iteration': 52700, 'phase': 'follow', 'loss': 2.267521381378174, 'clusters': 2173, 'seconds': 3123.999786358996}
+{'iteration': 52800, 'phase': 'follow', 'loss': 2.129148483276367, 'clusters': 2173, 'seconds': 3136.9671556989924}
+{'iteration': 52900, 'phase': 'follow', 'loss': 2.385331869125366, 'clusters': 2173, 'seconds': 3149.7168444249983}
+{'iteration': 53000, 'phase': 'follow', 'loss': 4.387996673583984, 'clusters': 2173, 'seconds': 3162.7707790259883}
+{'iteration': 53100, 'phase': 'follow', 'loss': 2.9223034381866455, 'clusters': 2173, 'seconds': 3175.730203397994}
+{'iteration': 53200, 'phase': 'follow', 'loss': 2.3930962085723877, 'clusters': 2173, 'seconds': 3188.7075475639867}
+{'iteration': 53300, 'phase': 'follow', 'loss': 2.960810661315918, 'clusters': 2173, 'seconds': 3201.28389103699}
+{'iteration': 53400, 'phase': 'follow', 'loss': 1.9474869966506958, 'clusters': 2173, 'seconds': 3214.1380853320006}
+{'iteration': 53500, 'phase': 'follow', 'loss': 3.902585744857788, 'clusters': 2173, 'seconds': 3226.880184590991}
+{'iteration': 53600, 'phase': 'follow', 'loss': 2.768141031265259, 'clusters': 2173, 'seconds': 3239.83942294}
+{'iteration': 53700, 'phase': 'follow', 'loss': 3.392078399658203, 'clusters': 2173, 'seconds': 3252.8672488199954}
+{'iteration': 53800, 'phase': 'follow', 'loss': 2.526174783706665, 'clusters': 2173, 'seconds': 3265.750042142987}
+{'iteration': 53900, 'phase': 'follow', 'loss': 7.48703670501709, 'clusters': 2173, 'seconds': 3278.5374479429884}
+{'iteration': 54000, 'phase': 'follow', 'loss': 2.4599430561065674, 'clusters': 2173, 'seconds': 3291.7675287989987}
+{'iteration': 54100, 'phase': 'follow', 'loss': 2.4251725673675537, 'clusters': 2173, 'seconds': 3304.896733136993}
+{'iteration': 54200, 'phase': 'follow', 'loss': 107.23295593261719, 'clusters': 2173, 'seconds': 3317.861057581991}
+{'iteration': 54300, 'phase': 'follow', 'loss': 2.5016610622406006, 'clusters': 2173, 'seconds': 3330.9218273849983}
+{'iteration': 54400, 'phase': 'follow', 'loss': 3.3736627101898193, 'clusters': 2173, 'seconds': 3343.9207580839866}
+{'iteration': 54500, 'phase': 'follow', 'loss': 2.4603888988494873, 'clusters': 2173, 'seconds': 3356.551032204996}
+{'iteration': 54600, 'phase': 'follow', 'loss': 4.0616326332092285, 'clusters': 2173, 'seconds': 3369.640406614999}
+{'iteration': 54700, 'phase': 'follow', 'loss': 2.5230040550231934, 'clusters': 2173, 'seconds': 3382.8030956729926}
+{'iteration': 54800, 'phase': 'follow', 'loss': 41.77256774902344, 'clusters': 2173, 'seconds': 3395.605703592999}
+{'iteration': 54900, 'phase': 'follow', 'loss': 3.4557905197143555, 'clusters': 2173, 'seconds': 3408.486102762996}
+{'iteration': 55000, 'phase': 'follow', 'loss': 2.4858474731445312, 'clusters': 2173, 'seconds': 3421.0244826149865}
+{'iteration': 55100, 'phase': 'follow', 'loss': 2.221320629119873, 'clusters': 2173, 'seconds': 3434.3923378759937}
+{'iteration': 55200, 'phase': 'follow', 'loss': 2.4155964851379395, 'clusters': 2173, 'seconds': 3447.6292971899966}
+{'iteration': 55300, 'phase': 'follow', 'loss': 2.940903663635254, 'clusters': 2173, 'seconds': 3460.767514408988}
+{'iteration': 55400, 'phase': 'follow', 'loss': 2.1415090560913086, 'clusters': 2173, 'seconds': 3473.4996907709865}
+{'iteration': 55500, 'phase': 'follow', 'loss': 2.656691312789917, 'clusters': 2173, 'seconds': 3486.4567233309936}
+{'iteration': 55600, 'phase': 'follow', 'loss': 2.662299633026123, 'clusters': 2173, 'seconds': 3499.3459336199885}
+{'iteration': 55700, 'phase': 'follow', 'loss': 2.424638509750366, 'clusters': 2173, 'seconds': 3512.561000646994}
+{'iteration': 55800, 'phase': 'follow', 'loss': 113.3965835571289, 'clusters': 2173, 'seconds': 3525.841777359994}
+{'iteration': 55900, 'phase': 'follow', 'loss': 2.3847315311431885, 'clusters': 2173, 'seconds': 3538.6824046799884}
+{'iteration': 56000, 'phase': 'follow', 'loss': 2.4851646423339844, 'clusters': 2173, 'seconds': 3551.456355492992}
+{'iteration': 56100, 'phase': 'follow', 'loss': 4.049440860748291, 'clusters': 2173, 'seconds': 3564.2875751569954}
+{'iteration': 56200, 'phase': 'follow', 'loss': 2.5715670585632324, 'clusters': 2173, 'seconds': 3577.3626246779895}
+{'iteration': 56300, 'phase': 'follow', 'loss': 2.736818790435791, 'clusters': 2173, 'seconds': 3590.5884872329916}
+{'iteration': 56400, 'phase': 'follow', 'loss': 2.142437696456909, 'clusters': 2173, 'seconds': 3603.554018084993}
+{'iteration': 56500, 'phase': 'follow', 'loss': 2.8750858306884766, 'clusters': 2173, 'seconds': 3616.0536616259924}
+{'iteration': 56600, 'phase': 'follow', 'loss': 4.929710865020752, 'clusters': 2173, 'seconds': 3628.696973992992}
+{'iteration': 56700, 'phase': 'follow', 'loss': 3.1557798385620117, 'clusters': 2173, 'seconds': 3641.3649662969983}
+{'iteration': 56800, 'phase': 'follow', 'loss': 4.998541355133057, 'clusters': 2173, 'seconds': 3654.5217259519995}
+{'iteration': 56900, 'phase': 'follow', 'loss': 3.384826183319092, 'clusters': 2173, 'seconds': 3667.636658815987}
+{'iteration': 57000, 'phase': 'follow', 'loss': 3.3404951095581055, 'clusters': 2173, 'seconds': 3680.2134501519904}
+{'iteration': 57100, 'phase': 'follow', 'loss': 2.7111058235168457, 'clusters': 2173, 'seconds': 3693.0724866409873}
+{'iteration': 57200, 'phase': 'follow', 'loss': 2.658198118209839, 'clusters': 2173, 'seconds': 3705.7151276509976}
+{'iteration': 57300, 'phase': 'follow', 'loss': 2.1503257751464844, 'clusters': 2173, 'seconds': 3719.043220941996}
+{'iteration': 57400, 'phase': 'follow', 'loss': 2.3001599311828613, 'clusters': 2173, 'seconds': 3732.324362506988}
+{'iteration': 57500, 'phase': 'follow', 'loss': 23.560829162597656, 'clusters': 2173, 'seconds': 3744.9227512049983}
+{'iteration': 57600, 'phase': 'follow', 'loss': 2.231607437133789, 'clusters': 2173, 'seconds': 3757.5502561039903}
+{'iteration': 57700, 'phase': 'follow', 'loss': 3.796686887741089, 'clusters': 2173, 'seconds': 3770.332630520992}
+{'iteration': 57800, 'phase': 'follow', 'loss': 3.5851311683654785, 'clusters': 2173, 'seconds': 3783.298245619997}
+{'iteration': 57900, 'phase': 'follow', 'loss': 5.136610507965088, 'clusters': 2173, 'seconds': 3795.9931396549946}
+{'iteration': 58000, 'phase': 'follow', 'loss': 2.291033983230591, 'clusters': 2173, 'seconds': 3808.9807504189957}
+{'iteration': 58100, 'phase': 'follow', 'loss': 2.4972288608551025, 'clusters': 2173, 'seconds': 3821.386211510995}
+{'iteration': 58200, 'phase': 'follow', 'loss': 2.4896206855773926, 'clusters': 2173, 'seconds': 3834.259004855994}
+{'iteration': 58300, 'phase': 'follow', 'loss': 2.5836522579193115, 'clusters': 2173, 'seconds': 3847.073427476993}
+{'iteration': 58400, 'phase': 'follow', 'loss': 2.4962871074676514, 'clusters': 2173, 'seconds': 3859.631117509998}
+{'iteration': 58500, 'phase': 'follow', 'loss': 2.351771593093872, 'clusters': 2173, 'seconds': 3872.6341942069994}
+{'iteration': 58600, 'phase': 'follow', 'loss': 3.5779712200164795, 'clusters': 2173, 'seconds': 3885.4703056729923}
+{'iteration': 58700, 'phase': 'follow', 'loss': 2.2671525478363037, 'clusters': 2173, 'seconds': 3898.0556898979994}
+{'iteration': 58800, 'phase': 'follow', 'loss': 3.424423933029175, 'clusters': 2173, 'seconds': 3911.0471769809956}
+{'iteration': 58900, 'phase': 'follow', 'loss': 2.9309628009796143, 'clusters': 2173, 'seconds': 3924.175825333994}
+{'iteration': 59000, 'phase': 'follow', 'loss': 2.6165480613708496, 'clusters': 2173, 'seconds': 3936.926612616997}
+{'iteration': 59100, 'phase': 'follow', 'loss': 3.8886542320251465, 'clusters': 2173, 'seconds': 3949.7926963279897}
+{'iteration': 59200, 'phase': 'follow', 'loss': 4.158312797546387, 'clusters': 2173, 'seconds': 3962.731068768}
+{'iteration': 59300, 'phase': 'follow', 'loss': 2.606905698776245, 'clusters': 2173, 'seconds': 3975.714634375996}
+{'iteration': 59400, 'phase': 'follow', 'loss': 5.151700019836426, 'clusters': 2173, 'seconds': 3988.4904447419976}
+{'iteration': 59500, 'phase': 'follow', 'loss': 3.7377264499664307, 'clusters': 2173, 'seconds': 4001.410553771988}
+{'iteration': 59600, 'phase': 'follow', 'loss': 2.6669468879699707, 'clusters': 2173, 'seconds': 4014.186907948999}
+{'iteration': 59700, 'phase': 'follow', 'loss': 2.97648549079895, 'clusters': 2173, 'seconds': 4027.386282196996}
+{'iteration': 59800, 'phase': 'follow', 'loss': 2.608067512512207, 'clusters': 2173, 'seconds': 4040.377183462988}
+{'iteration': 59900, 'phase': 'follow', 'loss': 2.5195600986480713, 'clusters': 2173, 'seconds': 4052.9638395129878}
+{'iteration': 60000, 'phase': 'follow', 'loss': 2.4951863288879395, 'clusters': 2173, 'seconds': 4066.0093527499994}
+{'iteration': 60100, 'phase': 'follow', 'loss': 4.0679826736450195, 'clusters': 2173, 'seconds': 4078.8179747190006}
+{'iteration': 60200, 'phase': 'follow', 'loss': 2.4225165843963623, 'clusters': 2173, 'seconds': 4092.0131033849902}
+{'iteration': 60300, 'phase': 'follow', 'loss': 2.9854419231414795, 'clusters': 2173, 'seconds': 4104.842156975996}
+{'iteration': 60400, 'phase': 'follow', 'loss': 2.8937854766845703, 'clusters': 2173, 'seconds': 4117.707583911993}
+{'iteration': 60500, 'phase': 'follow', 'loss': 2.2695560455322266, 'clusters': 2173, 'seconds': 4131.127509826998}
+{'iteration': 60600, 'phase': 'follow', 'loss': 2.732820749282837, 'clusters': 2173, 'seconds': 4143.800643639988}
+{'iteration': 60700, 'phase': 'follow', 'loss': 2.2528367042541504, 'clusters': 2173, 'seconds': 4156.679947599987}
+{'iteration': 60800, 'phase': 'follow', 'loss': 3.336585283279419, 'clusters': 2173, 'seconds': 4169.717462547997}
+{'iteration': 60900, 'phase': 'follow', 'loss': 2.4938387870788574, 'clusters': 2173, 'seconds': 4182.649246270987}
+{'iteration': 61000, 'phase': 'follow', 'loss': 3.6388704776763916, 'clusters': 2173, 'seconds': 4195.574248715988}
+{'iteration': 61100, 'phase': 'follow', 'loss': 2.3488943576812744, 'clusters': 2173, 'seconds': 4208.647552720999}
+{'iteration': 61200, 'phase': 'follow', 'loss': 3.259326696395874, 'clusters': 2173, 'seconds': 4221.274489607997}
+{'iteration': 61300, 'phase': 'follow', 'loss': 2.6823508739471436, 'clusters': 2173, 'seconds': 4234.26201299399}
+{'iteration': 61400, 'phase': 'follow', 'loss': 11.948016166687012, 'clusters': 2173, 'seconds': 4247.021868290991}
+{'iteration': 61500, 'phase': 'follow', 'loss': 2.659513235092163, 'clusters': 2173, 'seconds': 4259.73347305799}
+{'iteration': 61600, 'phase': 'follow', 'loss': 2.58554744720459, 'clusters': 2173, 'seconds': 4272.838527835993}
+{'iteration': 61700, 'phase': 'follow', 'loss': 2.577958822250366, 'clusters': 2173, 'seconds': 4286.160060157999}
+{'iteration': 61800, 'phase': 'follow', 'loss': 5.530767917633057, 'clusters': 2173, 'seconds': 4299.091028521987}
+{'iteration': 61900, 'phase': 'follow', 'loss': 2.3651351928710938, 'clusters': 2173, 'seconds': 4312.120332910999}
+{'iteration': 62000, 'phase': 'follow', 'loss': 2.736624002456665, 'clusters': 2173, 'seconds': 4325.20903096399}
+{'iteration': 62100, 'phase': 'follow', 'loss': 2.6513655185699463, 'clusters': 2173, 'seconds': 4338.468445005987}
+{'iteration': 62200, 'phase': 'follow', 'loss': 2.5417683124542236, 'clusters': 2173, 'seconds': 4351.635626664996}
+{'iteration': 62300, 'phase': 'follow', 'loss': 2.806730031967163, 'clusters': 2173, 'seconds': 4364.33592148}
+{'iteration': 62400, 'phase': 'follow', 'loss': 6.985649108886719, 'clusters': 2173, 'seconds': 4377.588536664989}
+{'iteration': 62500, 'phase': 'follow', 'loss': 2.3195557594299316, 'clusters': 2173, 'seconds': 4390.573840157987}
+{'iteration': 62600, 'phase': 'follow', 'loss': 2.88126540184021, 'clusters': 2173, 'seconds': 4403.667270703998}
+{'iteration': 62700, 'phase': 'follow', 'loss': 2.4721932411193848, 'clusters': 2173, 'seconds': 4416.4556895119895}
+{'iteration': 62800, 'phase': 'follow', 'loss': 2.5170695781707764, 'clusters': 2173, 'seconds': 4429.484568111991}
+{'iteration': 62900, 'phase': 'follow', 'loss': 19.643192291259766, 'clusters': 2173, 'seconds': 4442.535071532999}
+{'iteration': 63000, 'phase': 'follow', 'loss': 2.5922493934631348, 'clusters': 2173, 'seconds': 4455.630570092995}
+{'iteration': 63100, 'phase': 'follow', 'loss': 3.449781894683838, 'clusters': 2173, 'seconds': 4468.736446401992}
+{'iteration': 63200, 'phase': 'follow', 'loss': 3.0928452014923096, 'clusters': 2173, 'seconds': 4481.607776444987}
+{'iteration': 63300, 'phase': 'follow', 'loss': 2.334047555923462, 'clusters': 2173, 'seconds': 4494.703660569998}
+{'iteration': 63400, 'phase': 'follow', 'loss': 5.534800052642822, 'clusters': 2173, 'seconds': 4507.61366572199}
+{'iteration': 63500, 'phase': 'follow', 'loss': 4.238133907318115, 'clusters': 2173, 'seconds': 4520.705887302}
+{'iteration': 63600, 'phase': 'follow', 'loss': 2.4861862659454346, 'clusters': 2173, 'seconds': 4533.569971113}
+{'iteration': 63700, 'phase': 'follow', 'loss': 2.454892873764038, 'clusters': 2173, 'seconds': 4546.408489206995}
+{'iteration': 63800, 'phase': 'follow', 'loss': 4.3389787673950195, 'clusters': 2173, 'seconds': 4559.5109392039885}
+{'iteration': 63900, 'phase': 'follow', 'loss': 3.4939496517181396, 'clusters': 2173, 'seconds': 4572.570031556999}
+{'iteration': 64000, 'phase': 'follow', 'loss': 2.4523515701293945, 'clusters': 2173, 'seconds': 4585.870109053998}
+{'iteration': 64100, 'phase': 'follow', 'loss': 2.980982780456543, 'clusters': 2173, 'seconds': 4598.785090287987}
+{'iteration': 64200, 'phase': 'follow', 'loss': 2.256816864013672, 'clusters': 2173, 'seconds': 4612.017978613992}
+{'iteration': 64300, 'phase': 'follow', 'loss': 2.917060375213623, 'clusters': 2173, 'seconds': 4624.570980430988}
+{'iteration': 64400, 'phase': 'follow', 'loss': 2.6591827869415283, 'clusters': 2173, 'seconds': 4637.273795741989}
+{'iteration': 64500, 'phase': 'follow', 'loss': 2.468867778778076, 'clusters': 2173, 'seconds': 4650.504731566994}
+{'iteration': 64600, 'phase': 'follow', 'loss': 2.6966638565063477, 'clusters': 2173, 'seconds': 4663.584248139989}
+{'iteration': 64700, 'phase': 'follow', 'loss': 2.424463987350464, 'clusters': 2173, 'seconds': 4676.800426033995}
+{'iteration': 64800, 'phase': 'follow', 'loss': 5.207956314086914, 'clusters': 2173, 'seconds': 4689.823371713996}
+{'iteration': 64900, 'phase': 'follow', 'loss': 3.242295503616333, 'clusters': 2173, 'seconds': 4702.723546226}
+{'iteration': 65000, 'phase': 'follow', 'loss': 2.331383228302002, 'clusters': 2173, 'seconds': 4715.606385337989}
+{'iteration': 65100, 'phase': 'follow', 'loss': 2.771449089050293, 'clusters': 2173, 'seconds': 4728.774294195988}
+{'iteration': 65200, 'phase': 'follow', 'loss': 5.532352447509766, 'clusters': 2173, 'seconds': 4741.4163422619895}
+{'iteration': 65300, 'phase': 'follow', 'loss': 2.553264856338501, 'clusters': 2173, 'seconds': 4754.544663110995}
+{'iteration': 65400, 'phase': 'follow', 'loss': 6.0033860206604, 'clusters': 2173, 'seconds': 4767.6307557909895}
+{'iteration': 65500, 'phase': 'follow', 'loss': 7.68227481842041, 'clusters': 2173, 'seconds': 4780.126348229998}
+{'iteration': 65600, 'phase': 'follow', 'loss': 4.884700775146484, 'clusters': 2173, 'seconds': 4793.2739236709895}
+{'iteration': 65700, 'phase': 'follow', 'loss': 3.125135898590088, 'clusters': 2173, 'seconds': 4805.958803508998}
+{'iteration': 65800, 'phase': 'follow', 'loss': 2.5813353061676025, 'clusters': 2173, 'seconds': 4819.032408713989}
+{'iteration': 65900, 'phase': 'follow', 'loss': 3.3789749145507812, 'clusters': 2173, 'seconds': 4832.066472574996}
+{'iteration': 66000, 'phase': 'follow', 'loss': 2.3287734985351562, 'clusters': 2173, 'seconds': 4845.022871747991}
+{'iteration': 66100, 'phase': 'follow', 'loss': 4.084312915802002, 'clusters': 2173, 'seconds': 4857.968388684996}
+{'iteration': 66200, 'phase': 'follow', 'loss': 3.0535953044891357, 'clusters': 2173, 'seconds': 4870.712129738997}
+{'iteration': 66300, 'phase': 'follow', 'loss': 2.8937010765075684, 'clusters': 2173, 'seconds': 4883.807758184994}
+{'iteration': 66400, 'phase': 'follow', 'loss': 2.2526512145996094, 'clusters': 2173, 'seconds': 4896.619252974997}
+{'iteration': 66500, 'phase': 'follow', 'loss': 42.428951263427734, 'clusters': 2173, 'seconds': 4909.957965787995}
+{'iteration': 66600, 'phase': 'follow', 'loss': 2.314642906188965, 'clusters': 2173, 'seconds': 4922.788188281993}
+{'iteration': 66700, 'phase': 'follow', 'loss': 3.2170355319976807, 'clusters': 2173, 'seconds': 4935.518442848988}
+{'iteration': 66800, 'phase': 'follow', 'loss': 3.229757070541382, 'clusters': 2173, 'seconds': 4948.590430635988}
+{'iteration': 66900, 'phase': 'follow', 'loss': 12.564794540405273, 'clusters': 2173, 'seconds': 4961.254778048999}
+{'iteration': 67000, 'phase': 'follow', 'loss': 2.2881720066070557, 'clusters': 2173, 'seconds': 4974.031352236998}
+{'iteration': 67100, 'phase': 'follow', 'loss': 3.4839179515838623, 'clusters': 2173, 'seconds': 4987.102167863995}
+{'iteration': 67200, 'phase': 'follow', 'loss': 2.484102964401245, 'clusters': 2173, 'seconds': 4999.435123184987}
+{'iteration': 67300, 'phase': 'follow', 'loss': 3.467069149017334, 'clusters': 2173, 'seconds': 5012.211446089001}
+{'iteration': 67400, 'phase': 'follow', 'loss': 2.4903008937835693, 'clusters': 2173, 'seconds': 5025.121553707999}
+{'iteration': 67500, 'phase': 'follow', 'loss': 2.968296766281128, 'clusters': 2173, 'seconds': 5038.225855668992}
+{'iteration': 67600, 'phase': 'follow', 'loss': 3.2197976112365723, 'clusters': 2173, 'seconds': 5051.027834462991}
+{'iteration': 67700, 'phase': 'follow', 'loss': 3.5985207557678223, 'clusters': 2173, 'seconds': 5064.3623828719865}
+{'iteration': 67800, 'phase': 'follow', 'loss': 2.418509006500244, 'clusters': 2173, 'seconds': 5077.398548836994}
+{'iteration': 67900, 'phase': 'follow', 'loss': 4.891096591949463, 'clusters': 2173, 'seconds': 5090.117599808989}
+Refined clusters: 4792
+{'iteration': 68000, 'phase': 'refined', 'loss': 3.995181083679199, 'clusters': 4792, 'seconds': 5118.333952732995}
+{'iteration': 68100, 'phase': 'refined', 'loss': 4.369222640991211, 'clusters': 4792, 'seconds': 5131.216665430999}
+{'iteration': 68200, 'phase': 'refined', 'loss': 6.101953983306885, 'clusters': 4792, 'seconds': 5144.0705312179925}
+{'iteration': 68300, 'phase': 'refined', 'loss': 3.458530902862549, 'clusters': 4792, 'seconds': 5157.023893685997}
+{'iteration': 68400, 'phase': 'refined', 'loss': 5.6946611404418945, 'clusters': 4792, 'seconds': 5169.635609345991}
+{'iteration': 68500, 'phase': 'refined', 'loss': 4.142752170562744, 'clusters': 4792, 'seconds': 5182.888268589988}
+{'iteration': 68600, 'phase': 'refined', 'loss': 3.694695472717285, 'clusters': 4792, 'seconds': 5195.27228263799}
+{'iteration': 68700, 'phase': 'refined', 'loss': 3.937810182571411, 'clusters': 4792, 'seconds': 5207.723439360998}
+{'iteration': 68800, 'phase': 'refined', 'loss': 3.717285633087158, 'clusters': 4792, 'seconds': 5220.86437824399}
+{'iteration': 68900, 'phase': 'refined', 'loss': 3.280919075012207, 'clusters': 4792, 'seconds': 5233.261478909}
+{'iteration': 69000, 'phase': 'refined', 'loss': 3.6346819400787354, 'clusters': 4792, 'seconds': 5246.278541749998}
+{'iteration': 69100, 'phase': 'refined', 'loss': 3.7253825664520264, 'clusters': 4792, 'seconds': 5259.1421687509865}
+{'iteration': 69200, 'phase': 'refined', 'loss': 3.109037160873413, 'clusters': 4792, 'seconds': 5272.178645485998}
+{'iteration': 69300, 'phase': 'refined', 'loss': 3.5479934215545654, 'clusters': 4792, 'seconds': 5285.174116772992}
+{'iteration': 69400, 'phase': 'refined', 'loss': 2.9343316555023193, 'clusters': 4792, 'seconds': 5298.005526032997}
+{'iteration': 69500, 'phase': 'refined', 'loss': 3.9710521697998047, 'clusters': 4792, 'seconds': 5310.854335693992}
+{'iteration': 69600, 'phase': 'refined', 'loss': 3.531930685043335, 'clusters': 4792, 'seconds': 5323.731075430987}
+{'iteration': 69700, 'phase': 'refined', 'loss': 5.338098049163818, 'clusters': 4792, 'seconds': 5336.976018483998}
+{'iteration': 69800, 'phase': 'refined', 'loss': 3.9381771087646484, 'clusters': 4792, 'seconds': 5349.98230901199}
+{'iteration': 69900, 'phase': 'refined', 'loss': 3.873281955718994, 'clusters': 4792, 'seconds': 5362.657371670997}
+{'iteration': 70000, 'phase': 'refined', 'loss': 3.6915552616119385, 'clusters': 4792, 'seconds': 5375.029504649996}

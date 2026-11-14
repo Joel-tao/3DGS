@@ -1,0 +1,25 @@
+Processing ./submodules/langsplat-rasterization
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Processing ./submodules/simple-knn
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Building wheels for collected packages: diff_gaussian_rasterization, simple_knn
+  Building wheel for diff_gaussian_rasterization (setup.py): started
+  Building wheel for diff_gaussian_rasterization (setup.py): finished with status 'done'
+  Created wheel for diff_gaussian_rasterization: filename=diff_gaussian_rasterization-0.0.0-cp310-cp310-linux_x86_64.whl size=503163 sha256=9a0bf19006fa138ca631e49e5e31952ab51ef222f1bd251d379f8c3882b3c09c
+  Stored in directory: /media/joe/Data/gaussiangraph/build/pip-ephem-wheel-cache-2vx5v_3d/wheels/a3/04/8f/dbe7a4722eca45bfbfea586f45a8cbaa818643c866b19d9450
+  Building wheel for simple_knn (setup.py): started
+  Building wheel for simple_knn (setup.py): finished with status 'done'
+  Created wheel for simple_knn: filename=simple_knn-0.0.0-cp310-cp310-linux_x86_64.whl size=469711 sha256=86097ef7fe78e205bea06df83b472e54dec9b07b0f7dc57cb2ca4ac8c419e31a
+  Stored in directory: /media/joe/Data/gaussiangraph/build/pip-ephem-wheel-cache-2vx5v_3d/wheels/0e/4f/16/9de9186d80877702d58ac386f99f519a598b00cd6398399723
+Successfully built diff_gaussian_rasterization simple_knn
+Installing collected packages: simple_knn, diff_gaussian_rasterization
+  Attempting uninstall: diff_gaussian_rasterization
+    Found existing installation: diff_gaussian_rasterization 0.0.0
+    Not uninstalling diff-gaussian-rasterization at /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages, outside environment /media/joe/Data/gaussiangraph/envs/langsplat
+    Can't uninstall 'diff_gaussian_rasterization'. No files were found to uninstall.
+Successfully installed diff_gaussian_rasterization-0.0.0 simple_knn-0.0.0
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.2
+[notice] To update, run: pip install --upgrade pip

@@ -1,0 +1,21 @@
+{
+  "source_checkpoint": "/media/joe/Data/gaussiangraph/outputs/ramen_sam2_confidence_v1/cf_checkpoint67999.pth",
+  "feature_sha256": "60f4fa4976450ed96528e6b4bb29e7482d4502de4ae863c0e08adc24a78436c6",
+  "geometry": "/media/joe/Data/gaussiangraph/outputs/ramen_sam2_confidence_v1/point_cloud/iteration_67999",
+  "refine": false,
+  "refinement_config": {
+    "control_points": 5000,
+    "voxel_size": 0.02,
+    "radius": 0.1,
+    "max_nn": 50,
+    "feature_scale": 1.0,
+    "position_scale": 0.5,
+    "branching_factor": 100,
+    "control_threshold": 0,
+    "follow_threshold": 0,
+    "refine_space": "unit",
+    "refine_min_points": 32,
+    "refine_threshold": 0.2
+  },
+  "no_training_updates": true
+}

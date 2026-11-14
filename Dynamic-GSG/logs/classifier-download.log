@@ -1,0 +1,9 @@
+config.json 660
+generation_config.json 242
+tokenizer_config.json 7305
+vocab.json 2776833
+tokenizer.json 7031645
+merges.txt 1671839
+README.md 4917
+LICENSE 11343
+model.safetensors 3087467144

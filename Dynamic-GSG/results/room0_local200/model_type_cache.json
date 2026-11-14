@@ -1,0 +1,146 @@
+{
+  "c9ec4467bd6199bc0219119cdd3259748d839fa702a2271ecde298493e8af600": {
+    "category": "bag",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "4e7ef0a74bfa29805f596917a3e6818cb157e7d5031af88242e25d5333b405ba": {
+    "category": "book",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "f458da22621667bffa0768cb35a8f44452dfc040083e93706df36ecb1b3c3d79": {
+    "category": "closet door",
+    "object_type": "Standalone",
+    "raw_response": "{\"Object caption\": \"Standalone\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "2da30022a3ba4dbf37b40f2172113af948c6eb1f92820cf63013d6d55d1eef44": {
+    "category": "coffee kettle",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "9c95103dd75a8f880c5d932845f9368364fb97b5686f78d133d116eb9fe88899": {
+    "category": "coffee table",
+    "object_type": "Asset",
+    "raw_response": "{\"Object caption\": \"Asset\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "9d7f83dac3278994685eeee32a47a3c1980b98611dd7928b70b5c94a98bc51a0": {
+    "category": "couch",
+    "object_type": "Asset",
+    "raw_response": "{\"Object caption\": \"Asset\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "b092ce9c57185f0e7447c1d67f5221398b02308f06a4058a83dd968ee9e88c53": {
+    "category": "cup",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "165f9f52e92742b7183152d39f8f16c381940900dd33f544ca93f711add8bfd9": {
+    "category": "lamp",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "1ffbc6f83cbda82c1311eef3e3918fba27924069d5c41a5765b143406ae24761": {
+    "category": "picture",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "41f2781a9a8d1908788ce9c4e481c3114b21b645de9eb188e40e878c02d375e8": {
+    "category": "pillow",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "3f92b7183143f12e4b918c64d4281e1d5c793c7dacf074692dedd04080fcb344": {
+    "category": "potted plant",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "4d3fe6cade6efa78f335b578d9f32800f70d6df4e06120da8e56e00528ea0db7": {
+    "category": "shelf",
+    "object_type": "Asset",
+    "raw_response": "{\"Object caption\": \"Asset\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "7fe7c92b1c4812e2a37834867227611e59d05c7953db696a8d3b4cb3f307e1f3": {
+    "category": "sofa chair",
+    "object_type": "Asset",
+    "raw_response": "{\"Object caption\": \"Asset\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "2e1854468f41c7567fe484b77f439d9f9a6a3d6beba554b397cb04538b4ce7f1": {
+    "category": "stool",
+    "object_type": "Standalone",
+    "raw_response": "{\"Object caption\": \"Standalone\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "afc1ec5c380dd696177f82a65dd68ee5532187569dde1c97ae8b8159aad9ac24": {
+    "category": "tissue box",
+    "object_type": "Ordinary",
+    "raw_response": "{\"Object caption\": \"Ordinary\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  },
+  "780a80e6c0741b82db8b56791a5b7912c43aed11ffb7ff451f0d5b437a1e3c4e": {
+    "category": "window",
+    "object_type": "Standalone",
+    "raw_response": "{\"Object caption\": \"Standalone\"}",
+    "model": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+    "prompt_sha256": "1286c4b346f68b7efc85a76af4d1057280f4a13b2563fb50541cf04b83471442",
+    "source": "local_text_model"
+  }
+}

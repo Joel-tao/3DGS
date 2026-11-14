@@ -1,0 +1,29 @@
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+[
+  {
+    "idx": 1,
+    "category": "stool",
+    "score": 0.22925102710723877
+  },
+  {
+    "idx": 4,
+    "category": "stool",
+    "score": 0.20548437535762787
+  },
+  {
+    "idx": 2,
+    "category": "sofa chair",
+    "score": 0.2032512128353119
+  },
+  {
+    "idx": 5,
+    "category": "pillow",
+    "score": 0.19287768006324768
+  },
+  {
+    "idx": 8,
+    "category": "lamp",
+    "score": 0.1824323534965515
+  }
+]

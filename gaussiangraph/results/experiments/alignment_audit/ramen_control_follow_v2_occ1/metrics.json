@@ -1,0 +1,13 @@
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.16247989718751077,
+  "Acc@0.25": 0.2676056338028169,
+  "Acc@0.5": 0.09859154929577464,
+  "method": "cluster",
+  "protocol": "table1_3d_classification_v1",
+  "checkpoint": "/media/joe/Data/gaussiangraph/outputs/common/ramen_3dgs30000.pth",
+  "decoded_in_3d": true,
+  "min_association_views": 1
+}

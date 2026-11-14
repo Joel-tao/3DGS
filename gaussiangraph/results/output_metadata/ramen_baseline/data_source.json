@@ -1,0 +1,7 @@
+{
+  "images_gt_url": "https://huggingface.co/datasets/MinghanQin/lerf_ovs/resolve/main/lerf_ovs.zip",
+  "images_gt_sha256": "0cb250fce178e4e132faf56c9de00e058094ae36cf8d2b6deac0558b5e59374d",
+  "gt_items": 71,
+  "image_count": 131,
+  "feature_preprocessing": "third-party THGS; see feature_source.json"
+}

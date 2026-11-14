@@ -1,0 +1,11 @@
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.05488808350469035,
+  "Acc@0.25": 0.11267605633802817,
+  "Acc@0.5": 0.014084507042253521,
+  "protocol": "top1_fixed_v1",
+  "model_path": "/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v2",
+  "empty_gt_predictions": 5
+}

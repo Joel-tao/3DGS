@@ -1,0 +1,35 @@
+{
+  "query": {
+    "category": null,
+    "parent": null,
+    "parent_id": 24,
+    "id": null
+  },
+  "relation_notice": "Geometric attachment candidates, not verified on/inside relations",
+  "results": [
+    {
+      "id": 27,
+      "category": "potted plant",
+      "object_type": "Ordinary",
+      "parent_id": 24,
+      "parent_category": "coffee table",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 36,
+      "category": "cup",
+      "object_type": "Ordinary",
+      "parent_id": 24,
+      "parent_category": "coffee table",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 39,
+      "category": "book",
+      "object_type": "Ordinary",
+      "parent_id": 24,
+      "parent_category": "coffee table",
+      "attachment_status": "geometric_candidate"
+    }
+  ]
+}

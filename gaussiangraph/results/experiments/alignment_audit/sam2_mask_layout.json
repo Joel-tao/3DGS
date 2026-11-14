@@ -1,0 +1,1322 @@
+{
+  "summary": {
+    "frames": 131,
+    "masks": 3180,
+    "empty": 0,
+    "retained_under_half": 390,
+    "mean_uncovered_fraction": 0.3074146258268572,
+    "mean_confidence": 0.9110739763456447
+  },
+  "frames": [
+    {
+      "frame": "frame_00001",
+      "masks": 19,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.06689023410889636,
+      "confidence_mean": 0.928432047367096,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00002",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.0727152644317307,
+      "confidence_mean": 0.9240402579307556,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00003",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.0900394335306856,
+      "confidence_mean": 0.9088836908340454,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00004",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.15256539486145648,
+      "confidence_mean": 0.9199070930480957,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00005",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.11899427881500024,
+      "confidence_mean": 0.9178314805030823,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00006",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.16307038774459034,
+      "confidence_mean": 0.9224063158035278,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00007",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1479200474088515,
+      "confidence_mean": 0.9143045544624329,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00008",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1475642041017518,
+      "confidence_mean": 0.9033958911895752,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00009",
+      "masks": 17,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.15188416954202827,
+      "confidence_mean": 0.9273830056190491,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00010",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1039519376152683,
+      "confidence_mean": 0.914458155632019,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00011",
+      "masks": 19,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.10305056021090293,
+      "confidence_mean": 0.9018571972846985,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00012",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.09851736570722819,
+      "confidence_mean": 0.9229438304901123,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00013",
+      "masks": 17,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.20896171292168125,
+      "confidence_mean": 0.9288844466209412,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00014",
+      "masks": 19,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2441943541374746,
+      "confidence_mean": 0.9130268096923828,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00015",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2846206461117542,
+      "confidence_mean": 0.9144679307937622,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00016",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.11733275364566315,
+      "confidence_mean": 0.9133483171463013,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00017",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.25678733031674206,
+      "confidence_mean": 0.90907222032547,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00018",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 8,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2307609231433841,
+      "confidence_mean": 0.9026916027069092,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00019",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.19598935516208177,
+      "confidence_mean": 0.914173424243927,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00020",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2739522699203022,
+      "confidence_mean": 0.9081471562385559,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00021",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.24155806753545972,
+      "confidence_mean": 0.9009830355644226,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00022",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.14116317838688058,
+      "confidence_mean": 0.8944317102432251,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00023",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.17825118937510037,
+      "confidence_mean": 0.8989894390106201,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00024",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.44292384122465484,
+      "confidence_mean": 0.9054474234580994,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00025",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.32144973609441896,
+      "confidence_mean": 0.916530966758728,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00026",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3841584651938169,
+      "confidence_mean": 0.9097737073898315,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00027",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1279969760241918,
+      "confidence_mean": 0.9094732999801636,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00028",
+      "masks": 16,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.16071102200413165,
+      "confidence_mean": 0.9171415567398071,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00029",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.09714660744252508,
+      "confidence_mean": 0.9172487854957581,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00030",
+      "masks": 34,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.12679098567211464,
+      "confidence_mean": 0.9043693542480469,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00031",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.152353550402366,
+      "confidence_mean": 0.9138878583908081,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00032",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 0.9999314708737606,
+      "uncovered_fraction": 0.06692208000797532,
+      "confidence_mean": 0.9183976054191589,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00033",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 0.9999854178514662,
+      "uncovered_fraction": 0.11427693193839064,
+      "confidence_mean": 0.910790205001831,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00034",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.05788615229539702,
+      "confidence_mean": 0.9040047526359558,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00035",
+      "masks": 13,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.0563201648232968,
+      "confidence_mean": 0.9201921820640564,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00036",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.08531516363253709,
+      "confidence_mean": 0.8938372135162354,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00037",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.10248148784040496,
+      "confidence_mean": 0.8953811526298523,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00038",
+      "masks": 14,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1065217632105097,
+      "confidence_mean": 0.913784921169281,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00039",
+      "masks": 12,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.16767142785934636,
+      "confidence_mean": 0.9205976128578186,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00040",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.14855696539043073,
+      "confidence_mean": 0.9227687120437622,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00041",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.24897123899931878,
+      "confidence_mean": 0.9112869501113892,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00042",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.4887667052509734,
+      "confidence_mean": 0.9306818246841431,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00043",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5194259984381664,
+      "confidence_mean": 0.9157068729400635,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00044",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.09757168096501381,
+      "confidence_mean": 0.9216925501823425,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00045",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.13615091079271366,
+      "confidence_mean": 0.9222825169563293,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00046",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 6,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.08314410407793661,
+      "confidence_mean": 0.9020364880561829,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00047",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.06526609325586934,
+      "confidence_mean": 0.9284483194351196,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00048",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1601862569714827,
+      "confidence_mean": 0.9263768196105957,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00049",
+      "masks": 17,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3374737617483676,
+      "confidence_mean": 0.9303290247917175,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00050",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1511877135752145,
+      "confidence_mean": 0.9271563291549683,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00051",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.23644749303544033,
+      "confidence_mean": 0.8996103405952454,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00052",
+      "masks": 15,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.48994500351689496,
+      "confidence_mean": 0.9222654104232788,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00053",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6504247966016272,
+      "confidence_mean": 0.9065805077552795,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00054",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 6,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6249826924461528,
+      "confidence_mean": 0.9121848940849304,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00055",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.7406885360301733,
+      "confidence_mean": 0.9041264653205872,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00056",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.726931107628062,
+      "confidence_mean": 0.9114573001861572,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00057",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.7339496668642036,
+      "confidence_mean": 0.8947412371635437,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00058",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6800636364139856,
+      "confidence_mean": 0.9085029363632202,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00059",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.23257613939088487,
+      "confidence_mean": 0.9093532562255859,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00060",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1930055328788139,
+      "confidence_mean": 0.9187787771224976,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00061",
+      "masks": 18,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.05283788498922778,
+      "confidence_mean": 0.9229476451873779,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00062",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.14903880768953848,
+      "confidence_mean": 0.9015064239501953,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00063",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.10660068565605321,
+      "confidence_mean": 0.9005267024040222,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00064",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.17387583976251267,
+      "confidence_mean": 0.9277251362800598,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00065",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.30563478569094527,
+      "confidence_mean": 0.9228553771972656,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00066",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.25898054354026706,
+      "confidence_mean": 0.9242469668388367,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00067",
+      "masks": 13,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.31735269194769516,
+      "confidence_mean": 0.9258279800415039,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00068",
+      "masks": 17,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.558132611862182,
+      "confidence_mean": 0.9005097150802612,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00069",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.42352691947695187,
+      "confidence_mean": 0.914693295955658,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00070",
+      "masks": 14,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.7472335605930537,
+      "confidence_mean": 0.9217723608016968,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00071",
+      "masks": 14,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5131440486937643,
+      "confidence_mean": 0.91938716173172,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00072",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1649022192437845,
+      "confidence_mean": 0.9186280965805054,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00073",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.17223508365779228,
+      "confidence_mean": 0.9163530468940735,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00074",
+      "masks": 36,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 0.999975063587851,
+      "uncovered_fraction": 0.2588406985051812,
+      "confidence_mean": 0.9127734303474426,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00075",
+      "masks": 33,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3790838904057998,
+      "confidence_mean": 0.9225472807884216,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00076",
+      "masks": 37,
+      "empty": 0,
+      "retained_under_half": 6,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3020389683036382,
+      "confidence_mean": 0.9137141108512878,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00077",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.389681651777555,
+      "confidence_mean": 0.9255988597869873,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00078",
+      "masks": 32,
+      "empty": 0,
+      "retained_under_half": 7,
+      "retained_fraction_median": 0.9999954025525029,
+      "uncovered_fraction": 0.44517797703772216,
+      "confidence_mean": 0.9103161096572876,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00079",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3644915456060967,
+      "confidence_mean": 0.9145835041999817,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00080",
+      "masks": 34,
+      "empty": 0,
+      "retained_under_half": 8,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.18662112241563605,
+      "confidence_mean": 0.909652829170227,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00081",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.19155723677287506,
+      "confidence_mean": 0.9143343567848206,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00082",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.19230076928615342,
+      "confidence_mean": 0.9029095768928528,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00083",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5641237947019501,
+      "confidence_mean": 0.893003523349762,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00084",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.18782572816340545,
+      "confidence_mean": 0.894683837890625,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00085",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5489208394025156,
+      "confidence_mean": 0.9085279107093811,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00086",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6127884823075261,
+      "confidence_mean": 0.903587281703949,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00087",
+      "masks": 21,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5289313070110824,
+      "confidence_mean": 0.9069722294807434,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00088",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.4627818362068488,
+      "confidence_mean": 0.9045145511627197,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00089",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.4508437778651617,
+      "confidence_mean": 0.9075050354003906,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00090",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.470345929540256,
+      "confidence_mean": 0.9070109128952026,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00091",
+      "masks": 32,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5942555536478785,
+      "confidence_mean": 0.8937453627586365,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00092",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5024645956678501,
+      "confidence_mean": 0.9112498760223389,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00093",
+      "masks": 33,
+      "empty": 0,
+      "retained_under_half": 7,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6663920534789568,
+      "confidence_mean": 0.8963518142700195,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00094",
+      "masks": 32,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1837300686209895,
+      "confidence_mean": 0.8905411958694458,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00095",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.1056508471009155,
+      "confidence_mean": 0.9049103856086731,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00096",
+      "masks": 19,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2464789512453131,
+      "confidence_mean": 0.9189344644546509,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00097",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 0,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.19918502190444015,
+      "confidence_mean": 0.9166538119316101,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00098",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.269478613401862,
+      "confidence_mean": 0.9097382426261902,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00099",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.17042817503613816,
+      "confidence_mean": 0.9046376347541809,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00100",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.12585499316005472,
+      "confidence_mean": 0.9101696014404297,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00101",
+      "masks": 19,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.10626561141357023,
+      "confidence_mean": 0.9052579998970032,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00102",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 6,
+      "retained_fraction_median": 0.9994777519211083,
+      "uncovered_fraction": 0.09851459649861263,
+      "confidence_mean": 0.9123194813728333,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00103",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 0.9999918158902674,
+      "uncovered_fraction": 0.2163818074070792,
+      "confidence_mean": 0.8893147706985474,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00104",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2274503342434799,
+      "confidence_mean": 0.9218039512634277,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00105",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2569285599561357,
+      "confidence_mean": 0.9135705828666687,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00106",
+      "masks": 31,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 0.9999909535419145,
+      "uncovered_fraction": 0.2662317163001158,
+      "confidence_mean": 0.918143630027771,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00107",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2947697956877883,
+      "confidence_mean": 0.9051061272621155,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00108",
+      "masks": 35,
+      "empty": 0,
+      "retained_under_half": 6,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.33353456249273084,
+      "confidence_mean": 0.9002405405044556,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00109",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6127746362644484,
+      "confidence_mean": 0.9086955785751343,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00110",
+      "masks": 31,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5774561495815725,
+      "confidence_mean": 0.9125791192054749,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00111",
+      "masks": 37,
+      "empty": 0,
+      "retained_under_half": 8,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6148487735175042,
+      "confidence_mean": 0.8970710039138794,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00112",
+      "masks": 35,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6183172073084954,
+      "confidence_mean": 0.9026500582695007,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00113",
+      "masks": 28,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.646160215333662,
+      "confidence_mean": 0.8999622464179993,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00114",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6574267405860753,
+      "confidence_mean": 0.8964127898216248,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00115",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.253526587171918,
+      "confidence_mean": 0.906941831111908,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00116",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5961316924849217,
+      "confidence_mean": 0.9081317782402039,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00117",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.27147105900075874,
+      "confidence_mean": 0.9188788533210754,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00118",
+      "masks": 33,
+      "empty": 0,
+      "retained_under_half": 5,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.42482983213057374,
+      "confidence_mean": 0.9061853885650635,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00119",
+      "masks": 31,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2983019212769375,
+      "confidence_mean": 0.8926994204521179,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00120",
+      "masks": 30,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3044315645474836,
+      "confidence_mean": 0.8941454291343689,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00121",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3829607824675864,
+      "confidence_mean": 0.923345685005188,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00122",
+      "masks": 20,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.29081398118045826,
+      "confidence_mean": 0.9181353449821472,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00123",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5216953648986192,
+      "confidence_mean": 0.9063214659690857,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00124",
+      "masks": 26,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3118876587448839,
+      "confidence_mean": 0.9037351608276367,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00125",
+      "masks": 23,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.3501581218119486,
+      "confidence_mean": 0.8995310664176941,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00126",
+      "masks": 25,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.48007277480241695,
+      "confidence_mean": 0.9125805497169495,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00127",
+      "masks": 24,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.56457932951921,
+      "confidence_mean": 0.9140182137489319,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00128",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 4,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.5609156665208217,
+      "confidence_mean": 0.9115766882896423,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00129",
+      "masks": 27,
+      "empty": 0,
+      "retained_under_half": 2,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6063846873840394,
+      "confidence_mean": 0.907380223274231,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00130",
+      "masks": 22,
+      "empty": 0,
+      "retained_under_half": 3,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.6559590600198275,
+      "confidence_mean": 0.9050325751304626,
+      "clip_norm_mean": 1.0
+    },
+    {
+      "frame": "frame_00131",
+      "masks": 29,
+      "empty": 0,
+      "retained_under_half": 1,
+      "retained_fraction_median": 1.0,
+      "uncovered_fraction": 0.2189876327143229,
+      "confidence_mean": 0.9114899635314941,
+      "clip_norm_mean": 1.0
+    }
+  ]
+}

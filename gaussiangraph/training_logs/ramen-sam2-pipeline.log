@@ -1,0 +1,15 @@
+{'phase': 'sam2_extraction', 'time_unix': 1793258355.6457677}
+{'phase': 'sam2_extraction', 'time_unix': 1793258355.6469505, 'pid': 54620}
+{'phase': 'confidence_smoke', 'time_unix': 1793258709.4437702}
+{'phase': 'confidence_smoke', 'time_unix': 1793258709.4446115, 'pid': 55219}
+{'phase': 'cf_v2_association', 'time_unix': 1793258778.2584376}
+{'phase': 'cf_v2_association', 'time_unix': 1793258778.2601385, 'pid': 64132}
+{'phase': 'cf_v2_evaluation', 'time_unix': 1793260692.0338273}
+{'phase': 'cf_v2_evaluation', 'time_unix': 1793260692.0414586, 'pid': 69674}
+{'phase': 'sam2_confidence_training', 'time_unix': 1793260698.696711}
+{'phase': 'sam2_confidence_training', 'time_unix': 1793260698.6975465, 'pid': 69751}
+{'phase': 'sam2_confidence_association', 'time_unix': 1793266100.5469294}
+{'phase': 'sam2_confidence_association', 'time_unix': 1793266100.553837, 'pid': 82030}
+{'phase': 'sam2_confidence_evaluation', 'time_unix': 1793268381.949812}
+{'phase': 'sam2_confidence_evaluation', 'time_unix': 1793268381.956446, 'pid': 84317}
+{'phase': 'complete', 'time_unix': 1793268388.8264604, 'metrics': {'scene': 'ramen', 'count': 71, 'missing_predictions': 0, 'mIoU': 0.059033674279992926, 'Acc@0.25': 0.028169014084507043, 'Acc@0.5': 0.0, 'protocol': 'top1_fixed_v1', 'model_path': '/media/joe/Data/gaussiangraph/outputs/ramen_sam2_confidence_v1', 'empty_gt_predictions': 13}}

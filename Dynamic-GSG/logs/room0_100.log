@@ -1,0 +1,455 @@
+System Paths:
+/home/joe/Dynamic-GSG
+/home/joe/Dynamic-GSG/scripts
+/opt/ros/noetic/lib/python3/dist-packages
+/home/joe/anaconda3/envs/dgsg/lib/python310.zip
+/home/joe/anaconda3/envs/dgsg/lib/python3.10
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/lib-dynload
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages
+/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/timm/models/layers/__init__.py:49: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+Seed set to: 0 (type: <class 'int'>)
+Loaded Config:
+{'workdir': '/media/joe/Data/Dynamic-GSG/experiments', 'run_name': 'room0_100', 'seed': 0, 'primary_device': 'cuda:0', 'map_every': 1, 'keyframe_every': 5, 'mapping_window_size': 24, 'report_global_progress_every': 500, 'eval_every': 100, 'scene_radius_depth_ratio': 3, 'mean_sq_dist_method': 'projective', 'gaussian_distribution': 'isotropic', 'report_iter_progress': False, 'load_checkpoint': False, 'checkpoint_time_idx': 0, 'save_checkpoints': True, 'checkpoint_interval': 100, 'use_wandb': False, 'whether_to_update': False, 'wandb': {'entity': 'ICR-Lab', 'project': 'Dynamic-GSG', 'group': 'Replica', 'name': 'room0_0', 'save_qual': False, 'eval_save_qual': True}, 'data': {'basedir': '/media/joe/Data/SplaTAM/data/Replica', 'gradslam_data_cfg': './configs/data/replica.yaml', 'sequence': 'room0', 'desired_image_height': 240, 'desired_image_width': 424, 'start': 0, 'end': -1, 'stride': 10, 'num_frames': 100, 'ignore_bad': False, 'use_train_split': True}, 'tracking': {'modify_real_gt_poses': False, 'use_gt_poses': True, 'forward_prop': True, 'num_iters': 40, 'use_sil_for_loss': True, 'sil_thres': 0.5, 'use_l1': True, 'ignore_outlier_depth_loss': True, 'loss_weights': {'im': 0.5, 'depth': 1.0}, 'lrs': {'means3D': 0.0, 'rgb_colors': 0.0, 'features': 0.0, 'unnorm_rotations': 0.0, 'logit_opacities': 0.0, 'log_scales': 0.0, 'cam_unnorm_rots': 0.0004, 'cam_trans': 0.002}, 'use_depth_loss_thres': False, 'depth_loss_thres': 100000, 'visualize_tracking_loss': False}, 'mapping': {'num_iters': 20, 'add_new_gaussians': True, 'sil_thres': 0.98, 'use_l1': True, 'use_sil_for_loss': False, 'ignore_outlier_depth_loss': False, 'loss_weights': {'im': 0.5, 'depth': 1.0, 'features': 0.5}, 'lrs': {'means3D': 0.0001, 'rgb_colors': 0.0025, 'features': 0.0025, 'unnorm_rotations': 0.001, 'logit_opacities': 0.05, 'log_scales': 0.001, 'cam_unnorm_rots': 0.0, 'cam_trans': 0.0}, 'prune_gaussians': True, 'pruning_dict': {'start_after': 0, 'remove_big_after': 0, 'stop_after': 20, 'prune_every': 20, 'removal_opacity_threshold': 0.005, 'final_removal_opacity_threshold': 0.005, 'reset_opacities': False, 'reset_opacities_every': 500}, 'use_gaussian_splatting_densification': False, 'densify_dict': {'start_after': 500, 'remove_big_after': 3000, 'stop_after': 5000, 'densify_every': 100, 'grad_thresh': 0.0002, 'num_to_split_into': 2, 'removal_opacity_threshold': 0.005, 'final_removal_opacity_threshold': 0.005, 'reset_opacities_every': 3000}}, 'lang': {'use_lang': True, 'detection_model': 'yolo', 'color_book_path': './configs/scannet200.txt', 'yolo_model_path': './models/yolov8l-world.pt', 'grounding_dino_config_path': './dgsg/navigation/groundingdino/config/GroundingDINO_SwinT_OGC.py', 'grounding_dino_checkpoint_path': './models/groundingdino_swint_ogc.pth', 'ram_model_path': './models/ram_plus_swin_large_14m.pth', 'sam_model_path': './models/sam_l.pt', 'dam_model_path': 'nvidia/DAM-3B', 'dam_conv_mode': 'v1', 'dam_prompt_mode': 'focal_prompt', 'sys_prompt_file': './configs/prompts/parsing_query.txt', 'obj_prompt_file': './configs/prompts/parsing_objects.txt', 'obj_caption_file': './configs/prompts/parsing_objects_caption.txt', 'clip_model_path': './models/open_clip_pytorch_model.bin', 'classes_file': './configs/scannet200_classes.txt', 'bg_classes': ['wall', 'floor', 'ceiling'], 'skip_bg': True, 'mask_area_threshold': 10, 'max_bbox_area_ratio': 0.6, 'mask_conf_threshold': 0.4, 'merge_overlap_thresh': 0.7, 'merge_visual_sim_thresh': 0.7, 'similarity_bias': 0.0, 'similarity_threshold': 0.55, 'update_gs_num_threshold': 500, 'update_gs_ratio_threshold': 0.9, 'enable_object_captions': False, 'release_yolo_clip': True, 'clip_model_name': 'ViT-B-32', 'clip_pretrained': '/media/joe/Data/Dynamic-GSG/models/clip_vit_b32_laion2b.bin'}, 'viz': {'render_mode': 'color', 'offset_first_viz_cam': True, 'show_sil': False, 'show_bg': True, 'visualize_cams': False, 'viz_w': 640, 'viz_h': 480, 'viz_near': 0.01, 'viz_far': 100.0, 'view_scale': 1, 'viz_fps': 5, 'enter_interactive_post_online': True, 'no_clip': False, 'clip_model_path': './models/open_clip_pytorch_model.bin', 'variables_path': '/media/joe/Data/Dynamic-GSG/experiments/room0_100/variables.npz', 'keyframe_list_path': '/media/joe/Data/Dynamic-GSG/experiments/room0_100/keyframelist.pkl.gz', 'clip_model_name': 'ViT-B-32', 'clip_pretrained': '/media/joe/Data/Dynamic-GSG/models/clip_vit_b32_laion2b.bin'}}
+Loading Dataset ...
+  0%|          | 0/100 [00:00<?, ?it/s]
+Tracking Result Time Step: 0:   0%|          | 0/1 [00:00<?, ?it/s][A
+Tracking Result Time Step: 0:   0%|          | 0/1 [00:00<?, ?it/s, Time-Step: 0 | Rel Pose Error: 0.0 | Pose Error: 0.0 | ATE RMSE=0.0][ATracking Result Time Step: 0: 100%|██████████| 1/1 [00:00<00:00, 85.09it/s, Time-Step: 0 | Rel Pose Error: 0.0 | Pose Error: 0.0 | ATE RMSE=0.0]
+
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 366.16it/s]
+
+Selected Keyframes at Frame 0: [0]
+
+Mapping Time Step: 0:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 0:  10%|█         | 2/20 [00:00<00:01, 16.65it/s][A
+Mapping Time Step: 0:  45%|████▌     | 9/20 [00:00<00:00, 43.76it/s][A
+Mapping Time Step: 0:  80%|████████  | 16/20 [00:00<00:00, 53.38it/s][AMapping Time Step: 0: 100%|██████████| 20/20 [00:00<00:00, 50.72it/s]
+
+Mapping Result Time Step: 0:   0%|          | 0/1 [00:00<?, ?it/s][A
+Mapping Result Time Step: 0:   0%|          | 0/1 [00:00<?, ?it/s, Time-Step: 0 | Frame 0 | PSNR: 29.38021 | Depth RMSE: 0.02444638 | L1=0.02444638][AMapping Result Time Step: 0: 100%|██████████| 1/1 [00:00<00:00, 117.80it/s, Time-Step: 0 | Frame 0 | PSNR: 29.38021 | Depth RMSE: 0.02444638 | L1=0.02444638]
+Saving parameters to: /media/joe/Data/Dynamic-GSG/experiments/room0_100
+  1%|          | 1/100 [00:01<02:30,  1.52s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 560.31it/s]
+tensor(5.0671, device='cuda:0')
+update gs num before: 2868
+updated gs num: 2868
+update gs num before: 3445
+updated gs num: 3445
+update gs num before: 3228
+updated gs num: 3228
+update gs num before: 1643
+updated gs num: 1643
+update gs num before: 2211
+updated gs num: 2211
+update gs num before: 905
+updated gs num: 905
+curr_obj_idx: [1, 2, 4, 5, 8, 11]
+frame 1 num of objects: 9
+
+Selected Keyframes at Frame 1: [0, 1]
+
+Mapping Time Step: 1:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 1:  25%|██▌       | 5/20 [00:00<00:00, 48.73it/s][A
+Mapping Time Step: 1:  60%|██████    | 12/20 [00:00<00:00, 57.59it/s][A
+Mapping Time Step: 1:  90%|█████████ | 18/20 [00:00<00:00, 58.56it/s][AMapping Time Step: 1: 100%|██████████| 20/20 [00:00<00:00, 57.97it/s]
+  2%|▏         | 2/100 [00:02<02:23,  1.46s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 532.51it/s]
+tensor(5.1260, device='cuda:0')
+update gs num before: 2923
+updated gs num: 2923
+update gs num before: 2943
+updated gs num: 2943
+update gs num before: 1422
+updated gs num: 1422
+update gs num before: 1889
+updated gs num: 1889
+update gs num before: 1935
+updated gs num: 1935
+update gs num before: 864
+updated gs num: 864
+update gs num before: 3569
+updated gs num: 3569
+update gs num before: 917
+updated gs num: 917
+curr_obj_idx: [1, 2, 5, 4, 8, 11, 9, 10]
+frame 2 num of objects: 9
+
+Selected Keyframes at Frame 2: [0, 2]
+
+Mapping Time Step: 2:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 2:  30%|███       | 6/20 [00:00<00:00, 52.16it/s][A
+Mapping Time Step: 2:  65%|██████▌   | 13/20 [00:00<00:00, 58.92it/s][A
+Mapping Time Step: 2: 100%|██████████| 20/20 [00:00<00:00, 60.73it/s][AMapping Time Step: 2: 100%|██████████| 20/20 [00:00<00:00, 59.48it/s]
+  3%|▎         | 3/100 [00:04<02:19,  1.44s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 539.13it/s]
+tensor(5.1148, device='cuda:0')
+update gs num before: 954
+updated gs num: 954
+update gs num before: 2039
+updated gs num: 2039
+update gs num before: 1869
+updated gs num: 1869
+update gs num before: 808
+updated gs num: 808
+update gs num before: 483
+invaild_new_object:483 1.0
+curr_obj_idx: [5, 2, 1, 11]
+frame 3 num of objects: 9
+
+Selected Keyframes at Frame 3: [0, 3]
+
+Mapping Time Step: 3:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 3:  25%|██▌       | 5/20 [00:00<00:00, 49.87it/s][A
+Mapping Time Step: 3:  60%|██████    | 12/20 [00:00<00:00, 57.57it/s][A
+Mapping Time Step: 3:  95%|█████████▌| 19/20 [00:00<00:00, 60.32it/s][AMapping Time Step: 3: 100%|██████████| 20/20 [00:00<00:00, 58.69it/s]
+  4%|▍         | 4/100 [00:05<02:18,  1.45s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][ASkipping object 4 due to low number of pixs(6) after splatting in current camera view
+100%|██████████| 9/9 [00:00<00:00, 548.74it/s]
+tensor(5.0776, device='cuda:0')
+update gs num before: 724
+updated gs num: 724
+update gs num before: 937
+updated gs num: 937
+update gs num before: 1672
+updated gs num: 1672
+update gs num before: 1627
+updated gs num: 1627
+update gs num before: 1203
+updated gs num: 1203
+update gs num before: 774
+updated gs num: 774
+curr_obj_idx: [5, 10, 2, 8, 1, 11]
+frame 4 num of objects: 9
+
+Selected Keyframes at Frame 4: [0, 4]
+
+Mapping Time Step: 4:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 4:  30%|███       | 6/20 [00:00<00:00, 50.43it/s][A
+Mapping Time Step: 4:  65%|██████▌   | 13/20 [00:00<00:00, 56.82it/s][A
+Mapping Time Step: 4: 100%|██████████| 20/20 [00:00<00:00, 59.19it/s][AMapping Time Step: 4: 100%|██████████| 20/20 [00:00<00:00, 57.83it/s]
+  5%|▌         | 5/100 [00:07<02:16,  1.44s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 561.66it/s]
+tensor(5.0709, device='cuda:0')
+update gs num before: 993
+updated gs num: 993
+update gs num before: 1465
+updated gs num: 1465
+update gs num before: 1786
+updated gs num: 1786
+update gs num before: 1669
+updated gs num: 1669
+update gs num before: 943
+updated gs num: 943
+update gs num before: 730
+invaild_new_object:730 0.03287671232876712
+update gs num before: 1553
+updated gs num: 1553
+curr_obj_idx: [5, 1, 2, 8, 10, 9]
+frame 5 num of objects: 9
+
+Selected Keyframes at Frame 5: [0, 4, 5]
+
+Mapping Time Step: 5:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 5:  25%|██▌       | 5/20 [00:00<00:00, 46.95it/s][A
+Mapping Time Step: 5:  55%|█████▌    | 11/20 [00:00<00:00, 54.34it/s][A
+Mapping Time Step: 5:  85%|████████▌ | 17/20 [00:00<00:00, 56.30it/s][AMapping Time Step: 5: 100%|██████████| 20/20 [00:00<00:00, 55.80it/s]
+  6%|▌         | 6/100 [00:08<02:15,  1.44s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 513.57it/s]
+tensor(5.0381, device='cuda:0')
+update gs num before: 1606
+updated gs num: 1606
+update gs num before: 1081
+updated gs num: 1081
+update gs num before: 988
+updated gs num: 988
+update gs num before: 782
+updated gs num: 782
+update gs num before: 1854
+updated gs num: 1854
+update gs num before: 1278
+updated gs num: 1278
+update gs num before: 1287
+updated gs num: 1287
+curr_obj_idx: [1, 5, 10, 11, 8, 2, 9]
+frame 6 num of objects: 9
+
+Selected Keyframes at Frame 6: [0, 4, 6]
+
+Mapping Time Step: 6:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 6:  25%|██▌       | 5/20 [00:00<00:00, 48.44it/s][A
+Mapping Time Step: 6:  55%|█████▌    | 11/20 [00:00<00:00, 52.46it/s][A
+Mapping Time Step: 6:  85%|████████▌ | 17/20 [00:00<00:00, 54.30it/s][AMapping Time Step: 6: 100%|██████████| 20/20 [00:00<00:00, 54.49it/s]
+  7%|▋         | 7/100 [00:10<02:13,  1.44s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][A100%|██████████| 9/9 [00:00<00:00, 541.64it/s]
+tensor(4.9606, device='cuda:0')
+update gs num before: 761
+updated gs num: 761
+update gs num before: 877
+updated gs num: 877
+update gs num before: 636
+updated gs num: 636
+update gs num before: 2106
+updated gs num: 2106
+curr_obj_idx: [10, 11, 2, 8]
+frame 7 num of objects: 9
+
+Selected Keyframes at Frame 7: [0, 4, 7]
+
+Mapping Time Step: 7:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 7:  25%|██▌       | 5/20 [00:00<00:00, 47.88it/s][A
+Mapping Time Step: 7:  60%|██████    | 12/20 [00:00<00:00, 56.84it/s][A
+Mapping Time Step: 7:  90%|█████████ | 18/20 [00:00<00:00, 58.15it/s][AMapping Time Step: 7: 100%|██████████| 20/20 [00:00<00:00, 57.33it/s]
+  8%|▊         | 8/100 [00:11<02:12,  1.43s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][ASkipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 4 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(0) after splatting in current camera view
+100%|██████████| 9/9 [00:00<00:00, 521.30it/s]
+tensor(4.8809, device='cuda:0')
+update gs num before: 422
+invaild_new_object:422 0.995260663507109
+update gs num before: 539
+updated gs num: 539
+update gs num before: 1852
+updated gs num: 1852
+update gs num before: 896
+invaild_new_object:896 0.04575892857142857
+curr_obj_idx: [11, 8]
+frame 8 num of objects: 9
+
+Selected Keyframes at Frame 8: [0, 4, 8]
+
+Mapping Time Step: 8:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 8:  25%|██▌       | 5/20 [00:00<00:00, 46.96it/s][A
+Mapping Time Step: 8:  55%|█████▌    | 11/20 [00:00<00:00, 53.83it/s][A
+Mapping Time Step: 8:  90%|█████████ | 18/20 [00:00<00:00, 57.96it/s][AMapping Time Step: 8: 100%|██████████| 20/20 [00:00<00:00, 55.93it/s]
+  9%|▉         | 9/100 [00:12<02:09,  1.42s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][ASkipping object 1 due to low number of pixs(0) after splatting in current camera view
+Skipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 4 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(0) after splatting in current camera view
+Skipping object 10 due to low number of pixs(0) after splatting in current camera view
+100%|██████████| 9/9 [00:00<00:00, 530.02it/s]
+tensor(4.9303, device='cuda:0')
+frame 9 num of objects: 9
+
+Selected Keyframes at Frame 9: [0, 4, 9]
+
+Mapping Time Step: 9:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 9:  25%|██▌       | 5/20 [00:00<00:00, 45.43it/s][A
+Mapping Time Step: 9:  55%|█████▌    | 11/20 [00:00<00:00, 53.13it/s][A
+Mapping Time Step: 9:  85%|████████▌ | 17/20 [00:00<00:00, 56.05it/s][AMapping Time Step: 9: 100%|██████████| 20/20 [00:00<00:00, 55.48it/s]
+ 10%|█         | 10/100 [00:14<02:06,  1.41s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][ASkipping object 1 due to low number of pixs(19) after splatting in current camera view
+Skipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 4 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(0) after splatting in current camera view
+Skipping object 10 due to low number of pixs(0) after splatting in current camera view
+100%|██████████| 9/9 [00:00<00:00, 548.84it/s]
+tensor(4.9587, device='cuda:0')
+update gs num before: 1071
+updated gs num: 1071
+curr_obj_idx: [8]
+frame 10 num of objects: 9
+
+Selected Keyframes at Frame 10: [4, 0, 9, 10]
+
+Mapping Time Step: 10:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 10:  25%|██▌       | 5/20 [00:00<00:00, 45.89it/s][A
+Mapping Time Step: 10:  55%|█████▌    | 11/20 [00:00<00:00, 53.60it/s][A
+Mapping Time Step: 10:  90%|█████████ | 18/20 [00:00<00:00, 56.84it/s][AMapping Time Step: 10: 100%|██████████| 20/20 [00:00<00:00, 55.62it/s]
+ 11%|█         | 11/100 [00:15<02:04,  1.40s/it]
+  0%|          | 0/9 [00:00<?, ?it/s][ASkipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(27) after splatting in current camera view
+100%|██████████| 9/9 [00:00<00:00, 490.98it/s]
+tensor(5.0973, device='cuda:0')
+update gs num before: 1207
+updated gs num: 1207
+update gs num before: 578
+updated gs num: 578
+update gs num before: 1605
+update new object 12 gs num:1605 1605  1.0
+curr_obj_idx: [8, 11, 12]
+frame 11 num of objects: 10
+
+Selected Keyframes at Frame 11: [0, 4, 9, 11]
+
+Mapping Time Step: 11:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 11:  25%|██▌       | 5/20 [00:00<00:00, 42.49it/s][A
+Mapping Time Step: 11:  55%|█████▌    | 11/20 [00:00<00:00, 51.37it/s][A
+Mapping Time Step: 11:  85%|████████▌ | 17/20 [00:00<00:00, 54.23it/s][AMapping Time Step: 11: 100%|██████████| 20/20 [00:00<00:00, 53.14it/s]
+ 12%|█▏        | 12/100 [00:17<02:03,  1.41s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 504.83it/s]
+tensor(5.2877, device='cuda:0')
+update gs num before: 1518
+updated gs num: 1518
+update gs num before: 770
+updated gs num: 770
+update gs num before: 652
+updated gs num: 652
+update gs num before: 546
+invaild_new_object:546 0.045787545787545784
+update gs num before: 1279
+updated gs num: 1279
+curr_obj_idx: [1, 10, 11, 8]
+frame 12 num of objects: 10
+
+Selected Keyframes at Frame 12: [4, 0, 9, 12]
+
+Mapping Time Step: 12:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 12:  25%|██▌       | 5/20 [00:00<00:00, 45.18it/s][A
+Mapping Time Step: 12:  55%|█████▌    | 11/20 [00:00<00:00, 51.53it/s][A
+Mapping Time Step: 12:  85%|████████▌ | 17/20 [00:00<00:00, 54.36it/s][AMapping Time Step: 12: 100%|██████████| 20/20 [00:00<00:00, 52.83it/s]
+ 13%|█▎        | 13/100 [00:18<02:03,  1.41s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 419.36it/s]
+tensor(5.3637, device='cuda:0')
+update gs num before: 2096
+updated gs num: 2096
+update gs num before: 1823
+updated gs num: 1823
+update gs num before: 741
+updated gs num: 741
+update gs num before: 688
+updated gs num: 688
+update gs num before: 793
+updated gs num: 561
+update gs num before: 1062
+updated gs num: 1062
+update gs num before: 2443
+updated gs num: 2443
+update gs num before: 1594
+updated gs num: 1594
+curr_obj_idx: [1, 4, 10, 11, 5, 8, 9, 12]
+frame 13 num of objects: 10
+
+Selected Keyframes at Frame 13: [0, 4, 9, 13]
+
+Mapping Time Step: 13:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 13:  25%|██▌       | 5/20 [00:00<00:00, 47.09it/s][A
+Mapping Time Step: 13:  55%|█████▌    | 11/20 [00:00<00:00, 52.69it/s][A
+Mapping Time Step: 13:  85%|████████▌ | 17/20 [00:00<00:00, 55.00it/s][AMapping Time Step: 13: 100%|██████████| 20/20 [00:00<00:00, 54.20it/s]
+ 14%|█▍        | 14/100 [00:20<02:03,  1.44s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][A100%|██████████| 10/10 [00:00<00:00, 433.63it/s]
+tensor(5.3014, device='cuda:0')
+update gs num before: 2280
+updated gs num: 2280
+update gs num before: 2216
+updated gs num: 2216
+update gs num before: 722
+updated gs num: 722
+update gs num before: 814
+updated gs num: 814
+update gs num before: 666
+updated gs num: 666
+update gs num before: 2468
+updated gs num: 2468
+curr_obj_idx: [1, 4, 8, 10, 11, 9]
+frame 14 num of objects: 10
+
+Selected Keyframes at Frame 14: [0, 4, 9, 14]
+
+Mapping Time Step: 14:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 14:  25%|██▌       | 5/20 [00:00<00:00, 44.99it/s][A
+Mapping Time Step: 14:  55%|█████▌    | 11/20 [00:00<00:00, 52.07it/s][A
+Mapping Time Step: 14:  85%|████████▌ | 17/20 [00:00<00:00, 53.26it/s][AMapping Time Step: 14: 100%|██████████| 20/20 [00:00<00:00, 52.66it/s]
+ 15%|█▌        | 15/100 [00:21<02:03,  1.46s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][ASkipping object 5 due to low number of pixs(126) after splatting in current camera view
+100%|██████████| 10/10 [00:00<00:00, 468.78it/s]
+tensor(5.2029, device='cuda:0')
+update gs num before: 2431
+updated gs num: 2431
+update gs num before: 2461
+updated gs num: 2461
+update gs num before: 934
+updated gs num: 934
+update gs num before: 2524
+updated gs num: 2524
+update gs num before: 443
+updated gs num: 443
+update gs num before: 1786
+updated gs num: 1786
+curr_obj_idx: [1, 4, 10, 9, 11, 12]
+frame 15 num of objects: 10
+
+Selected Keyframes at Frame 15: [4, 9, 0, 14, 15]
+
+Mapping Time Step: 15:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 15:  20%|██        | 4/20 [00:00<00:00, 39.33it/s][A
+Mapping Time Step: 15:  50%|█████     | 10/20 [00:00<00:00, 48.73it/s][A
+Mapping Time Step: 15:  80%|████████  | 16/20 [00:00<00:00, 52.49it/s][AMapping Time Step: 15: 100%|██████████| 20/20 [00:00<00:00, 51.87it/s]
+ 16%|█▌        | 16/100 [00:23<02:03,  1.47s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][ASkipping object 2 due to low number of pixs(25) after splatting in current camera view
+Skipping object 5 due to low number of pixs(26) after splatting in current camera view
+Skipping object 8 due to low number of pixs(30) after splatting in current camera view
+100%|██████████| 10/10 [00:00<00:00, 498.65it/s]
+tensor(5.1202, device='cuda:0')
+update gs num before: 2544
+updated gs num: 2544
+update gs num before: 2692
+updated gs num: 2692
+update gs num before: 807
+updated gs num: 807
+curr_obj_idx: [1, 4, 10]
+frame 16 num of objects: 10
+
+Selected Keyframes at Frame 16: [0, 4, 9, 14, 16]
+
+Mapping Time Step: 16:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 16:  25%|██▌       | 5/20 [00:00<00:00, 46.43it/s][A
+Mapping Time Step: 16:  55%|█████▌    | 11/20 [00:00<00:00, 51.35it/s][A
+Mapping Time Step: 16:  85%|████████▌ | 17/20 [00:00<00:00, 53.79it/s][AMapping Time Step: 16: 100%|██████████| 20/20 [00:00<00:00, 53.39it/s]
+ 17%|█▋        | 17/100 [00:24<02:01,  1.46s/it]
+  0%|          | 0/10 [00:00<?, ?it/s][ASkipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(0) after splatting in current camera view
+Skipping object 8 due to low number of pixs(1) after splatting in current camera view
+Skipping object 11 due to low number of pixs(12) after splatting in current camera view
+100%|██████████| 10/10 [00:00<00:00, 457.58it/s]
+tensor(5.0706, device='cuda:0')
+update gs num before: 2608
+updated gs num: 2608
+update gs num before: 2929
+updated gs num: 2929
+update gs num before: 607
+update new object 13 gs num:607 607  1.0
+update gs num before: 2566
+updated gs num: 2566
+update gs num before: 415
+updated gs num: 415
+curr_obj_idx: [1, 4, 13, 9, 10]
+frame 17 num of objects: 11
+
+Selected Keyframes at Frame 17: [9, 0, 4, 14, 17]
+
+Mapping Time Step: 17:   0%|          | 0/20 [00:00<?, ?it/s][A
+Mapping Time Step: 17:  25%|██▌       | 5/20 [00:00<00:00, 41.61it/s][A
+Mapping Time Step: 17:  55%|█████▌    | 11/20 [00:00<00:00, 47.43it/s][A
+Mapping Time Step: 17:  85%|████████▌ | 17/20 [00:00<00:00, 50.76it/s][AMapping Time Step: 17: 100%|██████████| 20/20 [00:00<00:00, 50.16it/s]
+ 18%|█▊        | 18/100 [00:25<02:00,  1.47s/it]
+  0%|          | 0/11 [00:00<?, ?it/s][ASkipping object 2 due to low number of pixs(0) after splatting in current camera view
+Skipping object 5 due to low number of pixs(0) after splatting in current camera view
+Skipping object 8 due to low number of pixs(0) after splatting in current camera view
+Skipping object 11 due to low number of pixs(0) after splatting in current camera view
+100%|██████████| 11/11 [00:00<00:00, 460.09it/s]
+tensor(5.0748, device='cuda:0')
+update gs num before: 2493
+updated gs num: 2493
+update gs num before: 2809
+updated gs num: 2809
+update gs num before: 2571
+updated gs num: 2571
+curr_obj_idx: [1, 4, 9]
+frame 18 num of objects: 11
+
+Selected Keyframes at Frame 18: [9, 4, 0, 14, 18]
+
+Mapping Time Step: 18:   0%|          | 0/20 [00:00<?, ?it/s][A 18%|█▊        | 18/100 [00:27<02:03,  1.51s/it]
+Traceback (most recent call last):
+  File "/home/joe/Dynamic-GSG/scripts/dynamic_gsg_real_ssim.py", line 1224, in <module>
+    dgsg(experiment.config)
+  File "/home/joe/Dynamic-GSG/scripts/dynamic_gsg_real_ssim.py", line 1033, in dgsg
+    loss, variables, losses = get_loss(params, objects, iter_data, variables, iter_time_idx, color_book,
+  File "/home/joe/Dynamic-GSG/scripts/dynamic_gsg_real_ssim.py", line 278, in get_loss
+    transformed_gaussians = transform_to_frame(params, iter_time_idx,
+  File "/home/joe/Dynamic-GSG/utils/slam_helpers.py", line 343, in transform_to_frame
+    pts_ones = torch.ones(pts.shape[0], 1).cuda().float()
+KeyboardInterrupt
+Mapping Time Step: 18:  15%|█▌        | 3/20 [00:00<00:01, 14.06it/s]

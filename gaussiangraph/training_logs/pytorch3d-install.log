@@ -1,0 +1,634 @@
+Processing /media/joe/Data/gaussiangraph/build/pytorch3d
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting fvcore
+  Downloading fvcore-0.1.5.post20221221.tar.gz (50 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 50.2/50.2 kB 634.5 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting iopath
+  Downloading iopath-0.1.10.tar.gz (42 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 42.2/42.2 kB 3.0 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: numpy in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (1.26.4)
+Collecting yacs>=0.1.6
+  Downloading yacs-0.1.8-py3-none-any.whl (14 kB)
+Requirement already satisfied: pyyaml>=5.1 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (6.0.3)
+Requirement already satisfied: tqdm in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (4.65.0)
+Collecting termcolor>=1.1
+  Downloading termcolor-3.3.0-py3-none-any.whl (7.7 kB)
+Requirement already satisfied: Pillow in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (12.3.0)
+Collecting tabulate
+  Downloading tabulate-0.10.0-py3-none-any.whl (39 kB)
+Requirement already satisfied: typing_extensions in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from iopath->pytorch3d==0.7.7) (4.16.0)
+Collecting portalocker
+  Downloading portalocker-4.4.2-py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 129.7/129.7 kB 1.8 MB/s eta 0:00:00
+Building wheels for collected packages: pytorch3d, fvcore, iopath
+  Building wheel for pytorch3d (setup.py): started
+  Building wheel for pytorch3d (setup.py): finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [275 lines of output]
+      /media/joe/Data/gaussiangraph/build/pytorch3d/setup.py:84: UserWarning: The environment variable `CUB_HOME` was not found. NVIDIA CUB is required for compilation and can be downloaded from `https://github.com/NVIDIA/cub/releases`. You can unpack it to a location of your choice and set the environment variable `CUB_HOME` to the folder containing the `CMakeListst.txt` file.
+        warnings.warn(
+      running bdist_wheel
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/utils/cpp_extension.py:499: UserWarning: Attempted to use ninja as the BuildExtension backend but we could not find ninja.. Falling back to using the slow distutils backend.
+        warnings.warn(msg.format('we could not find ninja.'))
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-310/projects
+      copying projects/__init__.py -> build/lib.linux-x86_64-cpython-310/projects
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d
+      copying pytorch3d/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/compat.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/datatypes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/linear_with_repeat.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/shapenet_base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      copying pytorch3d/implicitron/eval_demo.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      copying pytorch3d/implicitron/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/experimental_gltf_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/mtl_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/obj_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/off_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/pluggable.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/pluggable_formats.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/ply_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/chamfer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_edge_loss.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_laplacian_smoothing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_normal_consistency.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/point_mesh_distance.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/ball_query.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/cameras_alignment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/cubify.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/graph_conv.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/interp_face_attrs.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/iou_box3d.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/knn.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/laplacian_matrices.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/marching_cubes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/marching_cubes_data.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/mesh_face_areas_normals.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/mesh_filtering.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/packed_to_padded.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/perspective_n_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_alignment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_normals.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_to_volumes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/sample_farthest_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/sample_points_from_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/subdivide_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/vert_align.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/blending.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/cameras.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/camera_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/camera_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/compositing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/fisheyecameras.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/lighting.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/materials.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/splatter_blend.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/pointclouds.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/volumes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/math.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/rotation_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/se3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/so3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/transform3d.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/camera_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/checkerboard.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/ico_sphere.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/torus.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/plotly_vis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/texture_vis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/symeig3x3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/r2n2.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/shapenet_core.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/blender_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/dataset_base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/data_loader_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/data_source.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/frame_data.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset_map_provider_v2.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/llff_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/load_blender.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/load_llff.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/orm_types.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/rendered_mesh_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/scene_batch_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/single_sequence_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/sql_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/sql_dataset_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/train_eval_data_loader_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/types.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/visualize.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/evaluate_new_view_synthesis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/evaluator.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/base_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/generic_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/metrics.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/model_dbir.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/overfit_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/hyperlayers.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/pytorch_prototyping.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/camera_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/circle_fitting.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/config.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/depth_cleanup.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/eval_video_trajectory.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/image_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/metric_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/model_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/point_cloud_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/rasterize_mc.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/stats.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/video_writer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/vis_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/feature_extractor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/resnet_feature_extractor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/autodecoder.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/global_encoder.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/decoding_functions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/idr_feature_field.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/neural_radiance_field.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/scene_representation_networks.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/voxel_grid.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/voxel_grid_implicit_function.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/lstm_renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/multipass_ea.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/raymarcher.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_point_refiner.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_tracing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/rgb_net.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/sdf_renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/feature_aggregator.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/view_pooler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/view_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      copying pytorch3d/implicitron/models/visualization/render_flyaround.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      copying pytorch3d/implicitron/models/visualization/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/harmonic_embedding.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/raymarching.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/raysampling.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/sample_pdf.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/clip.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/rasterizer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/rasterize_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/shader.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/shading.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/textures.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/opengl_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/rasterizer_opengl.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/compositor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/rasterizer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/rasterize_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/unified.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/experiment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/visualize_reconstruction.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying pytorch3d/datasets/r2n2/r2n2_synset_dict.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/shapenet/shapenet_synset_dict_v1.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/shapenet_synset_dict_v2.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      running build_ext
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/utils/cpp_extension.py:428: UserWarning: There are no g++ version bounds defined for CUDA version 12.1
+        warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+      building 'pytorch3d._C' extension
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/blending
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/compositing
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/face_areas_normals
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/gather_scatter
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/interp_face_attrs
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/iou_box3d
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/knn
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/marching_cubes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/mesh_normal_consistency
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/packed_to_padded_tensor
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/point_mesh
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/points_to_volumes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/cuda
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/host
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/pytorch
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_coarse
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_meshes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_points
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/sample_farthest_points
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/sample_pdf
+      /home/joe/anaconda3/envs/dgsg/bin/nvcc -DWITH_CUDA -DTHRUST_IGNORE_CUB_VERSION_CHECK -I/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/TH -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/THC -I/home/joe/anaconda3/envs/dgsg/include -I/media/joe/Data/gaussiangraph/envs/opengs/include -I/home/joe/anaconda3/envs/dgsg/include/python3.10 -c /media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.cu -o build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_86,code=sm_86
+      In file included from /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/ATen/cuda/CUDAContext.h:3,
+                       from /media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.cu:10:
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/ATen/cuda/CUDAContextLight.h:7:10: fatal error: cusparse.h: 没有那个文件或目录
+          7 | #include <cusparse.h>
+            |          ^~~~~~~~~~~~
+      compilation terminated.
+      error: command '/home/joe/anaconda3/envs/dgsg/bin/nvcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for pytorch3d
+  Running setup.py clean for pytorch3d
+  Building wheel for fvcore (setup.py): started
+  Building wheel for fvcore (setup.py): finished with status 'done'
+  Created wheel for fvcore: filename=fvcore-0.1.5.post20221221-py3-none-any.whl size=61444 sha256=224370d5d7cc9849574bfe71240cf967d15c376d483a90006e9355442241c3ed
+  Stored in directory: /media/joe/Data/gaussiangraph/build/pip-ephem-wheel-cache-xibv7oyj/wheels/01/c0/af/77c1cf53a1be9e42a52b48e5af2169d40ec2e89f7362489dd0
+  Building wheel for iopath (setup.py): started
+  Building wheel for iopath (setup.py): finished with status 'done'
+  Created wheel for iopath: filename=iopath-0.1.10-py3-none-any.whl size=31598 sha256=885429d482b912fa39d0a4d1b338a6f578294ea84f650927eb62be1fa91a5626
+  Stored in directory: /media/joe/Data/gaussiangraph/build/pip-ephem-wheel-cache-xibv7oyj/wheels/9a/a3/b6/ac0fcd1b4ed5cfeb3db92e6a0e476cfd48ed0df92b91080c1d
+Successfully built fvcore iopath
+Failed to build pytorch3d
+Installing collected packages: yacs, termcolor, tabulate, portalocker, iopath, fvcore, pytorch3d
+  Running setup.py install for pytorch3d: started
+  Running setup.py install for pytorch3d: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Running setup.py install for pytorch3d did not run successfully.
+  │ exit code: 1
+  ╰─> [288 lines of output]
+      /media/joe/Data/gaussiangraph/build/pytorch3d/setup.py:84: UserWarning: The environment variable `CUB_HOME` was not found. NVIDIA CUB is required for compilation and can be downloaded from `https://github.com/NVIDIA/cub/releases`. You can unpack it to a location of your choice and set the environment variable `CUB_HOME` to the folder containing the `CMakeListst.txt` file.
+        warnings.warn(
+      running install
+      /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages/setuptools/_distutils/cmd.py:90: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+      !!
+      
+              ********************************************************************************
+              Please avoid running ``setup.py`` directly.
+              Instead, use pypa/build, pypa/installer or other
+              standards-based tools.
+      
+              See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+              ********************************************************************************
+      
+      !!
+        self.initialize_options()
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-310/projects
+      copying projects/__init__.py -> build/lib.linux-x86_64-cpython-310/projects
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d
+      copying pytorch3d/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/compat.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/datatypes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/linear_with_repeat.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      copying pytorch3d/common/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/shapenet_base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      copying pytorch3d/datasets/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      copying pytorch3d/implicitron/eval_demo.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      copying pytorch3d/implicitron/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/experimental_gltf_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/mtl_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/obj_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/off_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/pluggable.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/pluggable_formats.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/ply_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      copying pytorch3d/io/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/io
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/chamfer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_edge_loss.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_laplacian_smoothing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/mesh_normal_consistency.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/point_mesh_distance.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      copying pytorch3d/loss/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/loss
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/ball_query.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/cameras_alignment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/cubify.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/graph_conv.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/interp_face_attrs.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/iou_box3d.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/knn.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/laplacian_matrices.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/marching_cubes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/marching_cubes_data.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/mesh_face_areas_normals.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/mesh_filtering.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/packed_to_padded.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/perspective_n_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_alignment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_normals.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/points_to_volumes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/sample_farthest_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/sample_points_from_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/subdivide_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/vert_align.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      copying pytorch3d/ops/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/ops
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/blending.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/cameras.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/camera_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/camera_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/compositing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/fisheyecameras.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/lighting.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/materials.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/splatter_blend.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      copying pytorch3d/renderer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/pointclouds.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/volumes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      copying pytorch3d/structures/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/structures
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/math.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/rotation_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/se3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/so3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/transform3d.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      copying pytorch3d/transforms/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/transforms
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/camera_conversions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/checkerboard.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/ico_sphere.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/torus.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      copying pytorch3d/utils/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/utils
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/plotly_vis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/texture_vis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      copying pytorch3d/vis/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/vis
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/symeig3x3.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      copying pytorch3d/common/workaround/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/common/workaround
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/r2n2.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/r2n2/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/shapenet_core.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/blender_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/dataset_base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/data_loader_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/data_source.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/frame_data.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/json_index_dataset_map_provider_v2.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/llff_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/load_blender.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/load_llff.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/orm_types.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/rendered_mesh_dataset_map_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/scene_batch_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/single_sequence_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/sql_dataset.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/sql_dataset_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/train_eval_data_loader_provider.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/types.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/visualize.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      copying pytorch3d/implicitron/dataset/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/dataset
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/evaluate_new_view_synthesis.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/evaluator.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      copying pytorch3d/implicitron/evaluation/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/evaluation
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/base_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/generic_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/metrics.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/model_dbir.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/overfit_model.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      copying pytorch3d/implicitron/models/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/hyperlayers.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/pytorch_prototyping.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      copying pytorch3d/implicitron/third_party/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/third_party
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/camera_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/circle_fitting.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/config.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/depth_cleanup.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/eval_video_trajectory.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/image_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/metric_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/model_io.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/point_cloud_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/rasterize_mc.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/stats.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/video_writer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/vis_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      copying pytorch3d/implicitron/tools/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/tools
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/feature_extractor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/resnet_feature_extractor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      copying pytorch3d/implicitron/models/feature_extractor/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/feature_extractor
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/autodecoder.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/global_encoder.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      copying pytorch3d/implicitron/models/global_encoder/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/global_encoder
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/decoding_functions.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/idr_feature_field.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/neural_radiance_field.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/scene_representation_networks.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/voxel_grid.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/voxel_grid_implicit_function.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      copying pytorch3d/implicitron/models/implicit_function/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/implicit_function
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/base.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/lstm_renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/multipass_ea.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/raymarcher.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_point_refiner.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/ray_tracing.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/rgb_net.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/sdf_renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      copying pytorch3d/implicitron/models/renderer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/renderer
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/feature_aggregator.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/view_pooler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/view_sampler.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      copying pytorch3d/implicitron/models/view_pooler/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/view_pooler
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      copying pytorch3d/implicitron/models/visualization/render_flyaround.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      copying pytorch3d/implicitron/models/visualization/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron/models/visualization
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/harmonic_embedding.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/raymarching.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/raysampling.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/sample_pdf.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      copying pytorch3d/renderer/implicit/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/implicit
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/clip.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/rasterizer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/rasterize_meshes.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/shader.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/shading.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/textures.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      copying pytorch3d/renderer/mesh/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/mesh
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/opengl_utils.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/rasterizer_opengl.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      copying pytorch3d/renderer/opengl/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/opengl
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/compositor.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/rasterizer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/rasterize_points.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      copying pytorch3d/renderer/points/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/renderer.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/unified.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      copying pytorch3d/renderer/points/pulsar/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/renderer/points/pulsar
+      creating build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/experiment.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/visualize_reconstruction.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying projects/implicitron_trainer/__init__.py -> build/lib.linux-x86_64-cpython-310/pytorch3d/implicitron_trainer
+      copying pytorch3d/datasets/r2n2/r2n2_synset_dict.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/r2n2
+      copying pytorch3d/datasets/shapenet/shapenet_synset_dict_v1.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      copying pytorch3d/datasets/shapenet/shapenet_synset_dict_v2.json -> build/lib.linux-x86_64-cpython-310/pytorch3d/datasets/shapenet
+      running build_ext
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/utils/cpp_extension.py:499: UserWarning: Attempted to use ninja as the BuildExtension backend but we could not find ninja.. Falling back to using the slow distutils backend.
+        warnings.warn(msg.format('we could not find ninja.'))
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/utils/cpp_extension.py:428: UserWarning: There are no g++ version bounds defined for CUDA version 12.1
+        warnings.warn(f'There are no {compiler_name} version bounds defined for CUDA version {cuda_str_version}')
+      building 'pytorch3d._C' extension
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/blending
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/compositing
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/face_areas_normals
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/gather_scatter
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/interp_face_attrs
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/iou_box3d
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/knn
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/marching_cubes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/mesh_normal_consistency
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/packed_to_padded_tensor
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/point_mesh
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/points_to_volumes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/cuda
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/host
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/pulsar/pytorch
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_coarse
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_meshes
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/rasterize_points
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/sample_farthest_points
+      creating build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/sample_pdf
+      /home/joe/anaconda3/envs/dgsg/bin/nvcc -DWITH_CUDA -DTHRUST_IGNORE_CUB_VERSION_CHECK -I/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/torch/csrc/api/include -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/TH -I/home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/THC -I/home/joe/anaconda3/envs/dgsg/include -I/media/joe/Data/gaussiangraph/envs/opengs/include -I/home/joe/anaconda3/envs/dgsg/include/python3.10 -c /media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.cu -o build/temp.linux-x86_64-cpython-310/media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.o -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_BFLOAT16_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ --expt-relaxed-constexpr --compiler-options '-fPIC' -DCUDA_HAS_FP16=1 -D__CUDA_NO_HALF_OPERATORS__ -D__CUDA_NO_HALF_CONVERSIONS__ -D__CUDA_NO_HALF2_OPERATORS__ -std=c++17 -DTORCH_API_INCLUDE_EXTENSION_H -DPYBIND11_COMPILER_TYPE=\"_gcc\" -DPYBIND11_STDLIB=\"_libstdcpp\" -DPYBIND11_BUILD_ABI=\"_cxxabi1011\" -DTORCH_EXTENSION_NAME=_C -D_GLIBCXX_USE_CXX11_ABI=0 -gencode=arch=compute_86,code=sm_86
+      In file included from /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/ATen/cuda/CUDAContext.h:3,
+                       from /media/joe/Data/gaussiangraph/build/pytorch3d/pytorch3d/csrc/ball_query/ball_query.cu:10:
+      /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages/torch/include/ATen/cuda/CUDAContextLight.h:7:10: fatal error: cusparse.h: 没有那个文件或目录
+          7 | #include <cusparse.h>
+            |          ^~~~~~~~~~~~
+      compilation terminated.
+      error: command '/home/joe/anaconda3/envs/dgsg/bin/nvcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: legacy-install-failure
+
+× Encountered error while trying to install package.
+╰─> pytorch3d
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for output from the failure.
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

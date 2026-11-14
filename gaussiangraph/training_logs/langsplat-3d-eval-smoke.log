@@ -1,0 +1,135 @@
+Loading trained model at iteration 30000
+Reading camera 1/131Reading camera 2/131Reading camera 3/131Reading camera 4/131Reading camera 5/131Reading camera 6/131Reading camera 7/131Reading camera 8/131Reading camera 9/131Reading camera 10/131Reading camera 11/131Reading camera 12/131Reading camera 13/131Reading camera 14/131Reading camera 15/131Reading camera 16/131Reading camera 17/131Reading camera 18/131Reading camera 19/131Reading camera 20/131Reading camera 21/131Reading camera 22/131Reading camera 23/131Reading camera 24/131Reading camera 25/131Reading camera 26/131Reading camera 27/131Reading camera 28/131Reading camera 29/131Reading camera 30/131Reading camera 31/131Reading camera 32/131Reading camera 33/131Reading camera 34/131Reading camera 35/131Reading camera 36/131Reading camera 37/131Reading camera 38/131Reading camera 39/131Reading camera 40/131Reading camera 41/131Reading camera 42/131Reading camera 43/131Reading camera 44/131Reading camera 45/131Reading camera 46/131Reading camera 47/131Reading camera 48/131Reading camera 49/131Reading camera 50/131Reading camera 51/131Reading camera 52/131Reading camera 53/131Reading camera 54/131Reading camera 55/131Reading camera 56/131Reading camera 57/131Reading camera 58/131Reading camera 59/131Reading camera 60/131Reading camera 61/131Reading camera 62/131Reading camera 63/131Reading camera 64/131Reading camera 65/131Reading camera 66/131Reading camera 67/131Reading camera 68/131Reading camera 69/131Reading camera 70/131Reading camera 71/131Reading camera 72/131Reading camera 73/131Reading camera 74/131Reading camera 75/131Reading camera 76/131Reading camera 77/131Reading camera 78/131Reading camera 79/131Reading camera 80/131Reading camera 81/131Reading camera 82/131Reading camera 83/131Reading camera 84/131Reading camera 85/131Reading camera 86/131Reading camera 87/131Reading camera 88/131Reading camera 89/131Reading camera 90/131Reading camera 91/131Reading camera 92/131Reading camera 93/131Reading camera 94/131Reading camera 95/131Reading camera 96/131Reading camera 97/131Reading camera 98/131Reading camera 99/131Reading camera 100/131Reading camera 101/131Reading camera 102/131Reading camera 103/131Reading camera 104/131Reading camera 105/131Reading camera 106/131Reading camera 107/131Reading camera 108/131Reading camera 109/131Reading camera 110/131Reading camera 111/131Reading camera 112/131Reading camera 113/131Reading camera 114/131Reading camera 115/131Reading camera 116/131Reading camera 117/131Reading camera 118/131Reading camera 119/131Reading camera 120/131Reading camera 121/131Reading camera 122/131Reading camera 123/131Reading camera 124/131Reading camera 125/131Reading camera 126/131Reading camera 127/131Reading camera 128/131Reading camera 129/131Reading camera 130/131Reading camera 131/131
+Resolution:  1.0
+Loading Training Cameras
+Loading Test Cameras
+ModuleList(
+  (0): Linear(in_features=512, out_features=256, bias=True)
+  (1): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (2): ReLU()
+  (3): Linear(in_features=256, out_features=128, bias=True)
+  (4): BatchNorm1d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (5): ReLU()
+  (6): Linear(in_features=128, out_features=64, bias=True)
+  (7): BatchNorm1d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (8): ReLU()
+  (9): Linear(in_features=64, out_features=32, bias=True)
+  (10): BatchNorm1d(32, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (11): ReLU()
+  (12): Linear(in_features=32, out_features=3, bias=True)
+) ModuleList(
+  (0): Linear(in_features=3, out_features=16, bias=True)
+  (1): ReLU()
+  (2): Linear(in_features=16, out_features=32, bias=True)
+  (3): ReLU()
+  (4): Linear(in_features=32, out_features=64, bias=True)
+  (5): ReLU()
+  (6): Linear(in_features=64, out_features=128, bias=True)
+  (7): ReLU()
+  (8): Linear(in_features=128, out_features=256, bias=True)
+  (9): ReLU()
+  (10): Linear(in_features=256, out_features=256, bias=True)
+  (11): ReLU()
+  (12): Linear(in_features=256, out_features=512, bias=True)
+)
+Decoded/classified 714346 Gaussians before rendering
+Rendered frame_00006
+Rendered frame_00024
+Rendered frame_00060
+Rendered frame_00119
+Rendered frame_00128
+Rendered frame_00065
+Rendered frame_00081
+frame: frame_00006
+IoU for bowl.jpg and bowl.png: 0.1603
+IoU for chopsticks.jpg and chopsticks.png: 0.0272
+IoU for egg.jpg and egg.png: 0.0040
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for napkin.jpg and napkin.png: 0.0380
+IoU for nori.jpg and nori.png: 0.0009
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00024
+IoU for bowl.jpg and bowl.png: 0.3363
+IoU for chopsticks.jpg and chopsticks.png: 0.0313
+IoU for corn.jpg and corn.png: 0.0000
+IoU for egg.jpg and egg.png: 0.0000
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for nori.jpg and nori.png: 0.0396
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00060
+IoU for chopsticks.jpg and chopsticks.png: 0.0360
+IoU for corn.jpg and corn.png: 0.0000
+IoU for egg.jpg and egg.png: 0.0000
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for napkin.jpg and napkin.png: 0.2706
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00065
+IoU for bowl.jpg and bowl.png: 0.2047
+IoU for chopsticks.jpg and chopsticks.png: 0.0189
+IoU for corn.jpg and corn.png: 0.0000
+IoU for egg.jpg and egg.png: 0.0998
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for napkin.jpg and napkin.png: 0.0419
+IoU for nori.jpg and nori.png: 0.0013
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00081
+IoU for bowl.jpg and bowl.png: 0.1113
+IoU for chopsticks.jpg and chopsticks.png: 0.0285
+IoU for egg.jpg and egg.png: 0.0122
+IoU for glass of water.jpg and glass of water.png: 0.0000
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for napkin.jpg and napkin.png: 0.0219
+IoU for nori.jpg and nori.png: 0.0002
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for spoon.jpg and spoon.png: 0.0027
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00119
+IoU for chopsticks.jpg and chopsticks.png: 0.0196
+IoU for corn.jpg and corn.png: 0.0000
+IoU for egg.jpg and egg.png: 0.0056
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for nori.jpg and nori.png: 0.0045
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+frame: frame_00128
+IoU for bowl.jpg and bowl.png: 0.2057
+IoU for chopsticks.jpg and chopsticks.png: 0.0557
+IoU for corn.jpg and corn.png: 0.0000
+IoU for egg.jpg and egg.png: 0.0096
+IoU for glass of water.jpg and glass of water.png: 0.0000
+IoU for hand.jpg and hand.png: 0.0037
+IoU for kamaboko.jpg and kamaboko.png: 0.0000
+IoU for napkin.jpg and napkin.png: 0.0166
+IoU for nori.jpg and nori.png: 0.0009
+IoU for onion segments.jpg and onion segments.png: 0.0000
+IoU for plate.jpg and plate.png: 0.0000
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for spoon.jpg and spoon.png: 0.0045
+IoU for wavy noodles.jpg and wavy noodles.png: 0.0000
+Average IoU: 0.0255
+Acc@0.25: 0.0282
+Acc@0.5: 0.0000
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.025549385434445064,
+  "Acc@0.25": 0.028169014084507043,
+  "Acc@0.5": 0.0,
+  "method": "langsplat",
+  "protocol": "table1_3d_classification_v1",
+  "checkpoint": "/media/joe/Data/gaussiangraph/outputs/langsplat_smoke_cuda_3/chkpnt10.pth",
+  "decoded_in_3d": true
+}

@@ -1,0 +1,10 @@
+{
+  "paper": "https://arxiv.org/html/2503.04034v1",
+  "local": {
+    "LangSplat（多层汇总）": "langsplat_3d_multilevel_v1/metrics.json",
+    "LEGaussian（argmax）": "legaussian_3d_v1/metrics.json",
+    "OpenGaussian": "opengs_3d_v1/metrics.json",
+    "独立 SAM2＋CF：关闭伪特征筛选": "association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5/metrics.json",
+    "独立 SAM2＋CF：关闭细分¹": "refinement_ablation_v1/no_refine/eval_occ5/metrics.json"
+  }
+}

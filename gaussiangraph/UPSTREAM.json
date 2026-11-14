@@ -1,0 +1,6 @@
+{
+  "remote": "https://github.com/WangXihan-bit/GaussianGraph.git",
+  "commit": "56aa8ffecb50f2d2333dfc62d2fc02163d3d04f4",
+  "submodules": "",
+  "note": "Original authors retain ownership. Local training results are under results/, not upstream assets."
+}

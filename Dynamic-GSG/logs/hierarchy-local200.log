@@ -1,0 +1,79 @@
+{
+  "objects": 34,
+  "types": {
+    "Asset": 8,
+    "Ordinary": 18,
+    "Standalone": 8
+  },
+  "attached": 16,
+  "unresolved": 2
+}
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/scene_graph_hierarchy_local.png
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/scene_graph_hierarchy_local.svg
+{
+  "query": {
+    "category": "pillow",
+    "parent": "couch",
+    "id": null
+  },
+  "relation_notice": "Geometric attachment candidates, not verified on/inside relations",
+  "results": [
+    {
+      "id": 5,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 14,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 17,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 19,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 20,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 21,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 31,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    }
+  ]
+}
+/media/joe/Data/Dynamic-GSG/experiments/room0_local200/query_pillows_on_couch_local_preview.png

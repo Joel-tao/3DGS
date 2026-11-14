@@ -1,0 +1,47 @@
+ModelParams:
+  codebook_size: 128
+  data_device: cpu
+  eval: true
+  images: images
+  language_feature_indices_path: pyrclip_dino05_0000_128_896_1_20261029-205112_encoding_indices.pt
+  model_path: /media/joe/Data/gaussiangraph/outputs/legaussian_ramen
+  points_num_limit: 2500000
+  reconstruction_loss_weight: 1.0
+  resolution: 1
+  semantic_features_dim: 8
+  semantic_loss_weight: 1.0
+  sh_degree: 3
+  smooth_loss_uncertainty_min: 0.1
+  smooth_loss_weight: 1.0
+  source_path: /media/joe/Data/gaussiangraph/data/legaussian/ramen
+  uncertainty_loss_weight: 1.0
+  white_background: false
+  xyz_embedding_N_freqs: 0
+  xyz_encoding_D: 4
+  xyz_encoding_W: 128
+  xyz_encoding_in_channels_xyz: 3
+  xyz_encoding_out_channels_xyz: 8
+  xyzmlp_loss_weight: 1.0
+OptimizationParams:
+  decoder_lr: 0.001
+  densification_interval: 100
+  densify_from_iter: 500
+  densify_grad_threshold: 0.0002
+  densify_until_iter: 15000
+  feature_lr: 0.0025
+  index_lr: 0.001
+  iterations: 30000
+  lambda_dssim: 0.2
+  opacity_lr: 0.05
+  opacity_reset_interval: 3000
+  percent_dense: 0.01
+  position_lr_delay_mult: 0.01
+  position_lr_final: 1.6e-06
+  position_lr_init: 0.00016
+  position_lr_max_steps: 30000
+  rotation_lr: 0.001
+  scaling_lr: 0.005
+PipelineParams:
+  compute_cov3D_python: false
+  convert_SHs_python: true
+  debug: false

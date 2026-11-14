@@ -1,0 +1,17 @@
+bag -> Ordinary
+book -> Ordinary
+closet door -> Standalone
+coffee kettle -> Ordinary
+coffee table -> Asset
+couch -> Asset
+cup -> Ordinary
+lamp -> Ordinary
+picture -> Ordinary
+pillow -> Ordinary
+potted plant -> Ordinary
+shelf -> Asset
+sofa chair -> Asset
+stool -> Standalone
+tissue box -> Ordinary
+window -> Standalone
+Saved model_classifications.json

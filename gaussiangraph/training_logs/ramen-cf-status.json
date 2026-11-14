@@ -1,0 +1,8 @@
+{
+  "phase": "needs_refinement_fix",
+  "time_unix": 1793257573.396185,
+  "training_complete": true,
+  "evaluation_complete": false,
+  "reason": "Refinement expanded 2745 clusters into 485512, including 400463 singletons; association deliberately stopped",
+  "recovery_checkpoint": "/media/joe/Data/gaussiangraph/outputs/ramen_control_follow_v1/cf_checkpoint67999.pth"
+}

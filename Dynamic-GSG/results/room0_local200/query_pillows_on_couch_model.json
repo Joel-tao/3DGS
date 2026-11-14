@@ -1,0 +1,67 @@
+{
+  "query": {
+    "category": "pillow",
+    "parent": "couch",
+    "parent_id": null,
+    "id": null
+  },
+  "relation_notice": "Geometric attachment candidates, not verified on/inside relations",
+  "results": [
+    {
+      "id": 5,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 14,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 17,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 19,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 20,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 21,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 2,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    },
+    {
+      "id": 31,
+      "category": "pillow",
+      "object_type": "Ordinary",
+      "parent_id": 30,
+      "parent_category": "couch",
+      "attachment_status": "geometric_candidate"
+    }
+  ]
+}

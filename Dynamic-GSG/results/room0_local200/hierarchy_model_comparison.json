@@ -1,0 +1,25 @@
+{
+  "model": {
+    "repo": "Qwen/Qwen2.5-1.5B-Instruct",
+    "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306"
+  },
+  "dam_used": false,
+  "instance_count": 34,
+  "type_counts": {
+    "Asset": 8,
+    "Ordinary": 19,
+    "Standalone": 7
+  },
+  "attachment_candidates": 16,
+  "unresolved": 3,
+  "changed_types": [
+    {
+      "id": 18,
+      "category": "picture",
+      "rule": "Standalone",
+      "model": "Ordinary"
+    }
+  ],
+  "changed_parents": [],
+  "notice": "Differences only; no ground-truth relation accuracy evaluation."
+}

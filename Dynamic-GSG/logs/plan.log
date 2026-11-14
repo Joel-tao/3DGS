@@ -1,0 +1,69 @@
+Processing /media/joe/Data/Dynamic-GSG/cache/open3d-0.18.0-cp310-cp310-manylinux_2_27_x86_64.whl
+Collecting tqdm==4.65.0 (from -r requirements-local.txt (line 2))
+  Downloading tqdm-4.65.0-py3-none-any.whl.metadata (56 kB)
+Collecting ultralytics==8.3.40 (from -r requirements-local.txt (line 3))
+  Downloading ultralytics-8.3.40-py3-none-any.whl.metadata (35 kB)
+Collecting opencv-python==4.10.0.84 (from -r requirements-local.txt (line 4))
+  Downloading opencv_python-4.10.0.84-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (20 kB)
+Collecting Pillow (from -r requirements-local.txt (line 5))
+  Downloading pillow-12.3.0-cp310-cp310-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (9.1 kB)
+Collecting imageio (from -r requirements-local.txt (line 6))
+  Downloading imageio-2.38.0-py3-none-any.whl.metadata (9.7 kB)
+Collecting matplotlib (from -r requirements-local.txt (line 7))
+  Downloading matplotlib-3.10.9-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (52 kB)
+Collecting kornia (from -r requirements-local.txt (line 8))
+  Downloading kornia-0.8.2-py2.py3-none-any.whl.metadata (18 kB)
+Collecting natsort (from -r requirements-local.txt (line 9))
+  Downloading natsort-8.4.0-py3-none-any.whl.metadata (21 kB)
+Collecting pyyaml (from -r requirements-local.txt (line 10))
+  Downloading pyyaml-6.0.3-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (2.4 kB)
+Collecting wandb (from -r requirements-local.txt (line 11))
+  Downloading wandb-0.30.0-py3-none-manylinux_2_28_x86_64.whl.metadata (11 kB)
+Collecting lpips (from -r requirements-local.txt (line 12))
+  Downloading lpips-0.1.4-py3-none-any.whl.metadata (10 kB)
+Collecting torchmetrics (from -r requirements-local.txt (line 14))
+  Downloading torchmetrics-1.9.0-py3-none-any.whl.metadata (23 kB)
+Collecting pytorch-msssim (from -r requirements-local.txt (line 15))
+  Downloading pytorch_msssim-1.0.0-py3-none-any.whl.metadata (8.0 kB)
+Collecting plyfile==0.8.1 (from -r requirements-local.txt (line 16))
+  Downloading plyfile-0.8.1-py3-none-any.whl.metadata (21 kB)
+Collecting faiss-cpu==1.8.0 (from -r requirements-local.txt (line 17))
+  Downloading faiss_cpu-1.8.0-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (3.6 kB)
+Collecting numpy==1.26.4 (from -r requirements-local.txt (line 18))
+  Downloading numpy-1.26.4-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (61 kB)
+Collecting openai (from -r requirements-local.txt (line 19))
+  Downloading openai-3.31.0-py3-none-any.whl.metadata (44 kB)
+Collecting open_clip_torch==2.26.1 (from -r requirements-local.txt (line 20))
+  Downloading open_clip_torch-2.26.1-py3-none-any.whl.metadata (31 kB)
+Collecting urllib3==2.2.3 (from -r requirements-local.txt (line 21))
+  Downloading urllib3-2.2.3-py3-none-any.whl.metadata (6.5 kB)
+Collecting scipy==1.14.1 (from -r requirements-local.txt (line 22))
+  Downloading scipy-1.14.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (60 kB)
+Collecting supervision==0.22.0 (from -r requirements-local.txt (line 23))
+  Downloading supervision-0.22.0-py3-none-any.whl.metadata (13 kB)
+Collecting httpx==0.27.0 (from -r requirements-local.txt (line 24))
+  Downloading httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting openai-clip==1.0.1 (from -r requirements-local.txt (line 25))
+  Downloading openai-clip-1.0.1.tar.gz (1.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.4/1.4 MB 847.7 kB/s  0:00:01
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting scikit-image (from -r requirements-local.txt (line 26))
+  Downloading scikit_image-0.25.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (14 kB)
+Collecting transformers==4.51.3 (from -r requirements-local.txt (line 27))
+  Downloading transformers-4.51.3-py3-none-any.whl.metadata (38 kB)
+Collecting fairscale (from -r requirements-local.txt (line 28))
+  Downloading fairscale-0.4.13.tar.gz (266 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Installing backend dependencies: started
+  Installing backend dependencies: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Would install ImageIO-2.38.0 PyYAML-6.0.3 fairscale-0.4.13 faiss-cpu-1.8.0 httpx-0.27.0 kornia-0.8.2 lpips-0.1.4 matplotlib-3.10.9 natsort-8.4.0 numpy-1.26.4 open3d-0.18.0 open_clip_torch-2.26.1 openai-3.31.0 openai-clip-1.0.1 opencv-python-4.10.0.84 pillow-12.3.0 plyfile-0.8.1 pytorch-msssim-1.0.0 scikit-image-0.25.2 scipy-1.14.1 supervision-0.22.0 torchmetrics-1.9.0 tqdm-4.65.0 transformers-4.51.3 ultralytics-8.3.40 urllib3-2.2.3 wandb-0.30.0

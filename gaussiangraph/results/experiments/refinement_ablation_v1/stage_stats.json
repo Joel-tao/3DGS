@@ -1,0 +1,41 @@
+{
+  "control_at49999": {
+    "clusters": 205,
+    "assigned": 5000,
+    "size_quantiles": [
+      1.0,
+      3.0,
+      8.0,
+      18.0,
+      452.0
+    ],
+    "clusters_under32": 174,
+    "points_under32": 1390
+  },
+  "follow_at67999": {
+    "clusters": 3348,
+    "assigned": 714346,
+    "size_quantiles": [
+      1.0,
+      4.0,
+      26.0,
+      144.0,
+      15087.0
+    ],
+    "clusters_under32": 1768,
+    "points_under32": 14566
+  },
+  "refine_same67999_features": {
+    "clusters": 5263,
+    "assigned": 714346,
+    "size_quantiles": [
+      1.0,
+      13.0,
+      76.0,
+      158.0,
+      7206.0
+    ],
+    "clusters_under32": 1768,
+    "points_under32": 14566
+  }
+}

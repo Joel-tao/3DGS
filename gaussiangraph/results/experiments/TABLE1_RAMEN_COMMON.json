@@ -1,0 +1,52 @@
+[
+  {
+    "method": "LangSplat",
+    "result_directory": "/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1",
+    "mIoU": 0.21809919396867944,
+    "Acc@0.25": 0.30985915492957744,
+    "Acc@0.5": 0.19718309859154928,
+    "count": 71,
+    "missing_predictions": 0,
+    "protocol": "table1_3d_classification_v1"
+  },
+  {
+    "method": "OpenGaussian",
+    "result_directory": "/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1",
+    "mIoU": 0.20477439489631416,
+    "Acc@0.25": 0.2535211267605634,
+    "Acc@0.5": 0.16901408450704225,
+    "count": 71,
+    "missing_predictions": 0,
+    "protocol": "table1_3d_classification_v1"
+  },
+  {
+    "method": "独立 CF v2",
+    "result_directory": "/media/joe/Data/gaussiangraph/experiments/cf_3d_v1",
+    "mIoU": 0.06463406157303238,
+    "Acc@0.25": 0.09859154929577464,
+    "Acc@0.5": 0.07042253521126761,
+    "count": 71,
+    "missing_predictions": 0,
+    "protocol": "table1_3d_classification_v1"
+  },
+  {
+    "method": "独立 SAM2 + confidence + CF",
+    "result_directory": "/media/joe/Data/gaussiangraph/experiments/sam2_confidence_cf_3d_v1",
+    "mIoU": 0.0769650284664678,
+    "Acc@0.25": 0.11267605633802817,
+    "Acc@0.5": 0.04225352112676056,
+    "count": 71,
+    "missing_predictions": 0,
+    "protocol": "table1_3d_classification_v1"
+  },
+  {
+    "method": "LEGaussian",
+    "result_directory": "/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1",
+    "mIoU": 0.08976321228519839,
+    "Acc@0.25": 0.09859154929577464,
+    "Acc@0.5": 0.0,
+    "count": 71,
+    "missing_predictions": 0,
+    "protocol": "table1_3d_classification_v1"
+  }
+]

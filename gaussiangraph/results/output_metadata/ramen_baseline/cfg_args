@@ -1,0 +1,1 @@
+Namespace(sh_degree=3, source_path='/media/joe/Data/gaussiangraph/data/lerf_ovs/ramen', model_path='/media/joe/Data/gaussiangraph/outputs/ramen_baseline', images='images', resolution=-1, white_background=False, data_device='cpu', eval=True)

@@ -1,0 +1,102 @@
+{
+  "original_source": "/media/joe/Data/gaussiangraph/experiments/segmentation_gallery/all_queries.pdf",
+  "original_sha256": "f1d7bb0224bed874d801269c599a73858e4850371b24b87e89e0d702f7fa53af",
+  "method": "Ghostscript pdfwrite page extraction; image downsampling disabled; lossless Flate image encoding; PDF content rewritten",
+  "pages": [
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-01.pdf",
+      "bytes": 1957103,
+      "sha256": "dbadf0c6d45021835ce3e01a4dd76d6bcdef6cd36e3ca44283855e9cce3f0451"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-02.pdf",
+      "bytes": 1538307,
+      "sha256": "c69caaabbdc60991afecd2c9cf3c22d6a67e6f0dcc5605cd64940d4385a295f4"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-03.pdf",
+      "bytes": 828479,
+      "sha256": "78aaa6b785a16b3abfea64451e109fe36ff8451fcfe53acaa2cbae52b6a1a245"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-04.pdf",
+      "bytes": 2271827,
+      "sha256": "4a2b90844b00233e5c87ea924bc6b9b1f3a8b8ffde641d76991ddc06ca7bad23"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-05.pdf",
+      "bytes": 1495836,
+      "sha256": "c99b0cacd55ce383c8f52621b61479a9c9457d00c45aad1f608314df6ee1f009"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-06.pdf",
+      "bytes": 1945250,
+      "sha256": "ad457207573fcb1457b7e7883bae6fbed665b96525241c4dba55b2e5d6c84937"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-07.pdf",
+      "bytes": 1590353,
+      "sha256": "5ce5ffe9ab64a25f498cc7db0cfdc4017b35a27343c18e6f950c5b039a6cff01"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-08.pdf",
+      "bytes": 2250263,
+      "sha256": "f74a9d7f8f289039ba005cad32f052b892e7c9b595bf62f1365448393ad372ba"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-09.pdf",
+      "bytes": 1554195,
+      "sha256": "84b65d3a0ef3d7e8116a9dedf7f43f1c4bb821ad7ea3c79d7c450a90a9d0d303"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-10.pdf",
+      "bytes": 1193344,
+      "sha256": "2185e08b65ae34727f29f20563c8acbdb8e99a396fd69bbfebaba8f536537731"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-11.pdf",
+      "bytes": 2210013,
+      "sha256": "33a90e57eeb09040e0304aea9760108bd0a1a801d161dea65938379d5548006c"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-12.pdf",
+      "bytes": 1487417,
+      "sha256": "2df52db96004642d9dbfb56e5bf582f2e72e231bc903e3747bba559254bdb970"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-13.pdf",
+      "bytes": 1763577,
+      "sha256": "a17e1129cf0859f10b3e7f91fdb855977c4ba218f13fabbf372d59c63e2c4014"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-14.pdf",
+      "bytes": 2038495,
+      "sha256": "5698fd228c60ccd44d0d1f978387690c15325e49374a0538309e73dcc4dc5115"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-15.pdf",
+      "bytes": 1863196,
+      "sha256": "74db0139943fe5ace35db7d82ecfe6b10500124ef124e69afb6a71e8ec51bd6e"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-16.pdf",
+      "bytes": 2355809,
+      "sha256": "618c37265e6790e3125942ded25bc2e6d9b0e7f429bcf8bfb6e2717afa130066"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-17.pdf",
+      "bytes": 1775225,
+      "sha256": "641c8cc397596a49565347b229318c6487b1043202a7bdced3153d558041b27e"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-18.pdf",
+      "bytes": 1530137,
+      "sha256": "714a82edd2f4605bd0fda01a3688102545c173b1c7945179084c2dff0777b0de"
+    },
+    {
+      "path": "gaussiangraph/results/experiments/segmentation_gallery/all_queries/page-19.pdf",
+      "bytes": 1246304,
+      "sha256": "2bd214d5c2604dcf5dedaeb23b25086e9e09de4c1268a418a7bb26de5bf73583"
+    }
+  ]
+}

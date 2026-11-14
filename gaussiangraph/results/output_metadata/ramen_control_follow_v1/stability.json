@@ -1,0 +1,7 @@
+{
+  "epsilon": 3.145933847559152e-09,
+  "selection": "training_median",
+  "steps": 1000,
+  "observed": 714104,
+  "mean_gradient": 4.9142538927071655e-08
+}

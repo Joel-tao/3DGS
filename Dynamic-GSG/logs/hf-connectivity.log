@@ -1,0 +1,49 @@
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  1205    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  577M    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+HTTP/2 302 
+content-type: text/plain; charset=utf-8
+content-length: 1205
+location: https://us.aws.cdn.hf.co/xet-bridge-us/63225a78a418a789a23cad4a/ad1203a17ef4d53b418cec05d433c59f2be4d0f25c985da5b66bb64d01ee0a1e?X-Xet-Cas-Uid=public&response-content-disposition=inline%3B+filename*%3DUTF-8%27%27open_clip_pytorch_model.bin%3B+filename%3D%22open_clip_pytorch_model.bin%22%3B&response-content-type=application%2Foctet-stream&user_id=public&xip=a2N0-AG4grE&Expires=1792125949&Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiaHR0cHM6Ly91cy5hd3MuY2RuLmhmLmNvL3hldC1icmlkZ2UtdXMvNjMyMjVhNzhhNDE4YTc4OWEyM2NhZDRhL2FkMTIwM2ExN2VmNGQ1M2I0MThjZWMwNWQ0MzNjNTlmMmJlNGQwZjI1Yzk4NWRhNWI2NmJiNjRkMDFlZTBhMWVcXD9YLVhldC1DYXMtVWlkPXB1YmxpYyZyZXNwb25zZS1jb250ZW50LWRpc3Bvc2l0aW9uPWlubGluZSUzQitmaWxlbmFtZSUyQSUzRFVURi04JTI3JTI3b3Blbl9jbGlwX3B5dG9yY2hfbW9kZWwuYmluJTNCK2ZpbGVuYW1lJTNEJTIyb3Blbl9jbGlwX3B5dG9yY2hfbW9kZWwuYmluJTIyJTNCJnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1hcHBsaWNhdGlvbiUyRm9jdGV0LXN0cmVhbSZ1c2VyX2lkPXB1YmxpYyZ4aXA9YTJOMC1BRzRnckUiLCJDb25kaXRpb24iOnsiRGF0ZUxlc3NUaGFuIjp7IkVwb2NoVGltZSI6MTc5MjEyNTk0OX19fV19&Signature=MEUCIQCsC5yAKnxxdoiXWRT2kBgQA8lu7kBUIVDbHsHVdJ8wOQIgYFa%7E2aWwtMdo8oKxdMEE4w-VIvf%7E8Pds%7EffEspUNkMg_&Key-Pair-Id=01KXEF4KZ1B6FV465MAWR4M21F&Hash-Algorithm=SHA256
+date: Fri, 16 Oct 2026 03:45:49 GMT
+x-powered-by: huggingface-moon
+x-request-id: Root=1-6ad19ded-2fd3dc555ce8b0593166aaa0
+ratelimit: "resolvers";r=2999;t=79
+ratelimit-policy: "fixed window";"resolvers";q=3000;w=300
+cross-origin-opener-policy: same-origin
+referrer-policy: strict-origin-when-cross-origin
+access-control-max-age: 86400
+access-control-allow-origin: https://huggingface.co
+vary: Origin, Accept
+access-control-expose-headers: X-Repo-Commit,X-Request-Id,X-Error-Code,X-Error-Message,X-Total-Count,ETag,Link,Accept-Ranges,Content-Range,X-Linked-Size,X-Linked-ETag,X-Xet-Hash
+x-repo-commit: 1a25a446712ba5ee05982a381eed697ef9b435cf
+accept-ranges: bytes
+x-hub-cache: MISS
+x-linked-size: 605219813
+x-linked-etag: "1bd3c7172de5b207ceac554f5ab5266166f3b9baccc9af5989bc801016d080ad"
+cache-control: no-store
+x-xet-hash: ad1203a17ef4d53b418cec05d433c59f2be4d0f25c985da5b66bb64d01ee0a1e
+link: <https://huggingface.co/api/models/laion/CLIP-ViT-B-32-laion2B-s34B-b79K/xet-read-token/1a25a446712ba5ee05982a381eed697ef9b435cf>; rel="xet-auth", <https://cas-server.xethub.hf.co/v1/reconstructions/ad1203a17ef4d53b418cec05d433c59f2be4d0f25c985da5b66bb64d01ee0a1e>; rel="xet-reconstruction-info"
+x-cache: Miss from cloudfront
+via: 1.1 43a0285bd1ad0c838ae7aa5d803dd80e.cloudfront.net (CloudFront)
+x-amz-cf-pop: SIN2-P7
+alt-svc: h3=":443"; ma=86400
+x-amz-cf-id: chs3Z4yF-DYk-VNMlvRWEA8mT5In3Dn4YSItiFCTTvgk4JE8u_6Hcg==
+strict-transport-security: max-age=31536000
+
+HTTP/2 200 
+content-type: application/octet-stream
+accept-ranges: bytes
+content-disposition: inline; filename*=UTF-8''open_clip_pytorch_model.bin; filename="open_clip_pytorch_model.bin";
+etag: "ad1203a17ef4d53b418cec05d433c59f2be4d0f25c985da5b66bb64d01ee0a1e"
+content-security-policy: default-src 'none'; media-src 'self'; sandbox allow-same-origin
+access-control-allow-headers: Content-Range, Content-Type, Content-Disposition, ETag
+access-control-expose-headers: *
+content-length: 605219813
+vary: origin, access-control-request-method, access-control-request-headers
+access-control-allow-origin: *
+x-request-id: 01M51D1T7PN3QJGSAM20HE1KM9
+x-hf-cdn-pop: aws-ap-southeast-1
+date: Fri, 16 Oct 2026 03:45:50 GMT
+

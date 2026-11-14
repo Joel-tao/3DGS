@@ -1,0 +1,12 @@
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.21809919396867944,
+  "Acc@0.25": 0.30985915492957744,
+  "Acc@0.5": 0.19718309859154928,
+  "method": "langsplat",
+  "protocol": "table1_3d_classification_v1",
+  "level_selection": "maximum visible-Gaussian text cosine; ties lower level; no GT",
+  "decoded_in_3d": true
+}

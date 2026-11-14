@@ -1,0 +1,30 @@
+{
+  "query": "a lamp",
+  "results": [
+    {
+      "idx": 32,
+      "category": "lamp",
+      "score": 0.2959023416042328
+    },
+    {
+      "idx": 8,
+      "category": "lamp",
+      "score": 0.2943531572818756
+    },
+    {
+      "idx": 39,
+      "category": "book",
+      "score": 0.23541197180747986
+    },
+    {
+      "idx": 6,
+      "category": "coffee kettle",
+      "score": 0.23527519404888153
+    },
+    {
+      "idx": 19,
+      "category": "pillow",
+      "score": 0.221180260181427
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Processing /media/joe/Data/gaussiangraph/build/pytorch3d
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Requirement already satisfied: fvcore in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from pytorch3d==0.7.7) (0.1.5.post20221221)
+Requirement already satisfied: iopath in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from pytorch3d==0.7.7) (0.1.10)
+Requirement already satisfied: tqdm in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (4.65.0)
+Requirement already satisfied: pyyaml>=5.1 in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (6.0.3)
+Requirement already satisfied: termcolor>=1.1 in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (3.3.0)
+Requirement already satisfied: Pillow in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (12.3.0)
+Requirement already satisfied: numpy in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (1.26.4)
+Requirement already satisfied: tabulate in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (0.10.0)
+Requirement already satisfied: yacs>=0.1.6 in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from fvcore->pytorch3d==0.7.7) (0.1.8)
+Requirement already satisfied: portalocker in /media/joe/Data/gaussiangraph/envs/opengs/lib/python3.10/site-packages (from iopath->pytorch3d==0.7.7) (4.4.2)
+Requirement already satisfied: typing_extensions in /home/joe/anaconda3/envs/dgsg/lib/python3.10/site-packages (from iopath->pytorch3d==0.7.7) (4.16.0)
+Building wheels for collected packages: pytorch3d
+  Building wheel for pytorch3d (setup.py): started
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): still running...
+  Building wheel for pytorch3d (setup.py): finished with status 'done'
+  Created wheel for pytorch3d: filename=pytorch3d-0.7.7-cp310-cp310-linux_x86_64.whl size=3934084 sha256=6e517413c869879161e0f4796e72c5aa2091630312860c12996451855e1f0fb7
+  Stored in directory: /media/joe/Data/gaussiangraph/build/pip-ephem-wheel-cache-kv6n328f/wheels/1b/f7/47/745d9c81d30efa9bc135f5d99132d842966c2f1278071ccd2f
+Successfully built pytorch3d
+Installing collected packages: pytorch3d
+Successfully installed pytorch3d-0.7.7
+
+[notice] A new release of pip is available: 23.0.1 -> 26.2.2
+[notice] To update, run: python -m pip install --upgrade pip

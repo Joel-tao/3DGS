@@ -1,0 +1,226 @@
+[
+  {
+    "query": "nori",
+    "top_cluster": 601,
+    "selected": [
+      601,
+      600,
+      602,
+      563,
+      560,
+      562,
+      532
+    ],
+    "selected_roots": [
+      60,
+      60,
+      60,
+      56,
+      56,
+      56,
+      53
+    ],
+    "score": 0.25876128673553467,
+    "occurrences": 17.0
+  },
+  {
+    "query": "sake cup",
+    "top_cluster": 13,
+    "selected": [
+      13,
+      11,
+      10
+    ],
+    "selected_roots": [
+      1,
+      1,
+      1
+    ],
+    "score": 0.26194140315055847,
+    "occurrences": 12.0
+  },
+  {
+    "query": "kamaboko",
+    "top_cluster": 533,
+    "selected": [
+      533,
+      532
+    ],
+    "selected_roots": [
+      53,
+      53
+    ],
+    "score": 0.2446746826171875,
+    "occurrences": 6.0
+  },
+  {
+    "query": "corn",
+    "top_cluster": 600,
+    "selected": [
+      600,
+      602,
+      601,
+      533
+    ],
+    "selected_roots": [
+      60,
+      60,
+      60,
+      53
+    ],
+    "score": 0.2661798596382141,
+    "occurrences": 19.0
+  },
+  {
+    "query": "spoon",
+    "top_cluster": 10,
+    "selected": [
+      10,
+      12,
+      13,
+      11
+    ],
+    "selected_roots": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "score": 0.26312991976737976,
+    "occurrences": 25.0
+  },
+  {
+    "query": "egg",
+    "top_cluster": 170,
+    "selected": [
+      170,
+      171
+    ],
+    "selected_roots": [
+      17,
+      17
+    ],
+    "score": 0.3065311908721924,
+    "occurrences": 10.0
+  },
+  {
+    "query": "onion segments",
+    "top_cluster": 600,
+    "selected": [
+      600,
+      601,
+      602,
+      533
+    ],
+    "selected_roots": [
+      60,
+      60,
+      60,
+      53
+    ],
+    "score": 0.23093557357788086,
+    "occurrences": 19.0
+  },
+  {
+    "query": "plate",
+    "top_cluster": 272,
+    "selected": [
+      272
+    ],
+    "selected_roots": [
+      27
+    ],
+    "score": 0.270280659198761,
+    "occurrences": 7.0
+  },
+  {
+    "query": "napkin",
+    "top_cluster": 131,
+    "selected": [
+      131
+    ],
+    "selected_roots": [
+      13
+    ],
+    "score": 0.2361232042312622,
+    "occurrences": 20.0
+  },
+  {
+    "query": "bowl",
+    "top_cluster": 13,
+    "selected": [
+      13,
+      11,
+      10
+    ],
+    "selected_roots": [
+      1,
+      1,
+      1
+    ],
+    "score": 0.32002630829811096,
+    "occurrences": 12.0
+  },
+  {
+    "query": "glass of water",
+    "top_cluster": 311,
+    "selected": [
+      311,
+      2,
+      1
+    ],
+    "selected_roots": [
+      31,
+      0,
+      0
+    ],
+    "score": 0.26876237988471985,
+    "occurrences": 17.0
+  },
+  {
+    "query": "hand",
+    "top_cluster": 312,
+    "selected": [
+      312
+    ],
+    "selected_roots": [
+      31
+    ],
+    "score": 0.25805848836898804,
+    "occurrences": 7.0
+  },
+  {
+    "query": "chopsticks",
+    "top_cluster": 150,
+    "selected": [
+      150,
+      151
+    ],
+    "selected_roots": [
+      15,
+      15
+    ],
+    "score": 0.2680596709251404,
+    "occurrences": 33.0
+  },
+  {
+    "query": "wavy noodles",
+    "top_cluster": 563,
+    "selected": [
+      563,
+      532,
+      560,
+      562,
+      533
+    ],
+    "selected_roots": [
+      56,
+      53,
+      56,
+      56,
+      53
+    ],
+    "score": 0.29344987869262695,
+    "occurrences": 25.0
+  }
+]

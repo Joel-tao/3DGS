@@ -1,0 +1,7 @@
+[
+  {
+    "path": "baselines/OpenGaussian",
+    "remote": "https://github.com/yanmin-wu/OpenGaussian.git",
+    "commit": "1f99db1b7e7d581586123f6dc05a8d753ae73236"
+  }
+]

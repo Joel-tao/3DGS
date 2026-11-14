@@ -1,0 +1,201 @@
+diff --git a/.gitignore b/.gitignore
+index 7eab3fc..a762a81 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -14,4 +14,9 @@ viz_scripts/gs_mindv2.py
+ viz_scripts/gs_mind.py
+ dgsg/
+ .DS_Store
+-__pycache__/
+\ No newline at end of file
++__pycache__/
++# Local data-drive symlink and execution logs
++/models
++/logs/
++
++/.venv-dam/
+diff --git a/scripts/dynamic_gsg_real_ssim.py b/scripts/dynamic_gsg_real_ssim.py
+index f5a8230..c51fbfc 100644
+--- a/scripts/dynamic_gsg_real_ssim.py
++++ b/scripts/dynamic_gsg_real_ssim.py
+@@ -1,6 +1,7 @@
+ import argparse
+ import os
+ import shutil
++import json
+ import sys
+ import time
+ from importlib.machinery import SourceFileLoader
+@@ -62,8 +63,6 @@ from utils.slam_helpers import (
+ from utils.slam_external import calc_ssim, build_rotation, prune_gaussians, densify
+ 
+ from diff_gaussian_rasterization import GaussianRasterizer as Renderer
+-from ram.models import ram_plus
+-from groundingdino.util.inference import Model as GDModel
+ 
+ 
+ def get_dataset(config_dict, basedir, sequence, **kwargs):
+@@ -583,6 +582,8 @@ def dgsg(config: dict):
+ 
+         # Load Detection Model
+         if lf_config['detection_model'] == 'groundingdino':
++            from ram.models import ram_plus
++            from groundingdino.util.inference import Model as GDModel
+             ram_model = ram_plus(pretrained=lf_config['ram_model_path'],
+                                  image_size=384,
+                                  vit='swin_l').to(device)
+@@ -594,18 +595,23 @@ def dgsg(config: dict):
+             ram_model = None
+             detection_model = YOLO(lf_config['yolo_model_path'])
+             detection_model.set_classes(obj_classes.get_classes_arr())
++            # Class text features are cached; the YOLO CLIP encoder is no longer needed.
++            if lf_config.get("release_yolo_clip", False):
++                detection_model.model.clip_model = None
++                torch.cuda.empty_cache()
+        
+         sam_predictor = SAM(lf_config["sam_model_path"])
+ 
+         clip_model, _, clip_preprocess = open_clip.create_model_and_transforms(
+-            "ViT-H-14", "laion2b_s32b_b79k"
++            lf_config.get("clip_model_name", "ViT-H-14"), lf_config.get("clip_pretrained", "laion2b_s32b_b79k")
+         )
+         clip_model = clip_model.to('cuda')
+-        clip_tokenizer = open_clip.get_tokenizer("ViT-H-14")
++        clip_tokenizer = open_clip.get_tokenizer(lf_config.get("clip_model_name", "ViT-H-14"))
+ 
+         
+         ai_client = OpenAI(
+-            api_key="YOUR QWEN API KEY",
++            api_key=os.environ.get("DGSG_API_KEY", "offline-unused"),
++            base_url=os.environ.get("DGSG_API_BASE", "https://dashscope.aliyuncs.com/compatible-mode/v1"),
+         )
+ 
+     # Init
+@@ -1212,6 +1218,20 @@ if __name__ == "__main__":
+     if not experiment.config['load_checkpoint']:
+         os.makedirs(results_dir, exist_ok=True)
+         shutil.copy(args.experiment, os.path.join(results_dir, "config.py"))
++        with open(os.path.join(results_dir, "config.resolved.json"), "w") as f:
++            json.dump(experiment.config, f, indent=2)
+ 
++    if experiment.config.get('record_run_metrics', False):
++        torch.cuda.synchronize()
++        torch.cuda.reset_peak_memory_stats()
++        measured_start = time.perf_counter()
+     dgsg(experiment.config)
++    if experiment.config.get('record_run_metrics', False):
++        torch.cuda.synchronize()
++        metrics = dict(dgsg_wall_seconds=time.perf_counter()-measured_start,
++                       peak_cuda_allocated_bytes=torch.cuda.max_memory_allocated(),
++                       peak_cuda_reserved_bytes=torch.cuda.max_memory_reserved(),
++                       timing_scope='dgsg: dataset/model initialization, mapping, evaluation and saving; excludes Python imports')
++        with open(os.path.join(results_dir, 'run_metrics.json'), 'w') as f:
++            json.dump(metrics, f, indent=2)
+ 
+diff --git a/submodules/GroundingDINO b/submodules/GroundingDINO
+--- a/submodules/GroundingDINO
++++ b/submodules/GroundingDINO
+@@ -1 +1 @@
+-Subproject commit 856dde20aee659246248e20734ef9ba5214f5e44
++Subproject commit 856dde20aee659246248e20734ef9ba5214f5e44-dirty
+diff --git a/utils/map_objects_utils_up_with_groupv3.py b/utils/map_objects_utils_up_with_groupv3.py
+index c1254b5..7aea30b 100644
+--- a/utils/map_objects_utils_up_with_groupv3.py
++++ b/utils/map_objects_utils_up_with_groupv3.py
+@@ -13,7 +13,6 @@ import open3d as o3d
+ import base64
+ import json
+ 
+-from dam import DescribeAnythingModel
+ from tqdm import tqdm
+ from PIL import Image
+ from collections import Counter
+@@ -21,6 +20,7 @@ from pathlib import Path
+ from scipy.ndimage import binary_erosion
+ from ultralytics import YOLO, SAM
+ from utils.slam_external import build_rotation
++from utils.object_helpers import ObjectClasses
+ from utils.slam_classes import MapObjectList, DetectionList
+ from utils.slam_helpers import (
+     transform_to_frame,
+@@ -30,7 +30,6 @@ from utils.slam_helpers import (
+ from diff_gaussian_rasterization import GaussianRasterizer as Renderer
+ from skimage.metrics import structural_similarity as ssim
+ from torchvision import transforms, ops
+-from ram import inference_ram as inference
+ 
+ 
+ def read_color_book(color_book_path: str):
+@@ -423,6 +422,7 @@ def initialize_first_timestep_gaussian_classes(
+                             std=[0.229, 0.224, 0.225]),
+         ])
+         raw_image = tagging_transform(raw_image).unsqueeze(0).to("cuda:0")
++        from ram import inference_ram as inference
+         ram_model.eval()
+         text_prompt = inference(raw_image, ram_model)[0].replace(' | ', '.')
+         classes = process_tag_classes(text_prompt=text_prompt)
+@@ -608,6 +608,7 @@ def process_this_frame_detection(
+                             std=[0.229, 0.224, 0.225]),
+         ])
+         raw_image = tagging_transform(raw_image).unsqueeze(0).to("cuda:0")
++        from ram import inference_ram as inference
+         ram_model.eval()
+         text_prompt = inference(raw_image, ram_model)[0].replace(' | ', '.')
+         classes = process_tag_classes(text_prompt=text_prompt)
+@@ -1390,6 +1391,25 @@ def save_keyframe_list(keyframe_list: list, output_dir):
+ 
+ def save_objects(params, objects: MapObjectList, dataset, ai_client, lf_config, output_dir):
+ 
++    if not lf_config.get('enable_object_captions', True):
++        classes = ObjectClasses(lf_config['classes_file'], lf_config['bg_classes'], lf_config['skip_bg'])
++        for obj in objects:
++            class_id = Counter(obj['class_id']).most_common(1)[0][0]
++            obj['category'] = classes.get_classes_arr()[int(class_id)]
++            rot = torch.nn.functional.normalize(params['cam_unnorm_rots'][..., obj['best_view']].detach())
++            pose = torch.eye(4, device=rot.device)
++            pose[:3, :3] = build_rotation(rot)
++            pose[:3, 3] = params['cam_trans'][..., obj['best_view']].detach()
++            obj['best_view_w2c'] = pose.cpu()
++            obj['caption'] = obj['category']
++            obj['description'] = 'Detector category only; DAM/LLM captioning disabled.'
++        objects_save_path = Path(output_dir) / 'objects.pkl.gz'
++        with gzip.open(objects_save_path, 'wb') as f:
++            pickle.dump(objects.to_serializable(), f)
++        print(f'Saving map objects without DAM/LLM captions to: {objects_save_path}')
++        return
++
++    from dam import DescribeAnythingModel
+     prompt_modes = {
+             "focal_prompt": "full+focal_crop",
+         }
+diff --git a/viz_scripts/classifier_vis.py b/viz_scripts/classifier_vis.py
+index e1e7fd5..b982d6e 100644
+--- a/viz_scripts/classifier_vis.py
++++ b/viz_scripts/classifier_vis.py
+@@ -532,10 +532,10 @@ def visualize(scene_path, objects_path, config, viz_cfg, lf_cfg, data_cfg):
+     if not viz_cfg["no_clip"]:
+         print("Initializing CLIP model...")
+         clip_model, _, clip_preprocess = open_clip.create_model_and_transforms(
+-            "ViT-H-14", viz_cfg['clip_model_path']
++            viz_cfg.get("clip_model_name", "ViT-H-14"), viz_cfg.get("clip_pretrained", viz_cfg["clip_model_path"])
+         )
+         clip_model = clip_model.to('cuda')
+-        clip_tokenizer = open_clip.get_tokenizer("ViT-H-14")
++        clip_tokenizer = open_clip.get_tokenizer(viz_cfg.get("clip_model_name", "ViT-H-14"))
+         print("Done initializing CLIP model.")
+     
+     # Load Scene Data
+diff --git a/vlm_utils/vlm.py b/vlm_utils/vlm.py
+index 0c98562..56019bc 100644
+--- a/vlm_utils/vlm.py
++++ b/vlm_utils/vlm.py
+@@ -397,7 +397,8 @@ def descriptive_query_with_llm(objects: MapObjectList, query: str, scene_graph:
+     return vlm_answer
+ 
+ openai_client = OpenAI(
+-    api_key="YOUR OPENAI API KEY"
++    api_key=os.environ.get("DGSG_QUERY_API_KEY", os.environ.get("OPENAI_API_KEY", "offline-unused")),
++    base_url=os.environ.get("DGSG_QUERY_API_BASE", "https://api.openai.com/v1")
+ )
+ 
+ gpt_model = "gpt-4o-mini"

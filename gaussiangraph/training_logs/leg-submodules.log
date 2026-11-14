@@ -1,0 +1,9 @@
+子模组 'submodules/diff-gaussian-rasterization'（git@github.com:Chuan-10/diff-gaussian-rasterization.git）已对路径 'submodules/diff-gaussian-rasterization' 注册
+子模组 'submodules/simple-knn'（git@github.com:Chuan-10/simple-knn.git）已对路径 'submodules/simple-knn' 注册
+正克隆到 '/media/joe/Data/gaussiangraph/build/LEGaussians/submodules/diff-gaussian-rasterization'...
+正克隆到 '/media/joe/Data/gaussiangraph/build/LEGaussians/submodules/simple-knn'...
+子模组路径 'submodules/diff-gaussian-rasterization'：检出 '76f714c25be291ff3a9d272b155afd12c8df96bb'
+子模组 'third_party/glm'（https://github.com/g-truc/glm.git）已对路径 'submodules/diff-gaussian-rasterization/third_party/glm' 注册
+正克隆到 '/media/joe/Data/gaussiangraph/build/LEGaussians/submodules/diff-gaussian-rasterization/third_party/glm'...
+子模组路径 'submodules/diff-gaussian-rasterization/third_party/glm'：检出 '5c46b9c07008ae65cb81ab79cd677ecc1934b903'
+子模组路径 'submodules/simple-knn'：检出 'b2416cbe3509de8f4c9bc6b058691a54923f9541'

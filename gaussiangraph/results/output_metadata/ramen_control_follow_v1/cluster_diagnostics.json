@@ -1,0 +1,35 @@
+[
+  {
+    "iteration": 49999,
+    "phase": "control",
+    "gaussians": 714346,
+    "clusters": 232,
+    "singletons": 36,
+    "median_cluster_size": 5.0,
+    "threshold": 1.0188087224960327,
+    "feature_std": 0.5122175216674805,
+    "feature_norm_mean": 1.2738560438156128
+  },
+  {
+    "iteration": 67999,
+    "phase": "follow",
+    "gaussians": 714346,
+    "clusters": 2745,
+    "singletons": 373,
+    "median_cluster_size": 24.0,
+    "threshold": 1.0188087224960327,
+    "feature_std": 1.2407747507095337,
+    "feature_norm_mean": 2.7913804054260254
+  },
+  {
+    "iteration": 70000,
+    "phase": "refined",
+    "gaussians": 714346,
+    "clusters": 485512,
+    "singletons": 400463,
+    "median_cluster_size": 1.0,
+    "threshold": 1.0188087224960327,
+    "feature_std": 1.2471065521240234,
+    "feature_norm_mean": 2.8140435218811035
+  }
+]

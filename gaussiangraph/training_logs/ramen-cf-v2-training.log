@@ -1,0 +1,27 @@
+Loading trained model at iteration 30000
+Reading camera 1/131Reading camera 2/131Reading camera 3/131Reading camera 4/131Reading camera 5/131Reading camera 6/131Reading camera 7/131Reading camera 8/131Reading camera 9/131Reading camera 10/131Reading camera 11/131Reading camera 12/131Reading camera 13/131Reading camera 14/131Reading camera 15/131Reading camera 16/131Reading camera 17/131Reading camera 18/131Reading camera 19/131Reading camera 20/131Reading camera 21/131Reading camera 22/131Reading camera 23/131Reading camera 24/131Reading camera 25/131Reading camera 26/131Reading camera 27/131Reading camera 28/131Reading camera 29/131Reading camera 30/131Reading camera 31/131Reading camera 32/131Reading camera 33/131Reading camera 34/131Reading camera 35/131Reading camera 36/131Reading camera 37/131Reading camera 38/131Reading camera 39/131Reading camera 40/131Reading camera 41/131Reading camera 42/131Reading camera 43/131Reading camera 44/131Reading camera 45/131Reading camera 46/131Reading camera 47/131Reading camera 48/131Reading camera 49/131Reading camera 50/131Reading camera 51/131Reading camera 52/131Reading camera 53/131Reading camera 54/131Reading camera 55/131Reading camera 56/131Reading camera 57/131Reading camera 58/131Reading camera 59/131Reading camera 60/131Reading camera 61/131Reading camera 62/131Reading camera 63/131Reading camera 64/131Reading camera 65/131Reading camera 66/131Reading camera 67/131Reading camera 68/131Reading camera 69/131Reading camera 70/131Reading camera 71/131Reading camera 72/131Reading camera 73/131Reading camera 74/131Reading camera 75/131Reading camera 76/131Reading camera 77/131Reading camera 78/131Reading camera 79/131Reading camera 80/131Reading camera 81/131Reading camera 82/131Reading camera 83/131Reading camera 84/131Reading camera 85/131Reading camera 86/131Reading camera 87/131Reading camera 88/131Reading camera 89/131Reading camera 90/131Reading camera 91/131Reading camera 92/131Reading camera 93/131Reading camera 94/131Reading camera 95/131Reading camera 96/131Reading camera 97/131Reading camera 98/131Reading camera 99/131Reading camera 100/131Reading camera 101/131Reading camera 102/131Reading camera 103/131Reading camera 104/131Reading camera 105/131Reading camera 106/131Reading camera 107/131Reading camera 108/131Reading camera 109/131Reading camera 110/131Reading camera 111/131Reading camera 112/131Reading camera 113/131Reading camera 114/131Reading camera 115/131Reading camera 116/131Reading camera 117/131Reading camera 118/131Reading camera 119/131Reading camera 120/131Reading camera 121/131Reading camera 122/131Reading camera 123/131Reading camera 124/131Reading camera 125/131Reading camera 126/131Reading camera 127/131Reading camera 128/131Reading camera 129/131Reading camera 130/131Reading camera 131/131
+Resolution:  1.0
+Loading Training Cameras
+Loading Test Cameras
+Refined clusters: 4837
+{'iteration': 68000, 'phase': 'refined', 'loss': 0.21203739941120148, 'clusters': 4837, 'seconds': 10.374550940001427}
+{'iteration': 68100, 'phase': 'refined', 'loss': 0.19069428741931915, 'clusters': 4837, 'seconds': 21.819277659000363}
+{'iteration': 68200, 'phase': 'refined', 'loss': 0.2168198972940445, 'clusters': 4837, 'seconds': 33.269619478000095}
+{'iteration': 68300, 'phase': 'refined', 'loss': 0.18501661717891693, 'clusters': 4837, 'seconds': 45.02594741699977}
+{'iteration': 68400, 'phase': 'refined', 'loss': 0.2604665458202362, 'clusters': 4837, 'seconds': 56.61002824699972}
+{'iteration': 68500, 'phase': 'refined', 'loss': 0.231809601187706, 'clusters': 4837, 'seconds': 67.99976647100084}
+{'iteration': 68600, 'phase': 'refined', 'loss': 0.17760708928108215, 'clusters': 4837, 'seconds': 78.96710786900076}
+{'iteration': 68700, 'phase': 'refined', 'loss': 0.17397449910640717, 'clusters': 4837, 'seconds': 89.96531417900042}
+{'iteration': 68800, 'phase': 'refined', 'loss': 0.17893056571483612, 'clusters': 4837, 'seconds': 101.427430568001}
+{'iteration': 68900, 'phase': 'refined', 'loss': 0.23917916417121887, 'clusters': 4837, 'seconds': 112.33359440900131}
+{'iteration': 69000, 'phase': 'refined', 'loss': 0.18111111223697662, 'clusters': 4837, 'seconds': 123.9145723340007}
+{'iteration': 69100, 'phase': 'refined', 'loss': 0.16555339097976685, 'clusters': 4837, 'seconds': 135.62806489500144}
+{'iteration': 69200, 'phase': 'refined', 'loss': 0.17737625539302826, 'clusters': 4837, 'seconds': 147.60893364600088}
+{'iteration': 69300, 'phase': 'refined', 'loss': 0.16354675590991974, 'clusters': 4837, 'seconds': 159.602478746001}
+{'iteration': 69400, 'phase': 'refined', 'loss': 0.18966971337795258, 'clusters': 4837, 'seconds': 171.8659959150009}
+{'iteration': 69500, 'phase': 'refined', 'loss': 0.1780029982328415, 'clusters': 4837, 'seconds': 184.39123478300098}
+{'iteration': 69600, 'phase': 'refined', 'loss': 0.1597118079662323, 'clusters': 4837, 'seconds': 196.815769801}
+{'iteration': 69700, 'phase': 'refined', 'loss': 0.18032647669315338, 'clusters': 4837, 'seconds': 209.29205852900122}
+{'iteration': 69800, 'phase': 'refined', 'loss': 0.18800446391105652, 'clusters': 4837, 'seconds': 221.2331348280004}
+{'iteration': 69900, 'phase': 'refined', 'loss': 0.1875947117805481, 'clusters': 4837, 'seconds': 232.72162483500142}
+{'iteration': 70000, 'phase': 'refined', 'loss': 0.16994842886924744, 'clusters': 4837, 'seconds': 244.54912735400103}

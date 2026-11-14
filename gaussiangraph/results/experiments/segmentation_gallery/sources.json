@@ -1,0 +1,12 @@
+{
+  "gt": "/media/joe/Data/gaussiangraph/data/lerf_ovs/label/ramen/gt",
+  "methods": {
+    "LangSplat": "/media/joe/Data/gaussiangraph/experiments/langsplat_3d_multilevel_v1",
+    "LEGaussian": "/media/joe/Data/gaussiangraph/experiments/legaussian_3d_v1",
+    "OpenGaussian": "/media/joe/Data/gaussiangraph/experiments/opengs_3d_v1",
+    "SAM2+CF (70k)": "/media/joe/Data/gaussiangraph/experiments/association_audit_v1/sam2_cf_iou_unfiltered/eval_occ5",
+    "No refine (67999)": "/media/joe/Data/gaussiangraph/experiments/refinement_ablation_v1/no_refine/eval_occ5"
+  },
+  "preview_selection": "fixed frame_00006, bowl/chopsticks/egg/nori; no sorting by performance",
+  "all_queries": 71
+}

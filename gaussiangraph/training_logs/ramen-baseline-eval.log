@@ -1,0 +1,95 @@
+frame: frame_00006
+Missing pred file for bowl.jpg, skipping...
+IoU for bowl.jpg: 0
+IoU for chopsticks.jpg and chopsticks.png: 0.3177
+IoU for egg.jpg and egg.png: 0.3406
+IoU for kamaboko.jpg and kamaboko.png: 0.1491
+Missing pred file for napkin.jpg, skipping...
+IoU for napkin.jpg: 0
+IoU for nori.jpg and nori.png: 0.0217
+IoU for onion segments.jpg and onion segments.png: 0.1687
+Missing pred file for plate.jpg, skipping...
+IoU for plate.jpg: 0
+Missing pred file for sake cup.jpg, skipping...
+IoU for sake cup.jpg: 0
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1163
+frame: frame_00024
+Missing pred file for bowl.jpg, skipping...
+IoU for bowl.jpg: 0
+IoU for chopsticks.jpg and chopsticks.png: 0.5042
+IoU for corn.jpg and corn.png: 0.0097
+IoU for egg.jpg and egg.png: 0.4328
+IoU for kamaboko.jpg and kamaboko.png: 0.2109
+IoU for nori.jpg and nori.png: 0.0025
+IoU for onion segments.jpg and onion segments.png: 0.3727
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1596
+frame: frame_00060
+IoU for chopsticks.jpg and chopsticks.png: 0.4463
+IoU for corn.jpg and corn.png: 0.0092
+IoU for egg.jpg and egg.png: 0.4525
+IoU for kamaboko.jpg and kamaboko.png: 0.2077
+IoU for napkin.jpg and napkin.png: 0.2844
+IoU for onion segments.jpg and onion segments.png: 0.2926
+Missing pred file for sake cup.jpg, skipping...
+IoU for sake cup.jpg: 0
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1702
+frame: frame_00065
+Missing pred file for bowl.jpg, skipping...
+IoU for bowl.jpg: 0
+IoU for chopsticks.jpg and chopsticks.png: 0.0007
+IoU for corn.jpg and corn.png: 0.0211
+IoU for egg.jpg and egg.png: 0.4099
+IoU for kamaboko.jpg and kamaboko.png: 0.1585
+Missing pred file for napkin.jpg, skipping...
+IoU for napkin.jpg: 0
+IoU for nori.jpg and nori.png: 0.0084
+IoU for onion segments.jpg and onion segments.png: 0.2955
+Missing pred file for plate.jpg, skipping...
+IoU for plate.jpg: 0
+Missing pred file for sake cup.jpg, skipping...
+IoU for sake cup.jpg: 0
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1255
+frame: frame_00081
+IoU for bowl.jpg and bowl.png: 0.2789
+IoU for chopsticks.jpg and chopsticks.png: 0.5906
+IoU for egg.jpg and egg.png: 0.4997
+IoU for glass of water.jpg and glass of water.png: 0.3036
+IoU for kamaboko.jpg and kamaboko.png: 0.1792
+Missing pred file for napkin.jpg, skipping...
+IoU for napkin.jpg: 0
+IoU for nori.jpg and nori.png: 0.0001
+IoU for onion segments.jpg and onion segments.png: 0.2003
+Missing pred file for plate.jpg, skipping...
+IoU for plate.jpg: 0
+IoU for sake cup.jpg and sake cup.png: 0.0000
+IoU for spoon.jpg and spoon.png: 0.0000
+IoU for wavy noodles.jpg and wavy noodles.png: 0.1416
+frame: frame_00119
+IoU for chopsticks.jpg and chopsticks.png: 0.6623
+IoU for corn.jpg and corn.png: 0.0010
+IoU for egg.jpg and egg.png: 0.5752
+IoU for kamaboko.jpg and kamaboko.png: 0.2305
+IoU for nori.jpg and nori.png: 0.0000
+IoU for onion segments.jpg and onion segments.png: 0.2797
+IoU for sake cup.jpg and sake cup.png: 0.0001
+IoU for wavy noodles.jpg and wavy noodles.png: 0.2515
+frame: frame_00128
+IoU for bowl.jpg and bowl.png: 0.1828
+IoU for chopsticks.jpg and chopsticks.png: 0.5709
+IoU for corn.jpg and corn.png: 0.0010
+IoU for egg.jpg and egg.png: 0.5671
+IoU for glass of water.jpg and glass of water.png: 0.5509
+IoU for hand.jpg and hand.png: 0.0000
+IoU for kamaboko.jpg and kamaboko.png: 0.1959
+Missing pred file for napkin.jpg, skipping...
+IoU for napkin.jpg: 0
+IoU for nori.jpg and nori.png: 0.0000
+IoU for onion segments.jpg and onion segments.png: 0.2531
+Missing pred file for plate.jpg, skipping...
+IoU for plate.jpg: 0
+IoU for sake cup.jpg and sake cup.png: 0.0002
+IoU for spoon.jpg and spoon.png: 0.0572
+IoU for wavy noodles.jpg and wavy noodles.png: 0.2311
+Average IoU: 0.1760
+Acc@0.25: 0.3239
+Acc@0.5: 0.0986

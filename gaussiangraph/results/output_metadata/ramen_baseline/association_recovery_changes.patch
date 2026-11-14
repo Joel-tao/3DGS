@@ -1,0 +1,219 @@
+diff --git a/gaussian_renderer/__init__.py b/gaussian_renderer/__init__.py
+index 897c858..02fc1c9 100644
+--- a/gaussian_renderer/__init__.py
++++ b/gaussian_renderer/__init__.py
+@@ -17,7 +17,6 @@ from scene.gaussian_model import GaussianModel
+ from utils.sh_utils import eval_sh
+ from utils.opengs_utlis import *
+ # from sklearn.neighbors import NearestNeighbors
+-import pytorch3d.ops
+ 
+ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor, iteration,
+             scaling_modifier = 1.0, override_color = None, visible_mask = None, mask_num=0,
+@@ -291,6 +290,7 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor,
+             # pre_count = filter_idx.sum()
+             max_time = 5
+             if post_process and max_time > 0:
++                import pytorch3d.ops
+                 nearest_k_distance = pytorch3d.ops.knn_points(
+                     means3D[filter_idx].unsqueeze(0),
+                     means3D[filter_idx].unsqueeze(0),
+@@ -370,4 +370,4 @@ def render(viewpoint_camera, pc : GaussianModel, pipe, bg_color : torch.Tensor,
+             "cluster_occur": cluster_occur,         # coarse cluster
+             "viewspace_points": screenspace_points,
+             "visibility_filter" : radii > 0,
+-            "radii": radii}
+\ No newline at end of file
++            "radii": radii}
+diff --git a/scene/cameras.py b/scene/cameras.py
+index 31e832c..f324c70 100644
+--- a/scene/cameras.py
++++ b/scene/cameras.py
+@@ -41,7 +41,7 @@ class Camera(nn.Module):
+             print(f"[Warning] Custom device {data_device} failed, fallback to default cuda device" )
+             self.data_device = torch.device("cuda")
+ 
+-        self.data_on_gpu = True     # note
++        self.data_on_gpu = self.data_device.type == "cuda"
+         self.original_image = image.clamp(0.0, 1.0).to(self.data_device)
+         # modify -----
+         self.original_mask = gt_alpha_mask.to(self.data_device) if gt_alpha_mask is not None else None
+diff --git a/scripts/compute_lerf_iou.py b/scripts/compute_lerf_iou.py
+index 44da7c8..7461d5e 100644
+--- a/scripts/compute_lerf_iou.py
++++ b/scripts/compute_lerf_iou.py
+@@ -1,4 +1,5 @@
+ import os
++import json
+ import numpy as np
+ from PIL import Image
+ from argparse import ArgumentParser
+@@ -28,6 +29,7 @@ def evalute(gt_base, pred_base, scene_name):
+     frame_names = scene_gt_frames[scene_name]
+ 
+     ious = []
++    missing_predictions = 0
+     for frame in frame_names:
+         print("frame:", frame)
+         gt_floder = os.path.join(gt_base, frame)
+@@ -37,6 +39,7 @@ def evalute(gt_base, pred_base, scene_name):
+             gt_obj_path = os.path.join(gt_floder, file_name)
+             pred_obj_path = os.path.join(pred_base, frame + "_" + base_name + '.png')
+             if not os.path.exists(pred_obj_path):
++                missing_predictions += 1
+                 print(f"Missing pred file for {file_name}, skipping...")
+                 print(f"IoU for {file_name}: 0")
+                 ious.append(0.0)
+@@ -49,6 +52,8 @@ def evalute(gt_base, pred_base, scene_name):
+     
+     # Acc.
+     total_count = len(ious)
++    if total_count == 0:
++        raise ValueError("No ground-truth masks found")
+     count_iou_025 = (np.array(ious) > 0.25).sum()
+     count_iou_05 = (np.array(ious) > 0.5).sum()
+ 
+@@ -57,9 +62,15 @@ def evalute(gt_base, pred_base, scene_name):
+     print(f"Average IoU: {average_iou:.4f}")
+     print(f"Acc@0.25: {count_iou_025/total_count:.4f}")
+     print(f"Acc@0.5: {count_iou_05/total_count:.4f}")
++    return {"scene": scene_name, "count": total_count, "missing_predictions": missing_predictions, "mIoU": float(average_iou),
++            "Acc@0.25": float(count_iou_025/total_count),
++            "Acc@0.5": float(count_iou_05/total_count)}
+ 
+ if __name__ == "__main__":
+     parser = ArgumentParser("Compute LeRF IoU")
++    parser.add_argument("--gt", required=True, help="Scene GT directory containing frame folders")
++    parser.add_argument("--pred", required=True, help="renders_cluster_silhouette directory")
++    parser.add_argument("--output", help="Optional metrics JSON file")
+     parser.add_argument("--scene_name", type=str, choices=["waldo_kitchen", "ramen", "figurines", "teatime"],
+                         help="Specify the scene_name from: figurines, teatime, ramen, waldo_kitchen")
+     args = parser.parse_args()
+@@ -67,7 +78,10 @@ if __name__ == "__main__":
+         parser.error("The --scene_name argument is required and must be one of: waldo_kitchen, ramen, figurines, teatime")
+ 
+     # TODO: change
+-    path_gt = "/gdata/cold1/wuyanmin/OpenGaussian/data/lerf_ovs/label/waldo_kitchen/gt"
++    path_gt = args.gt
+     # renders_cluster_silhouette is the predicted mask
+-    path_pred = "output/xxxxxxxx-x/text2obj/ours_70000/renders_cluster_silhouette"
+-    evalute(path_gt, path_pred, args.scene_name)
+\ No newline at end of file
++    path_pred = args.pred
++    result = evalute(path_gt, path_pred, args.scene_name)
++    if args.output:
++        with open(args.output, "w") as f:
++            json.dump(result, f, indent=2)
+diff --git a/train.py b/train.py
+index 18ee49c..3dd76ea 100644
+--- a/train.py
++++ b/train.py
+@@ -590,7 +590,7 @@ def training(dataset, opt, pipe, testing_iterations, saving_iterations, checkpoi
+                                           save_memory=opt.save_memory)
+         
+         # note: save memory (only stage 2, 3)
+-        if viewpoint_cam.data_on_gpu and opt.save_memory and cb_mode is not None:
++        if viewpoint_cam.data_on_gpu and opt.save_memory:
+             viewpoint_cam.to_cpu()
+ 
+ def prepare_output_and_logger(args):    
+@@ -831,7 +831,6 @@ def construct_pseudo_ins_feat(scene : Scene, renderFunc, renderArgs,
+                 # pesudo mean feat, [num_pesudo_mask, dim]
+                 pesudo_mask_feat_mean = mask_feature_mean(view.pesudo_ins_feat, view.pesudo_mask_bool)
+                 # only for visualization, [num_pesudo_mask, dim， H, W]
+-                pesudo_mask_feat = view.pesudo_ins_feat * view.pesudo_mask_bool.unsqueeze(1)
+                 # distance
+                 l1_dis, _ = calculate_pairwise_distances(pred_mask_feat_mean, pesudo_mask_feat_mean, metric="l1")   # method="l1"
+ 
+@@ -864,7 +863,7 @@ def construct_pseudo_ins_feat(scene : Scene, renderFunc, renderArgs,
+                                                             f"r{root_id}_l{i}_v{v_id}.png"))
+                             torchvision.utils.save_image(rendered_leaf_cluster_silhouettes[i].to(torch.float32), \
+                                                     os.path.join(leaf_cluster_silhouette_path, f"r{root_id}_l{i}_v{v_id}.png"))
+-                            torchvision.utils.save_image(pesudo_mask_feat[max_ind[i]][:3,:,:], os.path.join(leaf_pesudo_mask_path, \
++                            torchvision.utils.save_image((view.pesudo_ins_feat * view.pesudo_mask_bool[max_ind[i]])[:3,:,:], os.path.join(leaf_pesudo_mask_path, \
+                                                                 f"r{root_id}_l{i}_v{v_id}.png"))
+                     # print("end one root cluster of one view")
+                 if view.data_on_gpu and save_memory:
+diff --git a/utils/opengs_utlis.py b/utils/opengs_utlis.py
+index 85e6e70..1f0cf11 100644
+--- a/utils/opengs_utlis.py
++++ b/utils/opengs_utlis.py
+@@ -238,49 +238,35 @@ def ele_multip_in_chunks(feat_expanded, masks_expanded, chunk_size=5):
+     return result
+ 
+ def mask_feature_mean(feat_map, gt_masks, image_mask=None, return_var=False):
+-    """Compute the average instance features within each mask.
+-    feat_map: [C=6, H, W]         the instance features of the entire image
+-    gt_masks: [num_mask, H, W]  num_mask boolean masks
+-    """
+-    num_mask, H, W = gt_masks.shape
+-
+-    # expand feat and masks for batch processing
+-    feat_expanded = feat_map.unsqueeze(0).expand(num_mask, *feat_map.shape)  # [num_mask, C, H, W]
+-    masks_expanded = gt_masks.unsqueeze(1).expand(-1, feat_map.shape[0], -1, -1)  # [num_mask, C, H, W]
+-    if image_mask is not None:  # image level mask
+-        image_mask_expanded = image_mask.unsqueeze(0).expand(num_mask, feat_map.shape[0], -1, -1)
+-
+-    # average features within each mask
+-    if image_mask is not None:
+-        masked_feats = feat_expanded * masks_expanded.float() * image_mask_expanded.float()
+-        mask_counts = (masks_expanded * image_mask_expanded.float()).sum(dim=(2, 3))
+-    else:
+-        # masked_feats = feat_expanded * masks_expanded.float()  # [num_mask, C, H, W] may cause OOM
+-        masked_feats = ele_multip_in_chunks(feat_expanded, masks_expanded, chunk_size=5)   # in chuck to avoid OOM
+-        mask_counts = masks_expanded.sum(dim=(2, 3))  # [num_mask, C]
+-
+-    # the number of pixels within each mask
+-    mask_counts = mask_counts.clamp(min=1)
+-
+-    # the mean features of each mask
+-    sum_per_channel = masked_feats.sum(dim=[2, 3])
+-    mean_per_channel = sum_per_channel / mask_counts    # [num_mask, C]
+-
+-    if not return_var:
+-        return mean_per_channel   # [num_mask, C]
+-    else:
+-        # calculate variance
+-        # masked_for_variance = torch.where(masks_expanded.bool(), masked_feats - mean_per_channel.unsqueeze(-1).unsqueeze(-1), torch.zeros_like(masked_feats))
+-        masked_for_variance = process_in_chunks(masks_expanded, masked_feats, mean_per_channel, chunk_size=5) # in chunk to avoid OOM
+-
+-        # variance_per_channel = (masked_for_variance ** 2).sum(dim=[2, 3]) / mask_counts    # [num_mask, 6]
+-        variance_per_channel = calculate_variance_in_chunks(masked_for_variance, mask_counts, chunk_size=5)   # in chuck to avoid OOM
+-
+-        # mean and variance
+-        mean = mean_per_channel.mean(dim=1)          # [num_mask]，not used
+-        variance = variance_per_channel.mean(dim=1)  # [num_mask]
+-
+-        return mean_per_channel, variance, mask_counts[:, 0]   # [num_mask, C], [num_mask], [num_mask]
++    """Reduce small mask batches without allocating [all masks, C, H, W]."""
++    n, h, w = gt_masks.shape
++    c = feat_map.shape[0]
++    flat = feat_map.reshape(c, -1)
++    means, variances, counts = [], [], []
++    # Bound temporary expanded tensors even at the original LERF resolution.
++    for start in range(0, n, 2):
++        mask = gt_masks[start:start + 2].to(feat_map.dtype).reshape(-1, h * w)
++        if image_mask is None:
++            count = mask.sum(-1, keepdim=True).clamp(min=1).expand(-1, c)
++            mean = (mask @ flat.T) / count
++            weighted = None
++        else:
++            image = image_mask.to(feat_map.dtype).expand(c, h, w).reshape(c, -1)
++            weighted = mask[:, None, :] * image[None, :, :]
++            count = weighted.sum(-1).clamp(min=1)
++            mean = (weighted * flat[None, :, :]).sum(-1) / count
++        means.append(mean)
++        if return_var:
++            # Preserve upstream variance semantics, including image-mask handling.
++            values = flat[None, :, :] * (mask[:, None, :] if weighted is None else weighted)
++            delta = (values - mean[:, :, None]) * mask[:, None, :]
++            variances.append((delta.square().sum(-1) / count).mean(1))
++            counts.append(count[:, 0].to(torch.int64) if image_mask is None and not gt_masks.is_floating_point() else count[:, 0])
++    if not means:
++        empty = feat_map.new_empty((0, c))
++        return (empty, feat_map.new_empty(0), feat_map.new_empty(0)) if return_var else empty
++    mean = torch.cat(means)
++    return (mean, torch.cat(variances), torch.cat(counts)) if return_var else mean
+ 
+ def linear_to_srgb(linear):
+     if isinstance(linear, torch.Tensor):

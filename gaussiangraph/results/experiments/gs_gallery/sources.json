@@ -1,0 +1,17 @@
+[
+  {
+    "frame": "frame_00001",
+    "split": "held-out test",
+    "checkpoint": 30000
+  },
+  {
+    "frame": "frame_00065",
+    "split": "held-out test",
+    "checkpoint": 30000
+  },
+  {
+    "frame": "frame_00129",
+    "split": "held-out test",
+    "checkpoint": 30000
+  }
+]

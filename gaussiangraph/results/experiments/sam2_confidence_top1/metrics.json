@@ -1,0 +1,11 @@
+{
+  "scene": "ramen",
+  "count": 71,
+  "missing_predictions": 0,
+  "mIoU": 0.059033674279992926,
+  "Acc@0.25": 0.028169014084507043,
+  "Acc@0.5": 0.0,
+  "protocol": "top1_fixed_v1",
+  "model_path": "/media/joe/Data/gaussiangraph/outputs/ramen_sam2_confidence_v1",
+  "empty_gt_predictions": 13
+}
